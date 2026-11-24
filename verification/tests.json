@@ -1,0 +1,44 @@
+[
+  {
+    "test": "test_wheel_persistence",
+    "returncode": 0,
+    "output": "wheel persistence: 76 checks passed\n",
+    "stderr": ""
+  },
+  {
+    "test": "test_wheel_tuning",
+    "returncode": 0,
+    "output": "wheel tuning: 101 checks passed\n",
+    "stderr": ""
+  },
+  {
+    "test": "test_actuator_persistence",
+    "returncode": 0,
+    "output": "PASS 42 persistence policy checks\n",
+    "stderr": ""
+  },
+  {
+    "test": "test_actuator_persistence_runtime",
+    "returncode": 0,
+    "output": "PASS 21 runtime adapter checks\n",
+    "stderr": ""
+  },
+  {
+    "test": "open_loop_stop_all_units",
+    "returncode": 0,
+    "output": "open-loop stop unit 0: 13 scenarios passed\nopen-loop stop unit 1: 13 scenarios passed\nopen-loop stop unit 2: 13 scenarios passed\nopen-loop stop unit 3: 13 scenarios passed\n",
+    "stderr": ""
+  },
+  {
+    "test": "unit_config_matrix",
+    "returncode": 0,
+    "output": "unit_config unit 0 bench=0: passed\nunit_config unit 0 bench=1: passed\nunit_config unit 1 bench=0: passed\nunit_config unit 1 bench=1: passed\nunit_config unit 2 bench=0: passed\nunit_config unit 2 bench=1: passed\nunit_config unit 3 bench=0: passed\nunit_config unit 3 bench=1: passed\n",
+    "stderr": ""
+  },
+  {
+    "test": "roboclaw_v448_rx_sync_and_replies",
+    "returncode": 0,
+    "output": "roboclaw_v448 synthetic UART: 4 checks passed\n",
+    "stderr": ""
+  }
+]

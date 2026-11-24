@@ -1,0 +1,13 @@
+{
+  "usb_serial": "48CA432DF684",
+  "steps": [
+    {
+      "command": "unit",
+      "started_epoch": 1790074170.851794,
+      "completed": true,
+      "response": ""
+    }
+  ],
+  "commands": "identity and cached status only; no CAN init/reset or motion",
+  "error": "Command completion not confirmed: unit"
+}

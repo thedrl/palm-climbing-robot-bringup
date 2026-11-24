@@ -1,0 +1,2442 @@
+{
+  "plan": {
+    "arm": 0,
+    "serial": "003CF6749599",
+    "state_request": 7,
+    "procedure": "encoder offset calibration only",
+    "temporary_soft_current_a": 10,
+    "temporary_motor_calibration_current_a": 10,
+    "temporary_lockin_current_a": 10,
+    "hard_trip_a_unchanged": 38,
+    "scan_distance_electrical_turns": 8,
+    "scan_speed_electrical_turns_per_second": 2,
+    "nominal_scan_mechanical_rpm": 17.142857142857142,
+    "host_deadline_seconds": 20,
+    "watchdog_seconds": 0.5,
+    "abort_abs_rpm": 30,
+    "abort_motor_current_vector_a": 12,
+    "abort_abs_displacement_turns": 1.6,
+    "bus_voltage_window": [
+      40,
+      55
+    ],
+    "abort_temperature_c": 60,
+    "maximum_trace_seconds": 0.2,
+    "retries": 0,
+    "clear_errors": false,
+    "save_configuration": false,
+    "success": "keep new alignment in RAM only; restore temporary parameters after verified IDLE and standstill",
+    "failure": "request zero/IDLE; restore previous direction/scale/offset/valid only after verified standstill; ambiguous serial fails closed"
+  },
+  "authorization": {
+    "confirmed_epoch": 1790063992.5066442,
+    "user_message": "okay do what testing you need to do get to the bottom of this we need to get it working. we have to show it to investors in the morning. Physical-state reply: Confirmed\u2014clear, supported, at cutoff; GUIs closed",
+    "supported": true,
+    "wheel_free": true,
+    "hands_clear": true,
+    "at_cutoff": true,
+    "gui_closed": true,
+    "plan": {
+      "arm": 0,
+      "serial": "003CF6749599",
+      "state_request": 7,
+      "procedure": "encoder offset calibration only",
+      "temporary_soft_current_a": 10,
+      "temporary_motor_calibration_current_a": 10,
+      "temporary_lockin_current_a": 10,
+      "hard_trip_a_unchanged": 38,
+      "scan_distance_electrical_turns": 8,
+      "scan_speed_electrical_turns_per_second": 2,
+      "nominal_scan_mechanical_rpm": 17.142857142857142,
+      "host_deadline_seconds": 20,
+      "watchdog_seconds": 0.5,
+      "abort_abs_rpm": 30,
+      "abort_motor_current_vector_a": 12,
+      "abort_abs_displacement_turns": 1.6,
+      "bus_voltage_window": [
+        40,
+        55
+      ],
+      "abort_temperature_c": 60,
+      "maximum_trace_seconds": 0.2,
+      "retries": 0,
+      "clear_errors": false,
+      "save_configuration": false,
+      "success": "keep new alignment in RAM only; restore temporary parameters after verified IDLE and standstill",
+      "failure": "request zero/IDLE; restore previous direction/scale/offset/valid only after verified standstill; ambiguous serial fails closed"
+    },
+    "approved_diagnostic_testing": true,
+    "physical_confirmation": "Confirmed\u2014clear, supported, at cutoff; GUIs closed. Wheels 0 and 3 free, actuator travel clear, hands clear.",
+    "ongoing_presence_evidence": "User observed and confirmed arm3 retract test, then said: i think actuator 3 is good."
+  },
+  "samples": [
+    {
+      "began": 6953.110388512,
+      "complete": true,
+      "axis0.current_state": 1.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.065186,
+      "axis0.vel_estimate": 0.000114,
+      "axis0.motor.foc.Id_measured": 0.049372,
+      "axis0.motor.foc.Iq_measured": 0.345167,
+      "vbus_voltage": 48.200363,
+      "axis0.motor.fet_thermistor.temperature": 29.167847,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.11506293
+    },
+    {
+      "began": 6953.125332499,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.065186,
+      "axis0.vel_estimate": -0.001667,
+      "axis0.motor.foc.Id_measured": 0.039533,
+      "axis0.motor.foc.Iq_measured": 0.122115,
+      "vbus_voltage": 48.200363,
+      "axis0.motor.fet_thermistor.temperature": 29.16684,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.130352503
+    },
+    {
+      "began": 6953.14057097,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.065248,
+      "axis0.vel_estimate": -0.005761,
+      "axis0.motor.foc.Id_measured": 0.035907,
+      "axis0.motor.foc.Iq_measured": -0.162506,
+      "vbus_voltage": 48.184372,
+      "axis0.motor.fet_thermistor.temperature": 29.166077,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.14535028
+    },
+    {
+      "began": 6953.155549003,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.065408,
+      "axis0.vel_estimate": 0.003906,
+      "axis0.motor.foc.Id_measured": 0.13571,
+      "axis0.motor.foc.Iq_measured": -0.048698,
+      "vbus_voltage": 48.188942,
+      "axis0.motor.fet_thermistor.temperature": 29.165527,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.160407766
+    },
+    {
+      "began": 6953.170630072,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.065606,
+      "axis0.vel_estimate": -0.022972,
+      "axis0.motor.foc.Id_measured": 0.490677,
+      "axis0.motor.foc.Iq_measured": 0.199342,
+      "vbus_voltage": 48.202648,
+      "axis0.motor.fet_thermistor.temperature": 29.165802,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.174856922
+    },
+    {
+      "began": 6953.18504995,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.066068,
+      "axis0.vel_estimate": -0.045558,
+      "axis0.motor.foc.Id_measured": 0.333191,
+      "axis0.motor.foc.Iq_measured": -0.014852,
+      "vbus_voltage": 48.195793,
+      "axis0.motor.fet_thermistor.temperature": 29.166199,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.189124038
+    },
+    {
+      "began": 6953.199325929,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.066576,
+      "axis0.vel_estimate": -0.030907,
+      "axis0.motor.foc.Id_measured": 0.616405,
+      "axis0.motor.foc.Iq_measured": -0.031603,
+      "vbus_voltage": 48.177517,
+      "axis0.motor.fet_thermistor.temperature": 29.165558,
+      "axis0.motor.motor_thermistor.temperature": 22.524414,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.203873792
+    },
+    {
+      "began": 6953.214259452,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.067204,
+      "axis0.vel_estimate": -0.062501,
+      "axis0.motor.foc.Id_measured": 0.951491,
+      "axis0.motor.foc.Iq_measured": -0.145672,
+      "vbus_voltage": 48.209499,
+      "axis0.motor.fet_thermistor.temperature": 29.164795,
+      "axis0.motor.motor_thermistor.temperature": 22.524628,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.219845964
+    },
+    {
+      "began": 6953.230084397,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.068801,
+      "axis0.vel_estimate": -0.124918,
+      "axis0.motor.foc.Id_measured": 1.077613,
+      "axis0.motor.foc.Iq_measured": 0.06344,
+      "vbus_voltage": 48.188942,
+      "axis0.motor.fet_thermistor.temperature": 29.164673,
+      "axis0.motor.motor_thermistor.temperature": 22.524628,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.234048954
+    },
+    {
+      "began": 6953.244273532,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.071464,
+      "axis0.vel_estimate": -0.22296,
+      "axis0.motor.foc.Id_measured": 1.485007,
+      "axis0.motor.foc.Iq_measured": 0.023972,
+      "vbus_voltage": 48.191223,
+      "axis0.motor.fet_thermistor.temperature": 29.165314,
+      "axis0.motor.motor_thermistor.temperature": 22.524628,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.247999057
+    },
+    {
+      "began": 6953.258210324,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.075377,
+      "axis0.vel_estimate": -0.282807,
+      "axis0.motor.foc.Id_measured": 1.323194,
+      "axis0.motor.foc.Iq_measured": -0.173956,
+      "vbus_voltage": 48.200363,
+      "axis0.motor.fet_thermistor.temperature": 29.16684,
+      "axis0.motor.motor_thermistor.temperature": 22.524628,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.263527117
+    },
+    {
+      "began": 6953.273723537,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.079038,
+      "axis0.vel_estimate": -0.197412,
+      "axis0.motor.foc.Id_measured": 1.597822,
+      "axis0.motor.foc.Iq_measured": -0.026541,
+      "vbus_voltage": 48.202648,
+      "axis0.motor.fet_thermistor.temperature": 29.167145,
+      "axis0.motor.motor_thermistor.temperature": 22.524628,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.279091977
+    },
+    {
+      "began": 6953.289313163,
+      "complete": true,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.082914,
+      "axis0.vel_estimate": -0.351915,
+      "axis0.motor.foc.Id_measured": 1.499429,
+      "axis0.motor.foc.Iq_measured": -0.025329,
+      "vbus_voltage": 48.184372,
+      "axis0.motor.fet_thermistor.temperature": 29.166748,
+      "axis0.motor.motor_thermistor.temperature": 22.524628,
+      "axis0.procedure_result": 1.0,
+      "state_after": 7.0,
+      "ended": 6953.292998882
+    },
+    {
+      "began": 6953.303190597,
+      "complete": false,
+      "axis0.current_state": 7.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.pos_estimate": -8.0934,
+      "axis0.vel_estimate": -1.056793
+    }
+  ],
+  "writes": [
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "value": 10.0,
+      "at": 6953.101405903,
+      "written": true
+    },
+    {
+      "property": "axis0.config.motor.calibration_current",
+      "value": 10.0,
+      "at": 6953.102196946,
+      "written": true
+    },
+    {
+      "property": "axis0.config.calibration_lockin.current",
+      "value": 10.0,
+      "at": 6953.102932918,
+      "written": true
+    },
+    {
+      "property": "axis0.config.calib_scan_distance",
+      "value": 8.0,
+      "at": 6953.103646428,
+      "written": true
+    },
+    {
+      "property": "axis0.config.calib_scan_vel",
+      "value": 2.0,
+      "at": 6953.104562842,
+      "written": true
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "value": 0.5,
+      "at": 6953.105215073,
+      "written": true
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 1,
+      "at": 6953.106640972,
+      "written": true
+    },
+    {
+      "property": "axis0.requested_state",
+      "value": 7,
+      "at": 6953.110158665,
+      "written": true
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "value": 0,
+      "at": 6953.305091838,
+      "written": true
+    },
+    {
+      "property": "axis0.requested_state",
+      "value": 1,
+      "at": 6953.305298071,
+      "written": true
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 0,
+      "at": 6953.523149205,
+      "written": true
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "value": 0,
+      "at": 6953.523543846,
+      "written": true
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "value": 0,
+      "at": 6953.531591706,
+      "written": true
+    },
+    {
+      "property": "axis0.config.motor.direction",
+      "value": 1.0,
+      "at": 6953.53206484,
+      "written": true
+    },
+    {
+      "property": "axis0.commutation_mapper.config.scale",
+      "value": 7.0,
+      "at": 6953.532685073,
+      "written": true
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset",
+      "value": 1.43045,
+      "at": 6953.533275803,
+      "written": true
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "value": 1.0,
+      "at": 6953.53384631,
+      "written": true
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "value": 35.0,
+      "at": 6953.534308501,
+      "written": true
+    },
+    {
+      "property": "axis0.config.motor.calibration_current",
+      "value": 10.0,
+      "at": 6953.534927358,
+      "written": true
+    },
+    {
+      "property": "axis0.config.calibration_lockin.current",
+      "value": 10.0,
+      "at": 6953.535574213,
+      "written": true
+    },
+    {
+      "property": "axis0.config.calib_scan_distance",
+      "value": 8.0,
+      "at": 6953.536241196,
+      "written": true
+    },
+    {
+      "property": "axis0.config.calib_scan_vel",
+      "value": 2.0,
+      "at": 6953.536727002,
+      "written": true
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 0.0,
+      "at": 6953.537252647,
+      "written": true
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "value": 0.0,
+      "at": 6953.537704758,
+      "written": true
+    }
+  ],
+  "read_log": [
+    {
+      "property": "serial_number",
+      "began": 6953.074568345,
+      "ended": 6953.075038343,
+      "reply": "261832873369"
+    },
+    {
+      "property": "commit_hash",
+      "began": 6953.075090341,
+      "ended": 6953.075411897,
+      "reply": "3016019781"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.075425913,
+      "ended": 6953.07572603,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.075733294,
+      "ended": 6953.075969189,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.075975236,
+      "ended": 6953.076242778,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.07624809,
+      "ended": 6953.076502033,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.076509585,
+      "ended": 6953.076775847,
+      "reply": "-8.065186"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.076780646,
+      "ended": 6953.077152121,
+      "reply": "0.000050"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.0771574,
+      "ended": 6953.077568457,
+      "reply": "48.186657"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "began": 6953.077574857,
+      "ended": 6953.077922812,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "began": 6953.077927388,
+      "ended": 6953.078286478,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "began": 6953.078292302,
+      "ended": 6953.078658432,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.config.motor.direction",
+      "began": 6953.078663488,
+      "ended": 6953.079017939,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.config.motor.pole_pairs",
+      "began": 6953.079023091,
+      "ended": 6953.079336807,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.config.motor.phase_resistance",
+      "began": 6953.079340935,
+      "ended": 6953.079759223,
+      "reply": "0.028289"
+    },
+    {
+      "property": "axis0.config.motor.phase_inductance",
+      "began": 6953.079763831,
+      "ended": 6953.08016804,
+      "reply": "0.000015"
+    },
+    {
+      "property": "axis0.config.motor.phase_resistance_valid",
+      "began": 6953.080178088,
+      "ended": 6953.080581689,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.motor.phase_inductance_valid",
+      "began": 6953.080593816,
+      "ended": 6953.080956555,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.load_encoder",
+      "began": 6953.080965994,
+      "ended": 6953.081398138,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.config.commutation_encoder",
+      "began": 6953.081407386,
+      "ended": 6953.081776172,
+      "reply": "10"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "began": 6953.081784588,
+      "ended": 6953.082173917,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.motor.effective_current_lim",
+      "began": 6953.082183261,
+      "ended": 6953.082696298,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.082709769,
+      "ended": 6953.083168952,
+      "reply": "29.167053"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.083178296,
+      "ended": 6953.083751586,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.observed_encoder_scale_factor",
+      "began": 6953.083761058,
+      "ended": 6953.084180754,
+      "reply": "nan"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.circular",
+      "began": 6953.084192562,
+      "ended": 6953.084549253,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.circular_output_range",
+      "began": 6953.084557956,
+      "ended": 6953.085011411,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.scale",
+      "began": 6953.085018003,
+      "ended": 6953.085384901,
+      "reply": "7.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "began": 6953.085389829,
+      "ended": 6953.085729656,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset",
+      "began": 6953.085733656,
+      "ended": 6953.08613057,
+      "reply": "1.430450"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.approx_init_pos_valid",
+      "began": 6953.086134569,
+      "ended": 6953.086477245,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.approx_init_pos",
+      "began": 6953.086480316,
+      "ended": 6953.086979242,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_offset_valid",
+      "began": 6953.086988521,
+      "ended": 6953.087393146,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_offset",
+      "began": 6953.08740233,
+      "ended": 6953.087894056,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.use_index_gpio",
+      "began": 6953.087904007,
+      "ended": 6953.08831868,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.passive_index_search",
+      "began": 6953.088329207,
+      "ended": 6953.088669099,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_gpio",
+      "began": 6953.088678506,
+      "ended": 6953.089004958,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.use_endstop",
+      "began": 6953.089009694,
+      "ended": 6953.08933861,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.circular",
+      "began": 6953.089342834,
+      "ended": 6953.089613256,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.circular_output_range",
+      "began": 6953.089616903,
+      "ended": 6953.089996441,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.scale",
+      "began": 6953.090001113,
+      "ended": 6953.090377003,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.offset_valid",
+      "began": 6953.090382411,
+      "ended": 6953.09061821,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.offset",
+      "began": 6953.090622306,
+      "ended": 6953.090992532,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.approx_init_pos_valid",
+      "began": 6953.091002292,
+      "ended": 6953.091375622,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.approx_init_pos",
+      "began": 6953.091383749,
+      "ended": 6953.091883347,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_offset_valid",
+      "began": 6953.091892178,
+      "ended": 6953.092290276,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_offset",
+      "began": 6953.092298947,
+      "ended": 6953.092769682,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.use_index_gpio",
+      "began": 6953.092778289,
+      "ended": 6953.093172323,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.passive_index_search",
+      "began": 6953.09318077,
+      "ended": 6953.093533173,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_gpio",
+      "began": 6953.093541717,
+      "ended": 6953.093903239,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.use_endstop",
+      "began": 6953.093912615,
+      "ended": 6953.094342519,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.calib_range",
+      "began": 6953.094345975,
+      "ended": 6953.09464462,
+      "reply": "0.020000"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.ramp_time",
+      "began": 6953.094648876,
+      "ended": 6953.094985759,
+      "reply": "0.400000"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.ramp_distance",
+      "began": 6953.094991263,
+      "ended": 6953.095376464,
+      "reply": "0.500000"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.accel",
+      "began": 6953.09538008,
+      "ended": 6953.095711012,
+      "reply": "3.183099"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.vel",
+      "began": 6953.095714852,
+      "ended": 6953.096178291,
+      "reply": "6.366198"
+    },
+    {
+      "property": "axis0.config.motor.resistance_calib_max_voltage",
+      "began": 6953.096187538,
+      "ended": 6953.096733118,
+      "reply": "2.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "began": 6953.096742365,
+      "ended": 6953.097274858,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.config.motor.calibration_current",
+      "began": 6953.097284009,
+      "ended": 6953.097783543,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.current",
+      "began": 6953.097792086,
+      "ended": 6953.098297315,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.calib_scan_distance",
+      "began": 6953.098305635,
+      "ended": 6953.09876373,
+      "reply": "8.000000"
+    },
+    {
+      "property": "axis0.config.calib_scan_vel",
+      "began": 6953.098772242,
+      "ended": 6953.099269919,
+      "reply": "2.000000"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "began": 6953.099279263,
+      "ended": 6953.099762605,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "began": 6953.099771948,
+      "ended": 6953.10017203,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "began": 6953.101598856,
+      "ended": 6953.102170803,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.calibration_current",
+      "began": 6953.102398058,
+      "ended": 6953.102912407,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.current",
+      "began": 6953.103126479,
+      "ended": 6953.10363014,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.calib_scan_distance",
+      "began": 6953.103895219,
+      "ended": 6953.104533051,
+      "reply": "8.000000"
+    },
+    {
+      "property": "axis0.config.calib_scan_vel",
+      "began": 6953.104857583,
+      "ended": 6953.105168579,
+      "reply": "2.000000"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "began": 6953.105394491,
+      "ended": 6953.105792268,
+      "reply": "0.500000"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.105801643,
+      "ended": 6953.105989476,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.105995492,
+      "ended": 6953.106250267,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.106255003,
+      "ended": 6953.106501201,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "began": 6953.106761512,
+      "ended": 6953.106992031,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "began": 6953.107000191,
+      "ended": 6953.10749966,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.motor.effective_current_lim",
+      "began": 6953.107515339,
+      "ended": 6953.108281391,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.108306638,
+      "ended": 6953.108805627,
+      "reply": "-8.065186"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.108821947,
+      "ended": 6953.10915163,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.109162702,
+      "ended": 6953.109564255,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.109575903,
+      "ended": 6953.109929969,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.110394048,
+      "ended": 6953.110621976,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.110632151,
+      "ended": 6953.11088347,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.11089051,
+      "ended": 6953.111108165,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.111114309,
+      "ended": 6953.111436697,
+      "reply": "-8.065186"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.111448473,
+      "ended": 6953.111807723,
+      "reply": "0.000114"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.111816203,
+      "ended": 6953.11216627,
+      "reply": "0.049372"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.112174014,
+      "ended": 6953.112567375,
+      "reply": "0.345167"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.112579822,
+      "ended": 6953.113040253,
+      "reply": "48.200363"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.113061533,
+      "ended": 6953.113695973,
+      "reply": "29.167847"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.113727524,
+      "ended": 6953.1142636,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.114285391,
+      "ended": 6953.114655201,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.114672544,
+      "ended": 6953.11504917,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.125364433,
+      "ended": 6953.125883102,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.125924604,
+      "ended": 6953.126313838,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.126332845,
+      "ended": 6953.126648993,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.126663201,
+      "ended": 6953.127146223,
+      "reply": "-8.065186"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.127170478,
+      "ended": 6953.127721529,
+      "reply": "-0.001667"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.127740537,
+      "ended": 6953.128142634,
+      "reply": "0.039533"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.128150985,
+      "ended": 6953.128579897,
+      "reply": "0.122115"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.128594937,
+      "ended": 6953.128932876,
+      "reply": "48.200363"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.12894094,
+      "ended": 6953.129294559,
+      "reply": "29.166840"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.129305406,
+      "ended": 6953.129659665,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.129665873,
+      "ended": 6953.129966214,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.129973317,
+      "ended": 6953.130345592,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.140588089,
+      "ended": 6953.140895438,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.140916141,
+      "ended": 6953.141121605,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.141128741,
+      "ended": 6953.141395899,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.141410267,
+      "ended": 6953.141806956,
+      "reply": "-8.065248"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.141827115,
+      "ended": 6953.142331288,
+      "reply": "-0.005761"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.142350839,
+      "ended": 6953.142818118,
+      "reply": "0.035907"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.142833221,
+      "ended": 6953.143338931,
+      "reply": "-0.162506"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.143358898,
+      "ended": 6953.143768387,
+      "reply": "48.184372"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.14378365,
+      "ended": 6953.144318734,
+      "reply": "29.166077"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.144338509,
+      "ended": 6953.144825211,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.144832379,
+      "ended": 6953.145119504,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.145124656,
+      "ended": 6953.14534596,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.155561451,
+      "ended": 6953.155934205,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.155951772,
+      "ended": 6953.156256337,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.156262928,
+      "ended": 6953.156503271,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.156508551,
+      "ended": 6953.156818492,
+      "reply": "-8.065408"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.156828187,
+      "ended": 6953.157189486,
+      "reply": "0.003906"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.157196653,
+      "ended": 6953.157593663,
+      "reply": "0.135710"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.15760819,
+      "ended": 6953.15804779,
+      "reply": "-0.048698"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.158067789,
+      "ended": 6953.158523388,
+      "reply": "48.188942"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.158538907,
+      "ended": 6953.159058056,
+      "reply": "29.165527"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.159076551,
+      "ended": 6953.159621971,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.159636114,
+      "ended": 6953.160037763,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.160052259,
+      "ended": 6953.160396086,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.170646264,
+      "ended": 6953.171171396,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.171201795,
+      "ended": 6953.171550518,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.171562261,
+      "ended": 6953.171879082,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.171884617,
+      "ended": 6953.172172991,
+      "reply": "-8.065606"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.172182782,
+      "ended": 6953.17256392,
+      "reply": "-0.022972"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.172572336,
+      "ended": 6953.172911459,
+      "reply": "0.490677"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.172917507,
+      "ended": 6953.173268982,
+      "reply": "0.199342"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.173279829,
+      "ended": 6953.173548779,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.173555915,
+      "ended": 6953.173940093,
+      "reply": "29.165802"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.173949724,
+      "ended": 6953.174302159,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.174307631,
+      "ended": 6953.174606788,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.174612068,
+      "ended": 6953.174852539,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.185056382,
+      "ended": 6953.18538165,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.185393681,
+      "ended": 6953.185621353,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.185627177,
+      "ended": 6953.185888511,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.185893407,
+      "ended": 6953.186159605,
+      "reply": "-8.066068"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.186167828,
+      "ended": 6953.186782173,
+      "reply": "-0.045558"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.186790237,
+      "ended": 6953.18707493,
+      "reply": "0.333191"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.187082258,
+      "ended": 6953.18745898,
+      "reply": "-0.014852"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.187470724,
+      "ended": 6953.187794968,
+      "reply": "48.195793"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.187803383,
+      "ended": 6953.188171498,
+      "reply": "29.166199"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.188185065,
+      "ended": 6953.188644856,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.188650744,
+      "ended": 6953.188853552,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.188859472,
+      "ended": 6953.189118694,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.199331817,
+      "ended": 6953.199677244,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.199692796,
+      "ended": 6953.200064366,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.200078765,
+      "ended": 6953.200405953,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.200419041,
+      "ended": 6953.200804082,
+      "reply": "-8.066576"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.200820562,
+      "ended": 6953.201330815,
+      "reply": "-0.030907"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.201347134,
+      "ended": 6953.201820364,
+      "reply": "0.616405"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.201833484,
+      "ended": 6953.202177119,
+      "reply": "-0.031603"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.202184479,
+      "ended": 6953.202559889,
+      "reply": "48.177517"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.2025652,
+      "ended": 6953.202928675,
+      "reply": "29.165558"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.202936291,
+      "ended": 6953.203298997,
+      "reply": "22.524414"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.203305621,
+      "ended": 6953.203613033,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.203618025,
+      "ended": 6953.20386848,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.214272572,
+      "ended": 6953.214715979,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.214740874,
+      "ended": 6953.215067742,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.215085213,
+      "ended": 6953.215415665,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.2154292,
+      "ended": 6953.215908638,
+      "reply": "-8.067204"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.215927454,
+      "ended": 6953.216417995,
+      "reply": "-0.062501"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.216436139,
+      "ended": 6953.216986486,
+      "reply": "0.951491"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.217002422,
+      "ended": 6953.217449125,
+      "reply": "-0.145672"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.21746842,
+      "ended": 6953.217941075,
+      "reply": "48.209499"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.217957394,
+      "ended": 6953.218540188,
+      "reply": "29.164795"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.218560348,
+      "ended": 6953.219075272,
+      "reply": "22.524628"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.219091368,
+      "ended": 6953.219458714,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.219473209,
+      "ended": 6953.219833708,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.230119948,
+      "ended": 6953.230377603,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.230386722,
+      "ended": 6953.230619802,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.230626073,
+      "ended": 6953.230890191,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.230895087,
+      "ended": 6953.231162501,
+      "reply": "-8.068801"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.231169669,
+      "ended": 6953.231574486,
+      "reply": "-0.124918"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.231582454,
+      "ended": 6953.231915913,
+      "reply": "1.077613"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.231920905,
+      "ended": 6953.23225942,
+      "reply": "0.063440"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.232266716,
+      "ended": 6953.232550353,
+      "reply": "48.188942"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.232556017,
+      "ended": 6953.232892805,
+      "reply": "29.164673"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.232898756,
+      "ended": 6953.233388242,
+      "reply": "22.524628"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.23340165,
+      "ended": 6953.2336698,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.233683015,
+      "ended": 6953.23403785,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.244279772,
+      "ended": 6953.244643502,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.244653838,
+      "ended": 6953.244893061,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.244899557,
+      "ended": 6953.245143196,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.245148315,
+      "ended": 6953.24544408,
+      "reply": "-8.071464"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.245451376,
+      "ended": 6953.24577754,
+      "reply": "-0.222960"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.24578506,
+      "ended": 6953.246132151,
+      "reply": "1.485007"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.246138454,
+      "ended": 6953.246439883,
+      "reply": "0.023972"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.246448587,
+      "ended": 6953.24667277,
+      "reply": "48.191223"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.246679618,
+      "ended": 6953.247062196,
+      "reply": "29.165314"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.247088307,
+      "ended": 6953.247457221,
+      "reply": "22.524628"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.247463045,
+      "ended": 6953.247789433,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.247794361,
+      "ended": 6953.247995057,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.258225043,
+      "ended": 6953.258623396,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.258652099,
+      "ended": 6953.259050613,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.259066836,
+      "ended": 6953.259412231,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.259426279,
+      "ended": 6953.259807896,
+      "reply": "-8.075377"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.259825912,
+      "ended": 6953.260354564,
+      "reply": "-0.282807"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.260372707,
+      "ended": 6953.260838514,
+      "reply": "1.323194"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.260854001,
+      "ended": 6953.261305632,
+      "reply": "-0.173956"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.261327328,
+      "ended": 6953.261798446,
+      "reply": "48.200363"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.261843724,
+      "ended": 6953.262420951,
+      "reply": "29.166840"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.26244031,
+      "ended": 6953.262988322,
+      "reply": "22.524628"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.263002049,
+      "ended": 6953.263238584,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.26324332,
+      "ended": 6953.263522382,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.273726897,
+      "ended": 6953.27401703,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.274024486,
+      "ended": 6953.274305211,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.274317563,
+      "ended": 6953.274669774,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.274682541,
+      "ended": 6953.27519961,
+      "reply": "-8.079038"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.275215545,
+      "ended": 6953.275707975,
+      "reply": "-0.197412"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.275723462,
+      "ended": 6953.276215284,
+      "reply": "1.597822"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.276231091,
+      "ended": 6953.276718529,
+      "reply": "-0.026541"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.276736257,
+      "ended": 6953.277212815,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.277227694,
+      "ended": 6953.277728028,
+      "reply": "29.167145"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.277745563,
+      "ended": 6953.278298278,
+      "reply": "22.524628"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.27831351,
+      "ended": 6953.278676856,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.278691128,
+      "ended": 6953.279080329,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.289316843,
+      "ended": 6953.289632767,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.289639039,
+      "ended": 6953.289871542,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.28987679,
+      "ended": 6953.290142924,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.290147756,
+      "ended": 6953.290450081,
+      "reply": "-8.082914"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.290456481,
+      "ended": 6953.29078306,
+      "reply": "-0.351915"
+    },
+    {
+      "property": "axis0.motor.foc.Id_measured",
+      "began": 6953.290789364,
+      "ended": 6953.291137351,
+      "reply": "1.499429"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "began": 6953.291143079,
+      "ended": 6953.291449052,
+      "reply": "-0.025329"
+    },
+    {
+      "property": "vbus_voltage",
+      "began": 6953.291455227,
+      "ended": 6953.291678163,
+      "reply": "48.184372"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "began": 6953.291683379,
+      "ended": 6953.292073348,
+      "reply": "29.166748"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "began": 6953.292081892,
+      "ended": 6953.292457622,
+      "reply": "22.524628"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.292462998,
+      "ended": 6953.29276945,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.292774346,
+      "ended": 6953.292994818,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.303194565,
+      "ended": 6953.303585111,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.303599286,
+      "ended": 6953.303881164,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.303886475,
+      "ended": 6953.304111107,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "began": 6953.304130818,
+      "ended": 6953.304469174,
+      "reply": "-8.093400"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.304477109,
+      "ended": 6953.30495034,
+      "reply": "-1.056793"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.305512719,
+      "ended": 6953.305794244,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.30580058,
+      "ended": 6953.306079098,
+      "reply": "-1.119613"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.336281458,
+      "ended": 6953.336747233,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.336771456,
+      "ended": 6953.33721592,
+      "reply": "-0.471734"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.367371242,
+      "ended": 6953.36779545,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.367822969,
+      "ended": 6953.368342822,
+      "reply": "-0.390188"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.398495585,
+      "ended": 6953.398998766,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.399030861,
+      "ended": 6953.399339713,
+      "reply": "0.175207"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.429471613,
+      "ended": 6953.429990569,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.430023784,
+      "ended": 6953.4303399,
+      "reply": "0.099185"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.460469816,
+      "ended": 6953.460910056,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.460932263,
+      "ended": 6953.461346167,
+      "reply": "-0.030086"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.491465427,
+      "ended": 6953.49186858,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.491890948,
+      "ended": 6953.492221047,
+      "reply": "0.000435"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.522341043,
+      "ended": 6953.522715589,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "began": 6953.522737924,
+      "ended": 6953.523117654,
+      "reply": "0.007286"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "began": 6953.523318607,
+      "ended": 6953.523529127,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.circular",
+      "began": 6953.52366589,
+      "ended": 6953.523996789,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.circular_output_range",
+      "began": 6953.524030964,
+      "ended": 6953.524433317,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.approx_init_pos_valid",
+      "began": 6953.524440485,
+      "ended": 6953.524785432,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.approx_init_pos",
+      "began": 6953.5247894,
+      "ended": 6953.525148074,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_offset_valid",
+      "began": 6953.525152106,
+      "ended": 6953.52543632,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_offset",
+      "began": 6953.52544064,
+      "ended": 6953.525821393,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.use_index_gpio",
+      "began": 6953.525827601,
+      "ended": 6953.526163941,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.passive_index_search",
+      "began": 6953.52616794,
+      "ended": 6953.526532631,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_gpio",
+      "began": 6953.526536567,
+      "ended": 6953.526872298,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.use_endstop",
+      "began": 6953.526877066,
+      "ended": 6953.527184702,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.circular",
+      "began": 6953.52718947,
+      "ended": 6953.527437333,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.circular_output_range",
+      "began": 6953.527444437,
+      "ended": 6953.527828838,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.scale",
+      "began": 6953.527833638,
+      "ended": 6953.528196473,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.offset_valid",
+      "began": 6953.528201592,
+      "ended": 6953.528499757,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.offset",
+      "began": 6953.528503725,
+      "ended": 6953.52890451,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.approx_init_pos_valid",
+      "began": 6953.528908574,
+      "ended": 6953.529171956,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.approx_init_pos",
+      "began": 6953.52917538,
+      "ended": 6953.529621348,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_offset_valid",
+      "began": 6953.529625059,
+      "ended": 6953.529905817,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_offset",
+      "began": 6953.529909433,
+      "ended": 6953.530232621,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.use_index_gpio",
+      "began": 6953.530236301,
+      "ended": 6953.530567136,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.passive_index_search",
+      "began": 6953.530570624,
+      "ended": 6953.530907923,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_gpio",
+      "began": 6953.530912403,
+      "ended": 6953.531177033,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.use_endstop",
+      "began": 6953.531184041,
+      "ended": 6953.53152502,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "began": 6953.531742516,
+      "ended": 6953.532056073,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.direction",
+      "began": 6953.532231554,
+      "ended": 6953.532674898,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.scale",
+      "began": 6953.532883498,
+      "ended": 6953.533262812,
+      "reply": "7.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset",
+      "began": 6953.533446549,
+      "ended": 6953.53383735,
+      "reply": "1.430450"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "began": 6953.534024095,
+      "ended": 6953.534295573,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "began": 6953.53448971,
+      "ended": 6953.53491667,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.config.motor.calibration_current",
+      "began": 6953.535105911,
+      "ended": 6953.535559366,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.calibration_lockin.current",
+      "began": 6953.535714784,
+      "ended": 6953.536228557,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.calib_scan_distance",
+      "began": 6953.536429157,
+      "ended": 6953.536717307,
+      "reply": "8.000000"
+    },
+    {
+      "property": "axis0.config.calib_scan_vel",
+      "began": 6953.536866293,
+      "ended": 6953.537239975,
+      "reply": "2.000000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "began": 6953.537399649,
+      "ended": 6953.53769439,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "began": 6953.537837713,
+      "ended": 6953.538096167,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.current_state",
+      "began": 6953.538111367,
+      "ended": 6953.538401692,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "began": 6953.538410172,
+      "ended": 6953.538666642,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "began": 6953.53867157,
+      "ended": 6953.539011173,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "began": 6953.539014821,
+      "ended": 6953.539280539,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "began": 6953.539284731,
+      "ended": 6953.539672172,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "began": 6953.539676684,
+      "ended": 6953.540186713,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "began": 6953.540195257,
+      "ended": 6953.540625481,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "began": 6953.540631689,
+      "ended": 6953.540977532,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.direction",
+      "began": 6953.54098246,
+      "ended": 6953.541362861,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.scale",
+      "began": 6953.541369229,
+      "ended": 6953.541725216,
+      "reply": "7.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset",
+      "began": 6953.541745951,
+      "ended": 6953.542139376,
+      "reply": "1.430450"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "began": 6953.542146864,
+      "ended": 6953.542445413,
+      "reply": "1"
+    }
+  ],
+  "calibration_attempted": true,
+  "settings_mutated": true,
+  "nvm_save": false,
+  "clear_count": 0,
+  "before": {
+    "serial_number": 261832873369.0,
+    "commit_hash": 3016019781.0,
+    "axis0.current_state": 1.0,
+    "axis0.active_errors": 0.0,
+    "axis0.disarm_reason": 0.0,
+    "axis0.procedure_result": 2.0,
+    "axis0.pos_estimate": -8.065186,
+    "axis0.vel_estimate": 5e-05,
+    "vbus_voltage": 48.186657,
+    "axis0.controller.input_vel": 0.0,
+    "axis0.controller.input_torque": 0.0,
+    "axis0.config.motor.current_hard_max": 38.0,
+    "axis0.config.motor.direction": 1.0,
+    "axis0.config.motor.pole_pairs": 7.0,
+    "axis0.config.motor.phase_resistance": 0.028289,
+    "axis0.config.motor.phase_inductance": 1.5e-05,
+    "axis0.config.motor.phase_resistance_valid": 1.0,
+    "axis0.config.motor.phase_inductance_valid": 1.0,
+    "axis0.config.load_encoder": 10.0,
+    "axis0.config.commutation_encoder": 10.0,
+    "rs485_encoder_group0.status": 0.0,
+    "axis0.motor.effective_current_lim": 35.0,
+    "axis0.motor.fet_thermistor.temperature": 29.167053,
+    "axis0.motor.motor_thermistor.temperature": 22.524414,
+    "axis0.observed_encoder_scale_factor": NaN,
+    "axis0.commutation_mapper.config.circular": 1.0,
+    "axis0.commutation_mapper.config.circular_output_range": 1.0,
+    "axis0.commutation_mapper.config.scale": 7.0,
+    "axis0.commutation_mapper.config.offset_valid": 1.0,
+    "axis0.commutation_mapper.config.offset": 1.43045,
+    "axis0.commutation_mapper.config.approx_init_pos_valid": 0.0,
+    "axis0.commutation_mapper.config.approx_init_pos": 0.0,
+    "axis0.commutation_mapper.config.index_offset_valid": 0.0,
+    "axis0.commutation_mapper.config.index_offset": 0.0,
+    "axis0.commutation_mapper.config.use_index_gpio": 0.0,
+    "axis0.commutation_mapper.config.passive_index_search": 0.0,
+    "axis0.commutation_mapper.config.index_gpio": 10.0,
+    "axis0.commutation_mapper.config.use_endstop": 0.0,
+    "axis0.pos_vel_mapper.config.circular": 0.0,
+    "axis0.pos_vel_mapper.config.circular_output_range": 1.0,
+    "axis0.pos_vel_mapper.config.scale": 1.0,
+    "axis0.pos_vel_mapper.config.offset_valid": 0.0,
+    "axis0.pos_vel_mapper.config.offset": 0.0,
+    "axis0.pos_vel_mapper.config.approx_init_pos_valid": 0.0,
+    "axis0.pos_vel_mapper.config.approx_init_pos": 0.0,
+    "axis0.pos_vel_mapper.config.index_offset_valid": 0.0,
+    "axis0.pos_vel_mapper.config.index_offset": 0.0,
+    "axis0.pos_vel_mapper.config.use_index_gpio": 0.0,
+    "axis0.pos_vel_mapper.config.passive_index_search": 0.0,
+    "axis0.pos_vel_mapper.config.index_gpio": 10.0,
+    "axis0.pos_vel_mapper.config.use_endstop": 0.0,
+    "axis0.config.calib_range": 0.02,
+    "axis0.config.calibration_lockin.ramp_time": 0.4,
+    "axis0.config.calibration_lockin.ramp_distance": 0.5,
+    "axis0.config.calibration_lockin.accel": 3.183099,
+    "axis0.config.calibration_lockin.vel": 6.366198,
+    "axis0.config.motor.resistance_calib_max_voltage": 2.0,
+    "axis0.config.motor.current_soft_max": 35.0,
+    "axis0.config.motor.calibration_current": 10.0,
+    "axis0.config.calibration_lockin.current": 10.0,
+    "axis0.config.calib_scan_distance": 8.0,
+    "axis0.config.calib_scan_vel": 2.0,
+    "axis0.config.watchdog_timeout": 0.0,
+    "axis0.config.enable_watchdog": 0.0
+  },
+  "effective_current_limit_before_calibration": 10.0,
+  "calibration_requested_at": 6953.110112555,
+  "seen_calibrating": true,
+  "result": "RuntimeError: Speed threshold",
+  "calibration_success": false,
+  "cleanup_confirmed": true,
+  "stop_attempted_at": 6953.305500463,
+  "settling": [
+    {
+      "at": 6953.30617455,
+      "state": 7.0,
+      "rpm": -67.17678
+    },
+    {
+      "at": 6953.337244527,
+      "state": 1.0,
+      "rpm": -28.30404
+    },
+    {
+      "at": 6953.368371141,
+      "state": 1.0,
+      "rpm": -23.411279999999998
+    },
+    {
+      "at": 6953.399360705,
+      "state": 1.0,
+      "rpm": 10.51242
+    },
+    {
+      "at": 6953.430360892,
+      "state": 1.0,
+      "rpm": 5.951099999999999
+    },
+    {
+      "at": 6953.461366199,
+      "state": 1.0,
+      "rpm": -1.80516
+    },
+    {
+      "at": 6953.492239926,
+      "state": 1.0,
+      "rpm": 0.0261
+    },
+    {
+      "at": 6953.523134422,
+      "state": 1.0,
+      "rpm": 0.43716
+    }
+  ],
+  "stationary_confirmed_at": 6953.523137685,
+  "mapper_invariants_before_restoration": {
+    "axis0.commutation_mapper.config.circular": 1.0,
+    "axis0.commutation_mapper.config.circular_output_range": 1.0,
+    "axis0.commutation_mapper.config.approx_init_pos_valid": 0.0,
+    "axis0.commutation_mapper.config.approx_init_pos": 0.0,
+    "axis0.commutation_mapper.config.index_offset_valid": 0.0,
+    "axis0.commutation_mapper.config.index_offset": 0.0,
+    "axis0.commutation_mapper.config.use_index_gpio": 0.0,
+    "axis0.commutation_mapper.config.passive_index_search": 0.0,
+    "axis0.commutation_mapper.config.index_gpio": 10.0,
+    "axis0.commutation_mapper.config.use_endstop": 0.0,
+    "axis0.pos_vel_mapper.config.circular": 0.0,
+    "axis0.pos_vel_mapper.config.circular_output_range": 1.0,
+    "axis0.pos_vel_mapper.config.scale": 1.0,
+    "axis0.pos_vel_mapper.config.offset_valid": 0.0,
+    "axis0.pos_vel_mapper.config.offset": 0.0,
+    "axis0.pos_vel_mapper.config.approx_init_pos_valid": 0.0,
+    "axis0.pos_vel_mapper.config.approx_init_pos": 0.0,
+    "axis0.pos_vel_mapper.config.index_offset_valid": 0.0,
+    "axis0.pos_vel_mapper.config.index_offset": 0.0,
+    "axis0.pos_vel_mapper.config.use_index_gpio": 0.0,
+    "axis0.pos_vel_mapper.config.passive_index_search": 0.0,
+    "axis0.pos_vel_mapper.config.index_gpio": 10.0,
+    "axis0.pos_vel_mapper.config.use_endstop": 0.0
+  },
+  "previous_alignment_restored": true,
+  "after": {
+    "axis0.current_state": 1.0,
+    "axis0.active_errors": 0.0,
+    "axis0.disarm_reason": 0.0,
+    "axis0.procedure_result": 2.0,
+    "axis0.config.motor.current_soft_max": 35.0,
+    "axis0.config.motor.current_hard_max": 38.0,
+    "axis0.controller.input_vel": 0.0,
+    "axis0.controller.input_torque": 0.0,
+    "axis0.config.motor.direction": 1.0,
+    "axis0.commutation_mapper.config.scale": 7.0,
+    "axis0.commutation_mapper.config.offset": 1.43045,
+    "axis0.commutation_mapper.config.offset_valid": 1.0
+  }
+}

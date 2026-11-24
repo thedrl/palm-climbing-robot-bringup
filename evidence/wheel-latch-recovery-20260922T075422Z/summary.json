@@ -1,0 +1,80 @@
+[
+  {
+    "arm": 0,
+    "steps": [
+      {
+        "command": "unit",
+        "started_epoch": 1790063663.145505,
+        "completed": true,
+        "response": "unit id: 0, local ODrive CAN node id: 0\nbringup> "
+      },
+      {
+        "command": "w0 diag",
+        "started_epoch": 1790063664.3454616,
+        "completed": true,
+        "response": "--- ODrive diagnostics ---\r\nunit id: 0 local ODrive node id: 0\nheartbeat: online\nstate: 1 IDLE, axis_error=0x00008000, procedure_result=3, trajectory_done=1\nversion: protocol 2 hw 5.2.0 fw 0.6.11\nactive_errors: 0x00000000 none\r\ndisarm_reason: 0x00008000 VELOCITY_LIMIT_VIOLATION\r\nbus: 48.23 V 0.000 A\nencoder: pos=-8.0649 turns vel=0.0000 turns/s 0.00 RPM\nphase current retained (not live outside healthy CLOSED_LOOP): target=34.965 A measured=29.786 A\ntemperature: fet=29.1 C motor=22.5 C\npower: electrical=0.00 W mechanical=0.00 W\nLast wheel fault (historical): 1697746 ms ago, state=1, error=0x00008000\nSamples before that fault: bus=48.24 V age=27 ms; Iq=0.571 A age=127 ms; RPM=-672.32 age=2 ms\n--------------------------\nbringup> "
+      },
+      {
+        "command": "w0 clear",
+        "started_epoch": 1790063667.511821,
+        "completed": true,
+        "response": "Fresh error response: active=0x00000000 disarm=0x00000000\nWheel recovered in IDLE. Send a new movement command when ready.\r\nbringup> "
+      },
+      {
+        "command": "w0 diag",
+        "started_epoch": 1790063670.2058399,
+        "completed": true,
+        "response": "--- ODrive diagnostics ---\r\nunit id: 0 local ODrive node id: 0\nheartbeat: online\nstate: 1 IDLE, axis_error=0x00000000, procedure_result=0, trajectory_done=1\nversion: protocol 2 hw 5.2.0 fw 0.6.11\nactive_errors: 0x00000000 none\r\ndisarm_reason: 0x00000000 none\r\nbus: 48.24 V 0.000 A\nencoder: pos=-8.0649 turns vel=0.0001 turns/s 0.00 RPM\nphase current retained (not live outside healthy CLOSED_LOOP): target=34.965 A measured=29.786 A\ntemperature: fet=29.1 C motor=22.5 C\npower: electrical=0.00 W mechanical=0.00 W\nLast wheel fault (historical): 1703606 ms ago, state=1, error=0x00008000\nSamples before that fault: bus=48.24 V age=27 ms; Iq=0.571 A age=127 ms; RPM=-672.32 age=2 ms\n--------------------------\nbringup> "
+      },
+      {
+        "command": "w0 current",
+        "started_epoch": 1790063673.3829727,
+        "completed": true,
+        "response": "Wheel current limits: soft=35.00 A hard=38.00 A; target=35.00/38.00 A; fw=0.6.11 commit=0xb3c4cf45. Read-only.\nbringup> "
+      }
+    ],
+    "nonzero_commands_sent": false,
+    "clear_attempts": 1,
+    "limits_changed": false,
+    "result": "Fault latch clear; fresh healthy IDLE; 35/38 unchanged. Motion remains untested."
+  },
+  {
+    "arm": 3,
+    "steps": [
+      {
+        "command": "unit",
+        "started_epoch": 1790063663.1644852,
+        "completed": true,
+        "response": "unit id: 3, local ODrive CAN node id: 0\nbringup> "
+      },
+      {
+        "command": "w0 diag",
+        "started_epoch": 1790063664.3646228,
+        "completed": true,
+        "response": "--- ODrive diagnostics ---\r\nunit id: 3 local ODrive node id: 0\nheartbeat: online\nstate: 1 IDLE, axis_error=0x00000200, procedure_result=3, trajectory_done=1\nversion: protocol 2 hw 5.2.0 fw 0.6.11\nactive_errors: 0x00000000 none\r\ndisarm_reason: 0x00000200 DC_BUS_UNDER_VOLTAGE\r\nbus: 47.99 V 0.000 A\nencoder: pos=43.3057 turns vel=-0.0005 turns/s -0.03 RPM\nphase current retained (not live outside healthy CLOSED_LOOP): target=0.186 A measured=0.112 A\ntemperature: fet=27.3 C motor=22.7 C\npower: electrical=0.00 W mechanical=0.00 W\nLast wheel fault (historical): 1705418 ms ago, state=1, error=0x00000200\nSamples before that fault: bus=47.55 V age=162 ms; Iq=nan A age=-1 ms; RPM=0.39 age=1 ms\n--------------------------\nbringup> "
+      },
+      {
+        "command": "w0 clear",
+        "started_epoch": 1790063667.531406,
+        "completed": true,
+        "response": "Fresh error response: active=0x00000000 disarm=0x00000000\nWheel recovered in IDLE. Send a new movement command when ready.\r\nbringup> "
+      },
+      {
+        "command": "w0 diag",
+        "started_epoch": 1790063670.2026634,
+        "completed": true,
+        "response": "--- ODrive diagnostics ---\r\nunit id: 3 local ODrive node id: 0\nheartbeat: online\nstate: 1 IDLE, axis_error=0x00000000, procedure_result=0, trajectory_done=1\nversion: protocol 2 hw 5.2.0 fw 0.6.11\nactive_errors: 0x00000000 none\r\ndisarm_reason: 0x00000000 none\r\nbus: 47.98 V 0.000 A\nencoder: pos=43.3057 turns vel=0.0002 turns/s 0.01 RPM\nphase current retained (not live outside healthy CLOSED_LOOP): target=0.186 A measured=0.112 A\ntemperature: fet=27.3 C motor=22.7 C\npower: electrical=0.00 W mechanical=-0.00 W\nLast wheel fault (historical): 1711256 ms ago, state=1, error=0x00000200\nSamples before that fault: bus=47.55 V age=162 ms; Iq=nan A age=-1 ms; RPM=0.39 age=1 ms\n--------------------------\nbringup> "
+      },
+      {
+        "command": "w0 current",
+        "started_epoch": 1790063673.4027684,
+        "completed": true,
+        "response": "Wheel current limits: soft=35.00 A hard=38.00 A; target=35.00/38.00 A; fw=0.6.11 commit=0xb3c4cf45. Read-only.\nbringup> "
+      }
+    ],
+    "nonzero_commands_sent": false,
+    "clear_attempts": 1,
+    "limits_changed": false,
+    "result": "Fault latch clear; fresh healthy IDLE; 35/38 unchanged. Motion remains untested."
+  }
+]

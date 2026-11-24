@@ -1,0 +1,83 @@
+{
+  "arm": 3,
+  "steps": [
+    {
+      "command": "unit",
+      "started_epoch": 1790064433.5324636,
+      "completed": true,
+      "response": "unit id: 3, local ODrive CAN node id: 0\nbringup> "
+    },
+    {
+      "command": "firmware",
+      "started_epoch": 1790064434.7325928,
+      "completed": true,
+      "response": "Firmware: V17 Explicit Current Persistence; unit=3; revision=2026-09-21-v17-current-persistence\nbringup> "
+    },
+    {
+      "command": "act safety",
+      "started_epoch": 1790064435.9327526,
+      "completed": true,
+      "response": "RoboClaw serial deadman timeout: enabled (200 ms).\nbringup> "
+    },
+    {
+      "command": "act stop",
+      "started_epoch": 1790064437.1328626,
+      "completed": true,
+      "response": "Actuator zero commands acknowledged.\r\nbringup> "
+    },
+    {
+      "command": "act diag",
+      "started_epoch": 1790064438.8041716,
+      "completed": true,
+      "response": "--- RoboClaw diagnostics ---\r\nRoboClaw serial config: addr=0x80 baud=38400 RX=D7(GPIO10) TX=D6(GPIO9) actuator=M1\nversion: USB Roboclaw 2x7A v4.4.8\nmain battery: 23.2 V\nlogic battery: 0.0 V\nerror: 0x01000000\nencoder M1: 0 status=0x80\nencoder M2: 0 status=0x80\nspeed M1: 0 status=0x00\nspeed M2: 0 status=0x00\nPWM M1=0 M2=0\ncurrent M1=0.00 A M2=0.00 A\n----------------------------\nbringup> "
+    },
+    {
+      "command": "act limits",
+      "started_epoch": 1790064441.0040824,
+      "completed": true,
+      "response": "Actuator current-limit fields (read only; no settings changed):\r\nM1: max raw=674 (6.74 A); regen/min raw=0x00000394 unsigned=916 signed=916\nM2: max raw=917 (9.17 A); regen/min raw=0x00000395 unsigned=917 signed=917\nbringup> "
+    },
+    {
+      "command": "status",
+      "started_epoch": 1790064442.678714,
+      "completed": true,
+      "response": "--- status ---\r\nunit id: 3\nlocal ODrive CAN node id: 0\nCAN initialized: yes\nlimit REV/IN pin 5:  open\nlimit FWD/OUT pin 3: PRESSED\nactuator encoder: 0\r\nlocal wheel online=yes state=1 error=0 pos=43.308 turns vel=-0.004 turns/s\r\nToF initialized: no\nToF enabled: no\n--------------\nbringup> "
+    },
+    {
+      "command": "act pulse m1 rev",
+      "started_epoch": 1790064444.369132,
+      "completed": true,
+      "response": "Actuator pulse starting limits unit=3 REV/IN pin=5 raw=1 open | FWD/OUT pin=3 raw=0 PRESSED\nActuator pulse M1 REV/retract test on RoboClaw M1 at open-loop power -20 for 0.25 seconds...\nRoboClaw drive command: sent\nActuator pulse ending limits unit=3 REV/IN pin=5 raw=1 open | FWD/OUT pin=3 raw=0 PRESSED\nActuator pulse complete.\r\nbringup> "
+    },
+    {
+      "command": "act stop",
+      "started_epoch": 1790064446.5252557,
+      "completed": true,
+      "response": "Actuator zero commands acknowledged.\r\nbringup> "
+    },
+    {
+      "command": "act diag",
+      "started_epoch": 1790064448.2096417,
+      "completed": true,
+      "response": "--- RoboClaw diagnostics ---\r\nRoboClaw serial config: addr=0x80 baud=38400 RX=D7(GPIO10) TX=D6(GPIO9) actuator=M1\nversion: USB Roboclaw 2x7A v4.4.8\nmain battery: 23.2 V\nlogic battery: 0.0 V\nerror: 0x01000000\nencoder M1: -1 status=0x82\nencoder M2: 0 status=0x80\nspeed M1: 0 status=0x01\nspeed M2: 0 status=0x00\nPWM M1=0 M2=0\ncurrent M1=0.00 A M2=0.00 A\n----------------------------\nbringup> "
+    },
+    {
+      "command": "status",
+      "started_epoch": 1790064450.4100578,
+      "completed": true,
+      "response": "--- status ---\r\nunit id: 3\nlocal ODrive CAN node id: 0\nCAN initialized: yes\nlimit REV/IN pin 5:  open\nlimit FWD/OUT pin 3: PRESSED\nactuator encoder: -1\r\nlocal wheel online=yes state=1 error=0 pos=43.308 turns vel=0.002 turns/s\r\nToF initialized: no\nToF enabled: no\n--------------\nbringup> "
+    }
+  ],
+  "motion_attempted": true,
+  "native_pulse_ms": 250,
+  "power_ceiling_127": 20,
+  "user_authorization": "Do what testing you need to get it working; confirmed supported, actuator travel clear, hands clear, at cutoff, GUIs closed.",
+  "limit_writes": false,
+  "before_diag": "--- RoboClaw diagnostics ---\r\nRoboClaw serial config: addr=0x80 baud=38400 RX=D7(GPIO10) TX=D6(GPIO9) actuator=M1\nversion: USB Roboclaw 2x7A v4.4.8\nmain battery: 23.2 V\nlogic battery: 0.0 V\nerror: 0x01000000\nencoder M1: 0 status=0x80\nencoder M2: 0 status=0x80\nspeed M1: 0 status=0x00\nspeed M2: 0 status=0x00\nPWM M1=0 M2=0\ncurrent M1=0.00 A M2=0.00 A\n----------------------------\nbringup> ",
+  "before_encoder": 0,
+  "pulse_response": "Actuator pulse starting limits unit=3 REV/IN pin=5 raw=1 open | FWD/OUT pin=3 raw=0 PRESSED\nActuator pulse M1 REV/retract test on RoboClaw M1 at open-loop power -20 for 0.25 seconds...\nRoboClaw drive command: sent\nActuator pulse ending limits unit=3 REV/IN pin=5 raw=1 open | FWD/OUT pin=3 raw=0 PRESSED\nActuator pulse complete.\r\nbringup> ",
+  "after_diag": "--- RoboClaw diagnostics ---\r\nRoboClaw serial config: addr=0x80 baud=38400 RX=D7(GPIO10) TX=D6(GPIO9) actuator=M1\nversion: USB Roboclaw 2x7A v4.4.8\nmain battery: 23.2 V\nlogic battery: 0.0 V\nerror: 0x01000000\nencoder M1: -1 status=0x82\nencoder M2: 0 status=0x80\nspeed M1: 0 status=0x01\nspeed M2: 0 status=0x00\nPWM M1=0 M2=0\ncurrent M1=0.00 A M2=0.00 A\n----------------------------\nbringup> ",
+  "after_encoder": -1,
+  "encoder_delta": -1,
+  "result": "Completed; fresh zero PWM/M1 current confirmed"
+}

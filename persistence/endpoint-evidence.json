@@ -1,0 +1,238 @@
+[
+  {
+    "version": "0.6.11",
+    "commit": "c063d5527abd386584a271901aaf255522208fbb",
+    "url": "https://odrive-cdn.nyc3.digitaloceanspaces.com/releases/firmware/JkKL4Pwgpg-sDXM2fH170xUARGbfgYQmLCOkZf1uDt8/flat_endpoints.json",
+    "sha256": "07d19ceab892f487e98d0bedb775eb11f0e1e5c7a79cf4729780f9266a0d9bfa",
+    "endpoints": {
+      "axis0.config.startup_max_wait_for_ready": {
+        "id": 218,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.startup_motor_calibration": {
+        "id": 219,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_index_search": {
+        "id": 220,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_offset_calibration": {
+        "id": 221,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_closed_loop_control": {
+        "id": 222,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_homing": {
+        "id": 223,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_soft_max": {
+        "id": 305,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_hard_max": {
+        "id": 306,
+        "type": "float",
+        "access": "rw"
+      },
+      "save_configuration": {
+        "id": 684,
+        "type": "function",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "success",
+            "type": "bool"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "version": "0.6.11-1",
+    "commit": "b3c4cf456b8f194ada26eb442d1b93ada74a4ced",
+    "url": "https://odrive-cdn.nyc3.digitaloceanspaces.com/releases/firmware/M2F1RfND-R0OisRTPmILqsWlyXEXad50aLBLA55fT3M/flat_endpoints.json",
+    "sha256": "f9907410b2a756692e5b699a7f3519a28c0613a864dee62b7a5929c462944ef6",
+    "endpoints": {
+      "axis0.config.startup_max_wait_for_ready": {
+        "id": 218,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.startup_motor_calibration": {
+        "id": 219,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_index_search": {
+        "id": 220,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_offset_calibration": {
+        "id": 221,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_closed_loop_control": {
+        "id": 222,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_homing": {
+        "id": 223,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_soft_max": {
+        "id": 305,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_hard_max": {
+        "id": 306,
+        "type": "float",
+        "access": "rw"
+      },
+      "save_configuration": {
+        "id": 684,
+        "type": "function",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "success",
+            "type": "bool"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "version": "0.6.12",
+    "commit": "d92a33fe953d1050652cfae5806ae1b9eca30b36",
+    "url": "https://odrive-cdn.nyc3.digitaloceanspaces.com/releases/firmware/GZQEiTCNxhW-RBCzMu9mm7j5if3K7aGN8-QllcNhy1E/flat_endpoints.json",
+    "sha256": "d236455cbcd1bbf92e121bb171b19e1121dfd83b2711b8637a26004b2ae8d592",
+    "endpoints": {
+      "axis0.config.startup_max_wait_for_ready": {
+        "id": 237,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.startup_motor_calibration": {
+        "id": 238,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_index_search": {
+        "id": 239,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_offset_calibration": {
+        "id": 240,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_closed_loop_control": {
+        "id": 241,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_homing": {
+        "id": 242,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_soft_max": {
+        "id": 325,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_hard_max": {
+        "id": 326,
+        "type": "float",
+        "access": "rw"
+      },
+      "save_configuration": {
+        "id": 718,
+        "type": "function",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "success",
+            "type": "bool"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "version": "0.6.12-1",
+    "commit": "5de70d7b6c7313085c60af275293fb32a0a33031",
+    "url": "https://odrive-cdn.nyc3.digitaloceanspaces.com/releases/firmware/VnyEefW1-SQW_jegH97Z21tAOSOzBjfgQTbuFOjUyPk/flat_endpoints.json",
+    "sha256": "481dd9b10cbe5c0ca18f5cd3cb6b60f2c16cb1c6a8386c770611c285632d35d6",
+    "endpoints": {
+      "axis0.config.startup_max_wait_for_ready": {
+        "id": 237,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.startup_motor_calibration": {
+        "id": 238,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_index_search": {
+        "id": 239,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_encoder_offset_calibration": {
+        "id": 240,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_closed_loop_control": {
+        "id": 241,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.startup_homing": {
+        "id": 242,
+        "type": "bool",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_soft_max": {
+        "id": 325,
+        "type": "float",
+        "access": "rw"
+      },
+      "axis0.config.motor.current_hard_max": {
+        "id": 326,
+        "type": "float",
+        "access": "rw"
+      },
+      "save_configuration": {
+        "id": 718,
+        "type": "function",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "success",
+            "type": "bool"
+          }
+        ]
+      }
+    }
+  }
+]

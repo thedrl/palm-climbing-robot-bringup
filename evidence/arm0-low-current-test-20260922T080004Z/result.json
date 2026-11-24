@@ -1,0 +1,464 @@
+{
+  "plan": {
+    "arm": 0,
+    "serial": "003CF6749599",
+    "rpm": 5,
+    "nominal_closed_loop_seconds": 1.0,
+    "temporary_soft_limit_a": 3.0,
+    "hard_trip_a_unchanged": 38,
+    "acceleration_rpm_per_sec": 10,
+    "one_explicit_fault_clear_before_test": false,
+    "retries": 0,
+    "watchdog_seconds": 0.5,
+    "abort_iq_a": 4.0,
+    "abort_abs_rpm": 15.0,
+    "abort_reverse_rpm": -2,
+    "save_configuration": false,
+    "cleanup": "zero and IDLE, verify, then restore temporary config; preserve any new fault"
+  },
+  "authorization": {
+    "confirmed_epoch": 1790063992.5066442,
+    "user_message": "okay do what testing you need to do get to the bottom of this we need to get it working. we have to show it to investors in the morning. Physical-state reply: Confirmed\u2014clear, supported, at cutoff; GUIs closed",
+    "approved_one_test": true,
+    "supported": true,
+    "wheel_free": true,
+    "hands_clear": true,
+    "at_cutoff": true,
+    "gui_closed": true,
+    "plan": {
+      "arm": 0,
+      "serial": "003CF6749599",
+      "rpm": 5,
+      "nominal_closed_loop_seconds": 1.0,
+      "temporary_soft_limit_a": 3.0,
+      "hard_trip_a_unchanged": 38,
+      "acceleration_rpm_per_sec": 10,
+      "one_explicit_fault_clear_before_test": false,
+      "retries": 0,
+      "watchdog_seconds": 0.5,
+      "abort_iq_a": 4.0,
+      "abort_abs_rpm": 15.0,
+      "abort_reverse_rpm": -2,
+      "save_configuration": false,
+      "cleanup": "zero and IDLE, verify, then restore temporary config; preserve any new fault"
+    }
+  },
+  "before": {
+    "serial_number": 261832873369.0,
+    "commit_hash": 3016019781.0,
+    "axis0.current_state": 1.0,
+    "axis0.active_errors": 0.0,
+    "axis0.disarm_reason": 0.0,
+    "axis0.pos_estimate": -8.064941,
+    "axis0.vel_estimate": 4.1e-05,
+    "axis0.controller.input_vel": 0.0,
+    "axis0.controller.input_torque": 0.0,
+    "axis0.config.motor.current_hard_max": 38.0,
+    "axis0.controller.config.enable_overspeed_error": 1.0,
+    "axis0.controller.config.spinout_mechanical_power_threshold": -10.0,
+    "axis0.controller.config.spinout_electrical_power_threshold": 10.0,
+    "axis0.config.motor.current_soft_max": 35.0,
+    "axis0.controller.config.control_mode": 2.0,
+    "axis0.controller.config.input_mode": 1.0,
+    "axis0.controller.config.vel_ramp_rate": 30.0,
+    "axis0.controller.config.vel_limit": 12.5,
+    "axis0.config.watchdog_timeout": 0.0,
+    "axis0.config.enable_watchdog": 0.0
+  },
+  "writes": [
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "value": 3.0,
+      "utc": "2026-09-22T08:00:04.515182+00:00"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "value": 2,
+      "utc": "2026-09-22T08:00:04.516430+00:00"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "value": 2,
+      "utc": "2026-09-22T08:00:04.517990+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "value": 0.16666666666666666,
+      "utc": "2026-09-22T08:00:04.518973+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "value": 0.25,
+      "utc": "2026-09-22T08:00:04.520060+00:00"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "value": 0.5,
+      "utc": "2026-09-22T08:00:04.521208+00:00"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 1,
+      "utc": "2026-09-22T08:00:04.522232+00:00"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "value": 0,
+      "utc": "2026-09-22T08:00:04.523626+00:00"
+    },
+    {
+      "property": "axis0.requested_state",
+      "value": 1,
+      "utc": "2026-09-22T08:00:04.523810+00:00"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "value": 0,
+      "utc": "2026-09-22T08:00:04.616184+00:00"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "value": 35.0,
+      "utc": "2026-09-22T08:00:04.616590+00:00"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "value": 2.0,
+      "utc": "2026-09-22T08:00:04.617428+00:00"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "value": 1.0,
+      "utc": "2026-09-22T08:00:04.618073+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "value": 30.0,
+      "utc": "2026-09-22T08:00:04.618679+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "value": 12.5,
+      "utc": "2026-09-22T08:00:04.619440+00:00"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 0.0,
+      "utc": "2026-09-22T08:00:04.620098+00:00"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "value": 0.0,
+      "utc": "2026-09-22T08:00:04.620661+00:00"
+    }
+  ],
+  "samples": [],
+  "read_log": [
+    {
+      "property": "serial_number",
+      "start_monotonic": 5754.239032747,
+      "end_monotonic": 5754.239688607,
+      "reply": "261832873369"
+    },
+    {
+      "property": "serial_number",
+      "start_monotonic": 5754.23975091,
+      "end_monotonic": 5754.240072568,
+      "reply": "261832873369"
+    },
+    {
+      "property": "commit_hash",
+      "start_monotonic": 5754.240092503,
+      "end_monotonic": 5754.240540399,
+      "reply": "3016019781"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 5754.240551983,
+      "end_monotonic": 5754.241073893,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 5754.241084229,
+      "end_monotonic": 5754.241702457,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 5754.241714425,
+      "end_monotonic": 5754.242223632,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 5754.242234511,
+      "end_monotonic": 5754.242761222,
+      "reply": "-8.064941"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 5754.242773989,
+      "end_monotonic": 5754.243163678,
+      "reply": "0.000041"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 5754.243174462,
+      "end_monotonic": 5754.243756819,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "start_monotonic": 5754.243768563,
+      "end_monotonic": 5754.244143884,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "start_monotonic": 5754.244155628,
+      "end_monotonic": 5754.244552612,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.controller.config.enable_overspeed_error",
+      "start_monotonic": 5754.244564036,
+      "end_monotonic": 5754.245090682,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.spinout_mechanical_power_threshold",
+      "start_monotonic": 5754.245102362,
+      "end_monotonic": 5754.245780269,
+      "reply": "-10.000000"
+    },
+    {
+      "property": "axis0.controller.config.spinout_electrical_power_threshold",
+      "start_monotonic": 5754.245792397,
+      "end_monotonic": 5754.24637293,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 5754.246384642,
+      "end_monotonic": 5754.246942072,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "start_monotonic": 5754.246953175,
+      "end_monotonic": 5754.247266129,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "start_monotonic": 5754.247276913,
+      "end_monotonic": 5754.247525965,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "start_monotonic": 5754.24753646,
+      "end_monotonic": 5754.247922373,
+      "reply": "30.000000"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "start_monotonic": 5754.247932293,
+      "end_monotonic": 5754.248390301,
+      "reply": "12.500000"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "start_monotonic": 5754.248401788,
+      "end_monotonic": 5754.248707415,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "start_monotonic": 5754.248717302,
+      "end_monotonic": 5754.249034385,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 5754.250042142,
+      "end_monotonic": 5754.250427735,
+      "reply": "3.000000"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "start_monotonic": 5754.251261479,
+      "end_monotonic": 5754.25153485,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "start_monotonic": 5754.25279073,
+      "end_monotonic": 5754.253127556,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "start_monotonic": 5754.253799032,
+      "end_monotonic": 5754.25418824,
+      "reply": "0.166667"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "start_monotonic": 5754.254896003,
+      "end_monotonic": 5754.255310907,
+      "reply": "0.250000"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "start_monotonic": 5754.256052334,
+      "end_monotonic": 5754.256412967,
+      "reply": "0.500000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "start_monotonic": 5754.257031643,
+      "end_monotonic": 5754.257363605,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 5754.257808461,
+      "end_monotonic": 5754.258207333,
+      "reply": "16777216"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 5754.258583486,
+      "end_monotonic": 5754.258907928,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 5754.258922776,
+      "end_monotonic": 5754.259255602,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 5754.259269266,
+      "end_monotonic": 5754.259533389,
+      "reply": "0.000041"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 5754.289624987,
+      "end_monotonic": 5754.290074899,
+      "reply": "0.000049"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 5754.320199585,
+      "end_monotonic": 5754.320627577,
+      "reply": "0.000056"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 5754.351412986,
+      "end_monotonic": 5754.351954864,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "start_monotonic": 5754.352272554,
+      "end_monotonic": 5754.352659715,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "start_monotonic": 5754.352902303,
+      "end_monotonic": 5754.353270584,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "start_monotonic": 5754.353547603,
+      "end_monotonic": 5754.354031562,
+      "reply": "30.000000"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "start_monotonic": 5754.354255045,
+      "end_monotonic": 5754.354688285,
+      "reply": "12.500000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "start_monotonic": 5754.354905657,
+      "end_monotonic": 5754.355253683,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "start_monotonic": 5754.355506606,
+      "end_monotonic": 5754.355883335,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 5754.355912454,
+      "end_monotonic": 5754.356190529,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 5754.356213953,
+      "end_monotonic": 5754.356514267,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 5754.356549403,
+      "end_monotonic": 5754.356782294,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 5754.356800982,
+      "end_monotonic": 5754.357288333,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "start_monotonic": 5754.357307564,
+      "end_monotonic": 5754.357873858,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 5754.357893442,
+      "end_monotonic": 5754.358363993,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "start_monotonic": 5754.358385784,
+      "end_monotonic": 5754.358790897,
+      "reply": "0.000000"
+    }
+  ],
+  "settings_mutated": true,
+  "motion_attempted": false,
+  "nvm_save": false,
+  "clear_count": 0,
+  "result": "Fault before test; no arming",
+  "cleanup_confirmed": true,
+  "stop_commands_sent_monotonic": 5754.258576574,
+  "idle_confirmed_monotonic": 5754.259266546,
+  "stationary_feedback_confirmed": true,
+  "after": {
+    "axis0.current_state": 1.0,
+    "axis0.active_errors": 0.0,
+    "axis0.disarm_reason": 0.0,
+    "axis0.config.motor.current_soft_max": 35.0,
+    "axis0.config.motor.current_hard_max": 38.0,
+    "axis0.controller.input_vel": 0.0,
+    "axis0.controller.input_torque": 0.0
+  }
+}

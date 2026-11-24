@@ -1,0 +1,368 @@
+Climber MCU bring-up firmware
+Live telemetry revision: 2026-09-21-v17-current-persistence (200 ms, wheel 35 A / trip 38 A)
+Unit 1, local ODrive CAN node 0
+Serial command loop is starting before optional sensors. Type help for commands.
+Ready. CAN connects to IDLE automatically; ToF remains on request.
+
+Commands:
+  telemetry on|off   USB live ODrive data every 200 ms; no motor setpoints
+  unit               print this ESP32 unit id and local ODrive node id
+  firmware           print installed revision; no device commands
+  start              local actuator FWD limit, REV limit, center, local wheel RPM test
+  stop               stop local wheel and actuator
+  status             print local limits, encoder, ODrive, and ToF status
+  limits             watch limit switch inputs for 20 seconds
+  can init           initialize CAN and listen for local ODrive
+  can status         print ESP32 CAN controller error counters
+  can reset          reset ESP32 CAN after BUS_OFF or wiring changes
+  can beacon         send CAN frames to wake ODrive auto-baud
+  can watch          print any raw CAN frames seen for 5 seconds
+  tof init           initialize ToF/I2C
+  tof on|off|read    enable, disable, or read ToF sensor
+  wheel current      read verified ODrive soft/hard current settings
+  wheel current apply  set/verify 35 A soft / 38 A hard in IDLE; no motion
+  wheel diag         print ODrive version, errors, voltage, encoder, current, temp
+  wheel clear/recover  explicit zero/IDLE, clear, verify; never starts wheel
+  wheel idle         stop wheel and put local ODrive in IDLE
+  wheel monitor      print actual RPM/current for 5 seconds
+  wheel turn 1       move exactly +1 encoder turn slowly
+  wheel turn -1      move exactly -1 encoder turn slowly
+  wheel test         gentle +5 RPM wheel jog for 2 seconds
+  wheel test 10rpm   gentle wheel jog at requested RPM for 2 seconds
+  wheel 10rpm        local wheel at +10 RPM
+  w -5               local wheel at -5 RPM
+  w0 10rpm           compatibility alias for local wheel
+  all 10rpm          local alias; supervisor broadcasts this to all four units
+  wstop              stop local wheel
+  act diag           print RoboClaw voltage, error, encoder, speed, current
+  act enc            print RoboClaw encoder counts and speeds
+  act enc watch      watch RoboClaw encoder readback for 10 seconds
+  act enc reset      reset RoboClaw encoder counters
+  act reset          reset RoboClaw serial link and send stop commands
+  act safety         set RoboClaw serial deadman timeout
+  act scan           scan common RoboClaw serial pins, bauds, and addresses
+  act use m1|m2      choose RoboClaw motor channel for actuator commands
+  act pulse fwd      actuator forward pulse for 1 second at low power
+  act pulse rev      actuator reverse pulse for 1 second at low power
+  act pulse m1 fwd   pulse RoboClaw M1 forward for 1 second
+  act pulse m2 fwd   pulse RoboClaw M2 forward for 1 second
+  act fwd            actuator forward/extend until stopped/limit
+  act rev            actuator reverse/retract until stopped/limit
+  act voltage        read voltage limits/configuration; no changes
+  act voltage apply  verify/apply 25.2 V max with zero PWM; no movement
+  act voltage restore-min N  restore recorded minimum by one raw count; no movement
+  act limits         read both raw current-limit fields; no changes
+  act current        stop, set/verify 6.75 A ceiling; no move
+  act current save   save verified current/configuration; RoboClaw resets; prior Stop required
+  w0 current save    save verified 35/38 A configuration; ODrive resets; healthy IDLE required
+  act power N        manual drive ceiling 1..60; change only while stopped
+  act stop           stop actuator
+  act center         run FWD/REV limits, then center actuator
+  help               print this help
+
+bringup> unit id: 1, local ODrive CAN node id: 0
+bringup> 
+ODRIVE_PART,1,1,1,0,3,0,ODRIVE_LIVE,1,1,1,1,-1,0
+
+ACT_PART,1,1,1,0,3,0,ACT_LIVE,1,1,1,1,5,-1,-1
+
+ODRIVE_PART,1,1,1,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,1,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,1,2,3,1,,nan,nan
+
+ACT_PART,1,1,1,2,3,1,0,40
+
+ACT_PART,1,1,2,0,3,0,ACT_LIVE,1,1,2,1,5,-1,-1
+
+ODRIVE_PART,1,1,2,0,3,0,ODRIVE_LIVE,1,1,2,1,-1,0
+
+ACT_PART,1,1,2,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,2,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,2,2,3,0,0,40
+
+ODRIVE_PART,1,1,2,2,3,0,,nan,nan
+
+ACT_PART,1,1,3,0,3,0,ACT_LIVE,1,1,3,1,5,-1,-1
+
+ODRIVE_PART,1,1,3,0,3,0,ODRIVE_LIVE,1,1,3,1,-1,0
+
+ACT_PART,1,1,3,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,3,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,3,2,3,0,0,40
+
+ODRIVE_PART,1,1,3,2,3,0,,nan,nan
+
+ACT_PART,1,1,4,0,3,0,ACT_LIVE,1,1,4,1,5,-1,-1
+
+ODRIVE_PART,1,1,4,0,3,0,ODRIVE_LIVE,1,1,4,1,-1,0
+
+ACT_PART,1,1,4,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,4,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,4,2,3,0,0,40
+
+ODRIVE_PART,1,1,4,2,3,0,,nan,nan
+
+CAN not ready; retry later. Wheel blocked.
+
+ACT_PART,1,1,5,0,3,0,ACT_LIVE,1,1,5,1,5,-1,-1
+
+ODRIVE_PART,1,1,5,0,3,0,ODRIVE_LIVE,1,1,5,0,-1,0
+
+ACT_PART,1,1,5,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,5,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,5,2,3,0,0,40
+
+ODRIVE_PART,1,1,5,2,3,0,,nan,nan
+
+ACT_PART,1,1,6,0,3,0,ACT_LIVE,1,1,6,1,5,-1,-1
+
+ODRIVE_PART,1,1,6,0,3,0,ODRIVE_LIVE,1,1,6,0,-1,0
+
+ACT_PART,1,1,6,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,6,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,6,2,3,0,0,40
+
+ODRIVE_PART,1,1,6,2,3,0,,nan,nan
+
+ACT_PART,1,1,7,0,3,0,ACT_LIVE,1,1,7,1,5,-1,-1
+
+ODRIVE_PART,1,1,7,0,3,0,ODRIVE_LIVE,1,1,7,0,-1,0
+
+ACT_PART,1,1,7,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,7,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,7,2,3,0,0,40
+
+ODRIVE_PART,1,1,7,2,3,0,,nan,nan
+
+ODRIVE_PART,1,1,8,0,3,0,ODRIVE_LIVE,1,1,8,0,-1,0
+
+ACT_PART,1,1,8,0,3,0,ACT_LIVE,1,1,8,1,5,-1,-1
+
+ODRIVE_PART,1,1,8,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,8,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,8,2,3,0,,nan,nan
+
+ACT_PART,1,1,8,2,3,0,0,40
+
+ODRIVE_PART,1,1,9,0,3,0,ODRIVE_LIVE,1,1,9,0,-1,0
+
+ACT_PART,1,1,9,0,3,0,ACT_LIVE,1,1,9,1,5,-1,-1
+
+ODRIVE_PART,1,1,9,1,3,0,,-1,-1,-1,-1,nan,nan,nan
+
+ACT_PART,1,1,9,1,3,0,,-1,-1,-1,0,0,0,0,0,0,0,
+
+ODRIVE_PART,1,1,9,2,3,0,,nan,nan
+
+ACT_PART,1,1,9,2,3,0,0,40
+Firmware: V17 Explicit Current Persistence; unit=1; revision=2026-09-21-v17-current-persistence
+bringup> 
+ODRIVE_PART,1,1,10,0,3,0,ODRIVE_LIVE,1,1,10,0,-1,
+
+ACT_PART,1,1,10,0,3,0,ACT_LIVE,1,1,10,1,5,-1,-
+
+ODRIVE_PART,1,1,10,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,10,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,10,2,3,0,n,nan,nan
+
+ACT_PART,1,1,10,2,3,0,,0,40
+
+ACT_PART,1,1,11,0,3,0,ACT_LIVE,1,1,11,1,5,-1,-
+
+ODRIVE_PART,1,1,11,0,3,0,ODRIVE_LIVE,1,1,11,0,-1,
+
+ACT_PART,1,1,11,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,11,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,11,2,3,0,,0,40
+
+ODRIVE_PART,1,1,11,2,3,0,n,nan,nan
+
+ACT_PART,1,1,12,0,3,0,ACT_LIVE,1,1,12,1,5,-1,-
+
+ODRIVE_PART,1,1,12,0,3,0,ODRIVE_LIVE,1,1,12,0,-1,
+
+ACT_PART,1,1,12,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,12,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,12,2,3,0,,0,40
+
+ODRIVE_PART,1,1,12,2,3,0,n,nan,nan
+
+ODRIVE_PART,1,1,13,0,3,0,ODRIVE_LIVE,1,1,13,0,-1,
+
+ACT_PART,1,1,13,0,3,0,ACT_LIVE,1,1,13,1,5,-1,-
+
+ODRIVE_PART,1,1,13,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,13,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,13,2,3,0,n,nan,nan
+
+ACT_PART,1,1,13,2,3,0,,0,40
+
+ACT_PART,1,1,14,0,3,0,ACT_LIVE,1,1,14,1,5,-1,-
+
+ODRIVE_PART,1,1,14,0,3,0,ODRIVE_LIVE,1,1,14,0,-1,
+
+ACT_PART,1,1,14,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,14,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,14,2,3,0,,0,40
+
+ODRIVE_PART,1,1,14,2,3,0,n,nan,nan
+
+ODRIVE_PART,1,1,15,0,3,0,ODRIVE_LIVE,1,1,15,0,-1,
+
+ACT_PART,1,1,15,0,3,0,ACT_LIVE,1,1,15,1,5,-1,-
+
+ODRIVE_PART,1,1,15,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,15,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,15,2,3,0,n,nan,nan
+
+ACT_PART,1,1,15,2,3,0,,0,40
+
+ACT_PART,1,1,16,0,3,0,ACT_LIVE,1,1,16,1,5,-1,-
+
+ODRIVE_PART,1,1,16,0,3,0,ODRIVE_LIVE,1,1,16,0,-1,
+
+ACT_PART,1,1,16,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,16,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,16,2,3,0,,0,40
+
+ODRIVE_PART,1,1,16,2,3,0,n,nan,nan
+
+ACT_PART,1,1,17,0,3,0,ACT_LIVE,1,1,17,1,5,-1,-
+
+ODRIVE_PART,1,1,17,0,3,0,ODRIVE_LIVE,1,1,17,0,-1,
+
+ACT_PART,1,1,17,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,17,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,17,2,3,0,,0,40
+
+ODRIVE_PART,1,1,17,2,3,0,n,nan,nan
+
+ODRIVE_PART,1,1,18,0,3,0,ODRIVE_LIVE,1,1,18,0,-1,
+
+ACT_PART,1,1,18,0,3,0,ACT_LIVE,1,1,18,1,5,-1,-
+
+ODRIVE_PART,1,1,18,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,18,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,18,2,3,0,n,nan,nan
+
+ACT_PART,1,1,18,2,3,0,,0,40
+recovery=BACKOFF attempts=1 faults=0 stop_required=no
+CAN driver offline. See recovery status above.
+bringup> 
+ODRIVE_PART,1,1,19,0,3,0,ODRIVE_LIVE,1,1,19,0,-1,
+
+ACT_PART,1,1,19,0,3,0,ACT_LIVE,1,1,19,1,5,-1,-
+
+ODRIVE_PART,1,1,19,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,19,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,19,2,3,0,n,nan,nan
+
+ACT_PART,1,1,19,2,3,0,,0,40
+
+ODRIVE_PART,1,1,20,0,3,0,ODRIVE_LIVE,1,1,20,0,-1,
+
+ACT_PART,1,1,20,0,3,0,ACT_LIVE,1,1,20,1,5,-1,-
+
+ODRIVE_PART,1,1,20,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,20,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,20,2,3,0,n,nan,nan
+
+ACT_PART,1,1,20,2,3,0,,0,40
+
+ODRIVE_PART,1,1,21,0,3,0,ODRIVE_LIVE,1,1,21,0,-1,
+
+ACT_PART,1,1,21,0,3,0,ACT_LIVE,1,1,21,1,5,-1,-
+
+ODRIVE_PART,1,1,21,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,21,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,21,2,3,0,n,nan,nan
+
+ACT_PART,1,1,21,2,3,0,,0,40
+
+ACT_PART,1,1,22,0,3,0,ACT_LIVE,1,1,22,1,5,-1,-
+
+ODRIVE_PART,1,1,22,0,3,0,ODRIVE_LIVE,1,1,22,0,-1,
+
+ACT_PART,1,1,22,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,22,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,22,2,3,0,,0,40
+
+ODRIVE_PART,1,1,22,2,3,0,n,nan,nan
+
+ODRIVE_PART,1,1,23,0,3,0,ODRIVE_LIVE,1,1,23,0,-1,
+
+ACT_PART,1,1,23,0,3,0,ACT_LIVE,1,1,23,1,5,-1,-
+
+ODRIVE_PART,1,1,23,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,23,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,23,2,3,0,n,nan,nan
+
+ACT_PART,1,1,23,2,3,0,,0,40
+
+ACT_PART,1,1,24,0,3,0,ACT_LIVE,1,1,24,1,5,-1,-
+
+ODRIVE_PART,1,1,24,0,3,0,ODRIVE_LIVE,1,1,24,0,-1,
+
+ACT_PART,1,1,24,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,24,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,24,2,3,0,,0,40
+
+ODRIVE_PART,1,1,24,2,3,0,n,nan,nan
+
+ACT_PART,1,1,25,0,3,0,ACT_LIVE,1,1,25,1,5,-1,-
+
+ODRIVE_PART,1,1,25,0,3,0,ODRIVE_LIVE,1,1,25,0,-1,
+
+ACT_PART,1,1,25,1,3,0,1,-1,-1,-1,0,0,0,0,0,0,0
+
+ODRIVE_PART,1,1,25,1,3,0,0,-1,-1,-1,-1,nan,nan,na
+
+ACT_PART,1,1,25,2,3,0,,0,40
+
+ODRIVE_PART,1,1,25,2,3,0,n,nan,nan

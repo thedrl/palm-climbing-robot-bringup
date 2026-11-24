@@ -1,0 +1,70 @@
+[
+  {
+    "unit": 0,
+    "env": "bringup_unit0",
+    "returncode": 0,
+    "seconds": 16.75,
+    "command": [
+      "/home/kona/.platformio/penv/bin/platformio",
+      "run",
+      "-c",
+      "platformio.ini",
+      "-e",
+      "bringup_unit0"
+    ],
+    "image": "units/arm0/firmware_images/bringup_unit0_v19_unified.bin",
+    "image_bytes": 447280,
+    "sha256": "e287881769d5cd794baf9644413e5f0089ea72373283953e6bec31c762bebf15"
+  },
+  {
+    "unit": 1,
+    "env": "bringup_unit1",
+    "returncode": 0,
+    "seconds": 14.1,
+    "command": [
+      "/home/kona/.platformio/penv/bin/platformio",
+      "run",
+      "-c",
+      "platformio.ini",
+      "-e",
+      "bringup_unit1"
+    ],
+    "image": "units/arm1/firmware_images/bringup_unit1_v19_unified.bin",
+    "image_bytes": 447008,
+    "sha256": "8574a5f8f4684bda821c3bf9e0bf0cdf031c1048feda9c36916c5ba620c40ede"
+  },
+  {
+    "unit": 2,
+    "env": "bringup_unit2",
+    "returncode": 0,
+    "seconds": 14.3,
+    "command": [
+      "/home/kona/.platformio/penv/bin/platformio",
+      "run",
+      "-c",
+      "platformio.ini",
+      "-e",
+      "bringup_unit2"
+    ],
+    "image": "units/arm2/firmware_images/bringup_unit2_v19_unified.bin",
+    "image_bytes": 446608,
+    "sha256": "14ee14103d53cbeb0cc1339bc698a7d329cc379aed97a5ef202da97d921ddd35"
+  },
+  {
+    "unit": 3,
+    "env": "bringup_unit3",
+    "returncode": 0,
+    "seconds": 18.68,
+    "command": [
+      "/home/kona/.platformio/penv/bin/platformio",
+      "run",
+      "-c",
+      "platformio.ini",
+      "-e",
+      "bringup_unit3"
+    ],
+    "image": "units/arm3/firmware_images/bringup_unit3_v19_unified.bin",
+    "image_bytes": 446608,
+    "sha256": "765d866eca367851f7458cb2126441dc5115f4d7806078ed689ce4410ce4c5e6"
+  }
+]

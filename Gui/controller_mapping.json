@@ -1,0 +1,67 @@
+{
+  "actuator_select_buttons": [
+    3,
+    0,
+    1,
+    2
+  ],
+  "actuator_pulse_fwd_button": 4,
+  "actuator_pulse_rev_button": {
+    "kind": "axis",
+    "index": 3,
+    "rest": -1.0,
+    "direction": 1
+  },
+  "wheel_fwd_button": 5,
+  "wheel_rev_button": {
+    "kind": "axis",
+    "index": 4,
+    "rest": -1.0,
+    "direction": 1
+  },
+  "speed_increase_button": {
+    "kind": "axis",
+    "index": 1,
+    "rest": 0.00390625,
+    "direction": -1
+  },
+  "speed_decrease_button": {
+    "kind": "axis",
+    "index": 1,
+    "rest": 0.00390625,
+    "direction": 1
+  },
+  "stop_button": 12,
+  "actuator_pair_02_button": {
+    "kind": "hat",
+    "index": 0,
+    "x": 0,
+    "y": 1
+  },
+  "actuator_pair_13_button": {
+    "kind": "hat",
+    "index": 0,
+    "x": 0,
+    "y": -1
+  },
+  "input_alias_groups": [
+    [
+      {
+        "kind": "axis",
+        "index": 3,
+        "rest": -1.0,
+        "direction": 1
+      },
+      6
+    ],
+    [
+      {
+        "kind": "axis",
+        "index": 4,
+        "rest": -1.0,
+        "direction": 1
+      },
+      7
+    ]
+  ]
+}

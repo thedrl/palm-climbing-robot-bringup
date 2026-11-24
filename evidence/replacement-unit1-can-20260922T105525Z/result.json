@@ -1,0 +1,67 @@
+{
+  "unit": 1,
+  "usb_serial": "48CA432DF684",
+  "steps": [
+    {
+      "command": "unit",
+      "started_epoch": 1790074526.5930202,
+      "completed": true,
+      "response": "unit id: 1, local ODrive CAN node id: 0\nbringup> "
+    },
+    {
+      "command": "firmware",
+      "started_epoch": 1790074528.063452,
+      "completed": true,
+      "response": "Firmware: V17 Explicit Current Persistence; unit=1; revision=2026-09-21-v17-current-persistence\nbringup> "
+    },
+    {
+      "command": "can status",
+      "started_epoch": 1790074529.4638839,
+      "completed": true,
+      "response": "recovery=READY attempts=13 faults=0 stop_required=no\n--- CAN controller status ---\r\nstate=RUNNING tx_queue=0 rx_queue=0\ntx_error_counter=0 rx_error_counter=0\ntx_failed_count=0 bus_error_count=0 arb_lost_count=0\nrx_missed_count=0 rx_overrun_count=0\n-----------------------------\nbringup> "
+    },
+    {
+      "command": "w0 diag",
+      "started_epoch": 1790074533.9940467,
+      "completed": true,
+      "response": "--- ODrive diagnostics ---\r\nunit id: 1 local ODrive node id: 0\nheartbeat: online\nstate: 1 IDLE, axis_error=0x00000000, procedure_result=0, trajectory_done=1\nversion: protocol 2 hw 5.2.0 fw 0.6.11\nactive_errors: 0x00000000 none\r\ndisarm_reason: 0x00000000 none\r\nbus: 48.10 V 0.000 A\nencoder: pos=-0.0000 turns vel=-0.0001 turns/s -0.01 RPM\nphase current retained (not live outside healthy CLOSED_LOOP): target=0.000 A measured=0.000 A\ntemperature: fet=27.0 C motor=23.3 C\npower: electrical=0.00 W mechanical=0.00 W\nLast wheel fault (historical): 66800 ms ago, state=1, error=0x00000001\nSamples before that fault: bus=nan V age=-1 ms; Iq=nan A age=-1 ms; RPM=nan age=-1 ms\n--------------------------\nbringup> "
+    },
+    {
+      "command": "w0 current",
+      "started_epoch": 1790074537.1939402,
+      "completed": true,
+      "response": "Wheel current limits: soft=35.00 A hard=38.00 A; target=35.00/38.00 A; fw=0.6.11 commit=0xb3c4cf45. Read-only.\nbringup> "
+    },
+    {
+      "command": "can status",
+      "started_epoch": 1790074539.3941681,
+      "completed": true,
+      "response": "recovery=READY attempts=13 faults=0 stop_required=no\n--- CAN controller status ---\r\nstate=RUNNING tx_queue=0 rx_queue=0\ntx_error_counter=0 rx_error_counter=0\ntx_failed_count=0 bus_error_count=0 arb_lost_count=0\nrx_missed_count=0 rx_overrun_count=0\n-----------------------------\nbringup> "
+    }
+  ],
+  "nonzero_commands_sent": false,
+  "configuration_commands_sent": false,
+  "can_before": "recovery=READY attempts=13 faults=0 stop_required=no\n--- CAN controller status ---\r\nstate=RUNNING tx_queue=0 rx_queue=0\ntx_error_counter=0 rx_error_counter=0\ntx_failed_count=0 bus_error_count=0 arb_lost_count=0\nrx_missed_count=0 rx_overrun_count=0\n-----------------------------\nbringup> ",
+  "passive_sample": {
+    "unit": 1,
+    "sequence": 631,
+    "link": 1,
+    "state": 1,
+    "error": 0,
+    "ages": [
+      85,
+      200,
+      -1,
+      2
+    ],
+    "voltage": 48.107,
+    "supply_current": 0.0,
+    "iq_target": NaN,
+    "iq_measured": NaN,
+    "rpm": -0.008,
+    "received": 16283.567663107
+  },
+  "diagnostics": "--- ODrive diagnostics ---\r\nunit id: 1 local ODrive node id: 0\nheartbeat: online\nstate: 1 IDLE, axis_error=0x00000000, procedure_result=0, trajectory_done=1\nversion: protocol 2 hw 5.2.0 fw 0.6.11\nactive_errors: 0x00000000 none\r\ndisarm_reason: 0x00000000 none\r\nbus: 48.10 V 0.000 A\nencoder: pos=-0.0000 turns vel=-0.0001 turns/s -0.01 RPM\nphase current retained (not live outside healthy CLOSED_LOOP): target=0.000 A measured=0.000 A\ntemperature: fet=27.0 C motor=23.3 C\npower: electrical=0.00 W mechanical=0.00 W\nLast wheel fault (historical): 66800 ms ago, state=1, error=0x00000001\nSamples before that fault: bus=nan V age=-1 ms; Iq=nan A age=-1 ms; RPM=nan age=-1 ms\n--------------------------\nbringup> ",
+  "current_limits": "Wheel current limits: soft=35.00 A hard=38.00 A; target=35.00/38.00 A; fw=0.6.11 commit=0xb3c4cf45. Read-only.\nbringup> ",
+  "can_after": "recovery=READY attempts=13 faults=0 stop_required=no\n--- CAN controller status ---\r\nstate=RUNNING tx_queue=0 rx_queue=0\ntx_error_counter=0 rx_error_counter=0\ntx_failed_count=0 bus_error_count=0 arb_lost_count=0\nrx_missed_count=0 rx_overrun_count=0\n-----------------------------\nbringup> "
+}

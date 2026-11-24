@@ -1,0 +1,16 @@
+{
+  "revision": "V18 GUI Actuator Recovery",
+  "base": "/home/frc-orin/V17-FarmBot21SEP2026-CurrentPersistence",
+  "scope": "GUI only; source copies under units remain V17 references",
+  "firmware_changed": false,
+  "firmware_flashed": false,
+  "motion_tested": false,
+  "current_limits_changed": false,
+  "hardware_writes": "Stationary zero-only actuator Stop during diagnostics; no wheel fault clearing",
+  "unit1_usb_missing_at_inspection": true,
+  "wheel0_fault": "VELOCITY_LIMIT_VIOLATION; reported encoder motion opposite target; unresolved cause",
+  "wheel3_fault": "DC_BUS_UNDER_VOLTAGE latched; CAN currently responds; historical GUI gaps during blocking Stop",
+  "verification": "158 automated GUI/transport/recovery tests passed; no hardware motion tested",
+  "wheel0_current_check": "IDLE and disarmed, 0 A bus / 0 W; Iq retained 29.786 A",
+  "ready": "GUI update ready; firmware remains V17"
+}

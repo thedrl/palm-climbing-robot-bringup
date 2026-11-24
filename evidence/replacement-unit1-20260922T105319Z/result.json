@@ -1,0 +1,75 @@
+{
+  "plan": {
+    "unit": 1,
+    "new_usb_serial": "48CA432DF684",
+    "previous_usb_serial": "744DBDA10314",
+    "firmware": "V17 Explicit Current Persistence",
+    "image": "/home/frc-orin/V17-FarmBot21SEP2026-CurrentPersistence/units/arm1/firmware_images/bringup_unit1_v17_current_persistence.bin",
+    "sha256": "7085533e3073678a2dcc8c08d9efa2434a9b316c3a5c0979e6c2837cba085742",
+    "upload_count": 1,
+    "motor_commands": false,
+    "controller_configuration_saves": false,
+    "verify": [
+      "unit",
+      "firmware",
+      "can status"
+    ],
+    "other_units_changed": false
+  },
+  "authorization": {
+    "approved_unit1_flash": true,
+    "replacement_is_unit1": true,
+    "supported": true,
+    "unit1_wheel_and_actuator_power_off": true,
+    "usb_connected": true,
+    "user_message": "Yes \u2014 flash Unit 1; motor power off, supported, USB connected",
+    "unit_confirmation": "Yes \u2014 GUI Unit 1 has a new ESP32",
+    "recorded_epoch": 1790074394.2564323,
+    "plan": {
+      "unit": 1,
+      "new_usb_serial": "48CA432DF684",
+      "previous_usb_serial": "744DBDA10314",
+      "firmware": "V17 Explicit Current Persistence",
+      "image": "/home/frc-orin/V17-FarmBot21SEP2026-CurrentPersistence/units/arm1/firmware_images/bringup_unit1_v17_current_persistence.bin",
+      "sha256": "7085533e3073678a2dcc8c08d9efa2434a9b316c3a5c0979e6c2837cba085742",
+      "upload_count": 1,
+      "motor_commands": false,
+      "controller_configuration_saves": false,
+      "verify": [
+        "unit",
+        "firmware",
+        "can status"
+      ],
+      "other_units_changed": false
+    }
+  },
+  "steps": [
+    {
+      "command": "unit",
+      "started_epoch": 1790074407.1931055,
+      "completed": true,
+      "response": "Ready. CAN connects to IDLE automatically; ToF remains on request.\r\nCommands:\r\n  telemetry on|off   USB live ODrive data every 200 ms; no motor setpoints\r\n  unit               print this ESP32 unit id and local ODrive node id\r\n  firmware           print installed revision; no device commands\r\n  start              local actuator FWD limit, REV limit, center, local wheel RPM test\r\n  stop               stop local wheel and actuator\r\n  status             print local limits, encoder, ODrive, and ToF status\r\n  limits             watch limit switch inputs for 20 seconds\r\n  can init           initialize CAN and listen for local ODrive\r\n  can status         print ESP32 CAN controller error counters\r\n  can reset          reset ESP32 CAN after BUS_OFF or wiring changes\r\n  can beacon         send CAN frames to wake ODrive auto-baud\r\n  can watch          print any raw CAN frames seen for 5 seconds\r\n  tof init           initialize ToF/I2C\r\n  tof on|off|read    enable, disable, or read ToF sensor\r\n  wheel current      read verified ODrive soft/hard current settings\r\n  wheel current apply  set/verify 35 A soft / 38 A hard in IDLE; no motion\r\n  wheel diag         print ODrive version, errors, voltage, encoder, current, temp\r\n  wheel clear/recover  explicit zero/IDLE, clear, verify; never starts wheel\r\n  wheel idle         stop wheel and put local ODrive in IDLE\r\n  wheel monitor      print actual RPM/current for 5 seconds\r\n  wheel turn 1       move exactly +1 encoder turn slowly\r\n  wheel turn -1      move exactly -1 encoder turn slowly\r\n  wheel test         gentle +5 RPM wheel jog for 2 seconds\r\n  wheel test 10rpm   gentle wheel jog at requested RPM for 2 seconds\r\n  wheel 10rpm        local wheel at +10 RPM\r\n  w -5               local wheel at -5 RPM\r\n  w0 10rpm           compatibility alias for local wheel\r\n  all 10rpm          local alias; supervisor broadcasts this to all four units\r\n  wstop              stop local wheel\r\n  act diag           print RoboClaw voltage, error, encoder, speed, current\r\n  act enc            print RoboClaw encoder counts and speeds\r\n  act enc watch      watch RoboClaw encoder readback for 10 seconds\r\n  act enc reset      reset RoboClaw encoder counters\r\n  act reset          reset RoboClaw serial link and send stop commands\r\n  act safety         set RoboClaw serial deadman timeout\r\n  act scan           scan common RoboClaw serial pins, bauds, and addresses\r\n  act use m1|m2      choose RoboClaw motor channel for actuator commands\r\n  act pulse fwd      actuator forward pulse for 1 second at low power\r\n  act pulse rev      actuator reverse pulse for 1 second at low power\r\n  act pulse m1 fwd   pulse RoboClaw M1 forward for 1 second\r\n  act pulse m2 fwd   pulse RoboClaw M2 forward for 1 second\r\n  act fwd            actuator forward/extend until stopped/limit\r\n  act rev            actuator reverse/retract until stopped/limit\r\n  act voltage        read voltage limits/configuration; no changes\r\n  act voltage apply  verify/apply 25.2 V max with zero PWM; no movement\r\n  act voltage restore-min N  restore recorded minimum by one raw count; no movement\r\n  act limits         read both raw current-limit fields; no changes\r\n  act current        stop, set/verify 6.75 A ceiling; no move\r\n  act current save   save verified current/configuration; RoboClaw resets; prior Stop required\r\n  w0 current save    save verified 35/38 A configuration; ODrive resets; healthy IDLE required\r\n  act power N        manual drive ceiling 1..60; change only while stopped\r\n  act stop           stop actuator\r\n  act center         run FWD/REV limits, then center actuator\r\n  help               print this help\nbringup> unit id: 1, local ODrive CAN node id: 0\nbringup> \nCAN not ready; retry later. Wheel blocked."
+    },
+    {
+      "command": "firmware",
+      "started_epoch": 1790074409.3946507,
+      "completed": true,
+      "response": "Firmware: V17 Explicit Current Persistence; unit=1; revision=2026-09-21-v17-current-persistence\nbringup> "
+    },
+    {
+      "command": "can status",
+      "started_epoch": 1790074411.0889883,
+      "completed": true,
+      "response": "recovery=BACKOFF attempts=1 faults=0 stop_required=no\nCAN driver offline. See recovery status above.\r\nbringup> "
+    }
+  ],
+  "upload_attempted": true,
+  "runtime_verified": true,
+  "nonzero_commands_sent": false,
+  "nvm_saves_sent": false,
+  "started_epoch": 1790074399.3891506,
+  "upload_exit_code": 0,
+  "can_status": "recovery=BACKOFF attempts=1 faults=0 stop_required=no\nCAN driver offline. See recovery status above.\r\nbringup> ",
+  "status": "V17 Unit 1 uploaded and runtime identity verified; powered CAN readback pending",
+  "completed_epoch": 1790074412.5999124
+}

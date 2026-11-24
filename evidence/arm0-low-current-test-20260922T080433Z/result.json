@@ -1,0 +1,5963 @@
+{
+  "plan": {
+    "arm": 0,
+    "serial": "003CF6749599",
+    "rpm": 5,
+    "nominal_closed_loop_seconds": 1.0,
+    "temporary_soft_limit_a": 3.0,
+    "hard_trip_a_unchanged": 38,
+    "acceleration_rpm_per_sec": 10,
+    "one_explicit_fault_clear_before_test": false,
+    "retries": 0,
+    "watchdog_seconds": 0.5,
+    "abort_iq_a": 4.0,
+    "abort_abs_rpm": 15.0,
+    "abort_reverse_rpm": -2,
+    "save_configuration": false,
+    "cleanup": "zero and IDLE, verify, then restore temporary config; preserve any new fault"
+  },
+  "authorization": {
+    "confirmed_epoch": 1790063992.5066442,
+    "user_message": "okay do what testing you need to do get to the bottom of this we need to get it working. we have to show it to investors in the morning. Physical-state reply: Confirmed\u2014clear, supported, at cutoff; GUIs closed Follow-up: do it again.",
+    "approved_one_test": true,
+    "supported": true,
+    "wheel_free": true,
+    "hands_clear": true,
+    "at_cutoff": true,
+    "gui_closed": true,
+    "plan": {
+      "arm": 0,
+      "serial": "003CF6749599",
+      "rpm": 5,
+      "nominal_closed_loop_seconds": 1.0,
+      "temporary_soft_limit_a": 3.0,
+      "hard_trip_a_unchanged": 38,
+      "acceleration_rpm_per_sec": 10,
+      "one_explicit_fault_clear_before_test": false,
+      "retries": 0,
+      "watchdog_seconds": 0.5,
+      "abort_iq_a": 4.0,
+      "abort_abs_rpm": 15.0,
+      "abort_reverse_rpm": -2,
+      "save_configuration": false,
+      "cleanup": "zero and IDLE, verify, then restore temporary config; preserve any new fault"
+    }
+  },
+  "before": {
+    "serial_number": 261832873369.0,
+    "commit_hash": 3016019781.0,
+    "axis0.current_state": 1.0,
+    "axis0.active_errors": 0.0,
+    "axis0.disarm_reason": 0.0,
+    "axis0.pos_estimate": -8.065247,
+    "axis0.vel_estimate": -0.000114,
+    "axis0.controller.input_vel": 0.0,
+    "axis0.controller.input_torque": 0.0,
+    "axis0.config.motor.current_hard_max": 38.0,
+    "axis0.controller.config.enable_overspeed_error": 1.0,
+    "axis0.controller.config.spinout_mechanical_power_threshold": -10.0,
+    "axis0.controller.config.spinout_electrical_power_threshold": 10.0,
+    "axis0.config.motor.current_soft_max": 35.0,
+    "axis0.controller.config.control_mode": 2.0,
+    "axis0.controller.config.input_mode": 1.0,
+    "axis0.controller.config.vel_ramp_rate": 30.0,
+    "axis0.controller.config.vel_limit": 12.5,
+    "axis0.config.watchdog_timeout": 0.0,
+    "axis0.config.enable_watchdog": 0.0,
+    "axis0.motor.input_iq": 0.0,
+    "axis0.motor.input_id": 0.0,
+    "axis0.pos_vel_mapper.config.scale": 1.0,
+    "axis0.controller.config.use_commutation_vel": 0.0,
+    "axis0.controller.config.use_load_encoder_for_commutation_vel": 0.0,
+    "axis0.controller.config.commutation_vel_scale": 1.0,
+    "axis0.config.load_encoder": 10.0,
+    "axis0.config.commutation_encoder": 10.0,
+    "axis0.config.motor.direction": 1.0,
+    "axis0.config.motor.pole_pairs": 7.0,
+    "axis0.commutation_mapper.config.scale": 7.0,
+    "axis0.commutation_mapper.config.offset": 1.43045,
+    "axis0.commutation_mapper.config.offset_valid": 1.0
+  },
+  "writes": [
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "value": 3.0,
+      "utc": "2026-09-22T08:04:33.690690+00:00"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "value": 2,
+      "utc": "2026-09-22T08:04:33.692287+00:00"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "value": 2,
+      "utc": "2026-09-22T08:04:33.694500+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "value": 0.16666666666666666,
+      "utc": "2026-09-22T08:04:33.695906+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "value": 0.25,
+      "utc": "2026-09-22T08:04:33.697358+00:00"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "value": 0.5,
+      "utc": "2026-09-22T08:04:33.698908+00:00"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 1,
+      "utc": "2026-09-22T08:04:33.700570+00:00"
+    },
+    {
+      "property": "axis0.requested_state",
+      "value": 8,
+      "utc": "2026-09-22T08:04:33.704532+00:00"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "value": 0.08333333333333333,
+      "utc": "2026-09-22T08:04:33.705829+00:00"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "value": 0,
+      "utc": "2026-09-22T08:04:34.235740+00:00"
+    },
+    {
+      "property": "axis0.requested_state",
+      "value": 1,
+      "utc": "2026-09-22T08:04:34.236003+00:00"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "value": 0,
+      "utc": "2026-09-22T08:04:34.392464+00:00"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "value": 35.0,
+      "utc": "2026-09-22T08:04:34.392798+00:00"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "value": 2.0,
+      "utc": "2026-09-22T08:04:34.393638+00:00"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "value": 1.0,
+      "utc": "2026-09-22T08:04:34.394186+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "value": 30.0,
+      "utc": "2026-09-22T08:04:34.394770+00:00"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "value": 12.5,
+      "utc": "2026-09-22T08:04:34.395495+00:00"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "value": 0.0,
+      "utc": "2026-09-22T08:04:34.396255+00:00"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "value": 0.0,
+      "utc": "2026-09-22T08:04:34.396789+00:00"
+    }
+  ],
+  "samples": [
+    {
+      "monotonic": 6023.440944953,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065249,
+      "axis0.vel_estimate": -0.000669,
+      "axis0.motor.foc.Iq_setpoint": -0.0017,
+      "axis0.motor.foc.Iq_measured": -0.018477,
+      "axis0.motor.electrical_power": -0.000194,
+      "axis0.motor.mechanical_power": 0.0,
+      "vbus_voltage": 48.198078,
+      "axis0.controller.vel_setpoint": -0.000211,
+      "axis0.controller.effective_torque_setpoint": -5.4e-05,
+      "rs485_encoder_group0.raw32": 4294409952.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.446905175
+    },
+    {
+      "monotonic": 6023.452176681,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065247,
+      "axis0.vel_estimate": -0.000576,
+      "axis0.motor.foc.Iq_setpoint": 0.010427,
+      "axis0.motor.foc.Iq_measured": -0.006619,
+      "axis0.motor.electrical_power": 0.002167,
+      "axis0.motor.mechanical_power": 9e-06,
+      "vbus_voltage": 48.207214,
+      "axis0.controller.vel_setpoint": 0.001706,
+      "axis0.controller.effective_torque_setpoint": 0.000494,
+      "rs485_encoder_group0.raw32": 4294409952.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.458388288
+    },
+    {
+      "monotonic": 6023.463590259,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065249,
+      "axis0.vel_estimate": 0.000705,
+      "axis0.motor.foc.Iq_setpoint": 0.01358,
+      "axis0.motor.foc.Iq_measured": 0.094802,
+      "axis0.motor.electrical_power": 0.002176,
+      "axis0.motor.mechanical_power": -1.6e-05,
+      "vbus_voltage": 48.209499,
+      "axis0.controller.vel_setpoint": 0.003643,
+      "axis0.controller.effective_torque_setpoint": 0.00048,
+      "rs485_encoder_group0.raw32": 4294409952.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.469996934
+    },
+    {
+      "monotonic": 6023.475240632,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065247,
+      "axis0.vel_estimate": -0.005579,
+      "axis0.motor.foc.Iq_setpoint": 0.033395,
+      "axis0.motor.foc.Iq_measured": 0.040572,
+      "axis0.motor.electrical_power": -0.000325,
+      "axis0.motor.mechanical_power": 0.000104,
+      "vbus_voltage": 48.214069,
+      "axis0.controller.vel_setpoint": 0.005539,
+      "axis0.controller.effective_torque_setpoint": 0.000142,
+      "rs485_encoder_group0.raw32": 4294409952.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.481393873
+    },
+    {
+      "monotonic": 6023.486628419,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065252,
+      "axis0.vel_estimate": -0.001541,
+      "axis0.motor.foc.Iq_setpoint": 0.051253,
+      "axis0.motor.foc.Iq_measured": 0.013571,
+      "axis0.motor.electrical_power": -0.002792,
+      "axis0.motor.mechanical_power": 8.5e-05,
+      "vbus_voltage": 48.227776,
+      "axis0.controller.vel_setpoint": 0.007456,
+      "axis0.controller.effective_torque_setpoint": 0.000583,
+      "rs485_encoder_group0.raw32": 4294409952.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.492347752
+    },
+    {
+      "monotonic": 6023.497627001,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065269,
+      "axis0.vel_estimate": -0.001261,
+      "axis0.motor.foc.Iq_setpoint": 0.012244,
+      "axis0.motor.foc.Iq_measured": 0.004669,
+      "axis0.motor.electrical_power": 0.000898,
+      "axis0.motor.mechanical_power": -0.00024,
+      "vbus_voltage": 48.218636,
+      "axis0.controller.vel_setpoint": 0.009289,
+      "axis0.controller.effective_torque_setpoint": 0.002316,
+      "rs485_encoder_group0.raw32": 4294409948.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.503552344
+    },
+    {
+      "monotonic": 6023.508723212,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065299,
+      "axis0.vel_estimate": 0.007296,
+      "axis0.motor.foc.Iq_setpoint": 0.067606,
+      "axis0.motor.foc.Iq_measured": -0.017546,
+      "axis0.motor.electrical_power": 0.000449,
+      "axis0.motor.mechanical_power": -1.8e-05,
+      "vbus_voltage": 48.218636,
+      "axis0.controller.vel_setpoint": 0.011185,
+      "axis0.controller.effective_torque_setpoint": 0.002786,
+      "rs485_encoder_group0.raw32": 4294409952.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.515240444
+    },
+    {
+      "monotonic": 6023.520478702,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065311,
+      "axis0.vel_estimate": 0.007109,
+      "axis0.motor.foc.Iq_setpoint": 0.05407,
+      "axis0.motor.foc.Iq_measured": 0.041568,
+      "axis0.motor.electrical_power": 0.007343,
+      "axis0.motor.mechanical_power": -8e-06,
+      "vbus_voltage": 48.202648,
+      "axis0.controller.vel_setpoint": 0.01306,
+      "axis0.controller.effective_torque_setpoint": 0.002659,
+      "rs485_encoder_group0.raw32": 4294409948.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.526484523
+    },
+    {
+      "monotonic": 6023.531677854,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065313,
+      "axis0.vel_estimate": 0.003377,
+      "axis0.motor.foc.Iq_setpoint": 0.067508,
+      "axis0.motor.foc.Iq_measured": 0.062325,
+      "axis0.motor.electrical_power": 0.003096,
+      "axis0.motor.mechanical_power": 7e-06,
+      "vbus_voltage": 48.209499,
+      "axis0.controller.vel_setpoint": 0.014998,
+      "axis0.controller.effective_torque_setpoint": 0.002338,
+      "rs485_encoder_group0.raw32": 4294409948.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.537895638
+    },
+    {
+      "monotonic": 6023.54311524,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065365,
+      "axis0.vel_estimate": -0.00999,
+      "axis0.motor.foc.Iq_setpoint": 0.148352,
+      "axis0.motor.foc.Iq_measured": 0.260419,
+      "axis0.motor.electrical_power": 0.014987,
+      "axis0.motor.mechanical_power": 6e-06,
+      "vbus_voltage": 48.204929,
+      "axis0.controller.vel_setpoint": 0.016977,
+      "axis0.controller.effective_torque_setpoint": 0.004326,
+      "rs485_encoder_group0.raw32": 4294409944.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.550018957
+    },
+    {
+      "monotonic": 6023.555239168,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065384,
+      "axis0.vel_estimate": -0.007613,
+      "axis0.motor.foc.Iq_setpoint": 0.173587,
+      "axis0.motor.foc.Iq_measured": -0.062795,
+      "axis0.motor.electrical_power": -0.005891,
+      "axis0.motor.mechanical_power": -5.6e-05,
+      "vbus_voltage": 48.195793,
+      "axis0.controller.vel_setpoint": 0.018977,
+      "axis0.controller.effective_torque_setpoint": 0.004541,
+      "rs485_encoder_group0.raw32": 4294409940.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.561651186
+    },
+    {
+      "monotonic": 6023.566876356,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065425,
+      "axis0.vel_estimate": -0.005266,
+      "axis0.motor.foc.Iq_setpoint": 0.170035,
+      "axis0.motor.foc.Iq_measured": 0.181732,
+      "axis0.motor.electrical_power": 0.004075,
+      "axis0.motor.mechanical_power": -0.000264,
+      "vbus_voltage": 48.207214,
+      "axis0.controller.vel_setpoint": 0.020873,
+      "axis0.controller.effective_torque_setpoint": 0.003045,
+      "rs485_encoder_group0.raw32": 4294409940.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.573139515
+    },
+    {
+      "monotonic": 6023.578371341,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065424,
+      "axis0.vel_estimate": -0.000334,
+      "axis0.motor.foc.Iq_setpoint": 0.158003,
+      "axis0.motor.foc.Iq_measured": 0.036691,
+      "axis0.motor.electrical_power": 0.004959,
+      "axis0.motor.mechanical_power": 4.8e-05,
+      "vbus_voltage": 48.214069,
+      "axis0.controller.vel_setpoint": 0.022852,
+      "axis0.controller.effective_torque_setpoint": 0.005029,
+      "rs485_encoder_group0.raw32": 4294409940.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.585399278
+    },
+    {
+      "monotonic": 6023.59063792,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065426,
+      "axis0.vel_estimate": -0.00426,
+      "axis0.motor.foc.Iq_setpoint": 0.17738,
+      "axis0.motor.foc.Iq_measured": 0.205644,
+      "axis0.motor.electrical_power": -0.005474,
+      "axis0.motor.mechanical_power": 2.5e-05,
+      "vbus_voltage": 48.218636,
+      "axis0.controller.vel_setpoint": 0.024769,
+      "axis0.controller.effective_torque_setpoint": 0.005511,
+      "rs485_encoder_group0.raw32": 4294409940.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.596811065
+    },
+    {
+      "monotonic": 6023.602022092,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065428,
+      "axis0.vel_estimate": 0.005403,
+      "axis0.motor.foc.Iq_setpoint": 0.152044,
+      "axis0.motor.foc.Iq_measured": 0.142126,
+      "axis0.motor.electrical_power": 0.009121,
+      "axis0.motor.mechanical_power": -4.4e-05,
+      "vbus_voltage": 48.216354,
+      "axis0.controller.vel_setpoint": 0.026665,
+      "axis0.controller.effective_torque_setpoint": 0.005725,
+      "rs485_encoder_group0.raw32": 4294409940.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.608263331
+    },
+    {
+      "monotonic": 6023.61346991,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065482,
+      "axis0.vel_estimate": -0.009912,
+      "axis0.motor.foc.Iq_setpoint": 0.211458,
+      "axis0.motor.foc.Iq_measured": 0.301535,
+      "axis0.motor.electrical_power": 0.012795,
+      "axis0.motor.mechanical_power": -0.000215,
+      "vbus_voltage": 48.216354,
+      "axis0.controller.vel_setpoint": 0.028727,
+      "axis0.controller.effective_torque_setpoint": 0.005546,
+      "rs485_encoder_group0.raw32": 4294409936.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.620598197
+    },
+    {
+      "monotonic": 6023.625809095,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065491,
+      "axis0.vel_estimate": -0.000807,
+      "axis0.motor.foc.Iq_setpoint": 0.201346,
+      "axis0.motor.foc.Iq_measured": 0.182953,
+      "axis0.motor.electrical_power": -0.008996,
+      "axis0.motor.mechanical_power": -3.6e-05,
+      "vbus_voltage": 48.202648,
+      "axis0.controller.vel_setpoint": 0.030644,
+      "axis0.controller.effective_torque_setpoint": 0.006459,
+      "rs485_encoder_group0.raw32": 4294409936.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.632044126
+    },
+    {
+      "monotonic": 6023.637207602,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065487,
+      "axis0.vel_estimate": -0.00071,
+      "axis0.motor.foc.Iq_setpoint": 0.217287,
+      "axis0.motor.foc.Iq_measured": 0.231494,
+      "axis0.motor.electrical_power": 0.00077,
+      "axis0.motor.mechanical_power": -1.5e-05,
+      "vbus_voltage": 48.200363,
+      "axis0.controller.vel_setpoint": 0.032644,
+      "axis0.controller.effective_torque_setpoint": 0.006646,
+      "rs485_encoder_group0.raw32": 4294409936.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.643862974
+    },
+    {
+      "monotonic": 6023.649073649,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065519,
+      "axis0.vel_estimate": 0.000169,
+      "axis0.motor.foc.Iq_setpoint": 0.287811,
+      "axis0.motor.foc.Iq_measured": 0.133394,
+      "axis0.motor.electrical_power": 0.03593,
+      "axis0.motor.mechanical_power": -0.000154,
+      "vbus_voltage": 48.209499,
+      "axis0.controller.vel_setpoint": 0.034623,
+      "axis0.controller.effective_torque_setpoint": 0.008377,
+      "rs485_encoder_group0.raw32": 4294409932.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.656029524
+    },
+    {
+      "monotonic": 6023.661273542,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065606,
+      "axis0.vel_estimate": -0.006618,
+      "axis0.motor.foc.Iq_setpoint": 0.288625,
+      "axis0.motor.foc.Iq_measured": 0.080526,
+      "axis0.motor.electrical_power": 0.031297,
+      "axis0.motor.mechanical_power": -9.4e-05,
+      "vbus_voltage": 48.214069,
+      "axis0.controller.vel_setpoint": 0.036706,
+      "axis0.controller.effective_torque_setpoint": 0.007629,
+      "rs485_encoder_group0.raw32": 4294409928.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.668616383
+    },
+    {
+      "monotonic": 6023.673812083,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065613,
+      "axis0.vel_estimate": -0.007069,
+      "axis0.motor.foc.Iq_setpoint": 0.272084,
+      "axis0.motor.foc.Iq_measured": 0.265259,
+      "axis0.motor.electrical_power": 0.020382,
+      "axis0.motor.mechanical_power": -0.000284,
+      "vbus_voltage": 48.204929,
+      "axis0.controller.vel_setpoint": 0.038622,
+      "axis0.controller.effective_torque_setpoint": 0.009248,
+      "rs485_encoder_group0.raw32": 4294409924.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.68004369
+    },
+    {
+      "monotonic": 6023.685267292,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065675,
+      "axis0.vel_estimate": -0.007475,
+      "axis0.motor.foc.Iq_setpoint": 0.281585,
+      "axis0.motor.foc.Iq_measured": 0.445171,
+      "axis0.motor.electrical_power": 0.058195,
+      "axis0.motor.mechanical_power": -0.000213,
+      "vbus_voltage": 48.211784,
+      "axis0.controller.vel_setpoint": 0.040518,
+      "axis0.controller.effective_torque_setpoint": 0.008914,
+      "rs485_encoder_group0.raw32": 4294409924.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.691224923
+    },
+    {
+      "monotonic": 6023.696426958,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065674,
+      "axis0.vel_estimate": -0.00663,
+      "axis0.motor.foc.Iq_setpoint": 0.323328,
+      "axis0.motor.foc.Iq_measured": 0.265604,
+      "axis0.motor.electrical_power": 0.02666,
+      "axis0.motor.mechanical_power": 0.000148,
+      "vbus_voltage": 48.195793,
+      "axis0.controller.vel_setpoint": 0.042581,
+      "axis0.controller.effective_torque_setpoint": 0.009999,
+      "rs485_encoder_group0.raw32": 4294409924.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.70371252
+    },
+    {
+      "monotonic": 6023.708924315,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065697,
+      "axis0.vel_estimate": 0.006118,
+      "axis0.motor.foc.Iq_setpoint": 0.310796,
+      "axis0.motor.foc.Iq_measured": 0.352865,
+      "axis0.motor.electrical_power": 0.06047,
+      "axis0.motor.mechanical_power": -0.00031,
+      "vbus_voltage": 48.223206,
+      "axis0.controller.vel_setpoint": 0.044497,
+      "axis0.controller.effective_torque_setpoint": 0.00867,
+      "rs485_encoder_group0.raw32": 4294409920.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.715276719
+    },
+    {
+      "monotonic": 6023.720566528,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065729,
+      "axis0.vel_estimate": 0.002926,
+      "axis0.motor.foc.Iq_setpoint": 0.331215,
+      "axis0.motor.foc.Iq_measured": 0.16744,
+      "axis0.motor.electrical_power": 0.051547,
+      "axis0.motor.mechanical_power": 0.000285,
+      "vbus_voltage": 48.216354,
+      "axis0.controller.vel_setpoint": 0.046434,
+      "axis0.controller.effective_torque_setpoint": 0.01076,
+      "rs485_encoder_group0.raw32": 4294409920.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.726542014
+    },
+    {
+      "monotonic": 6023.731780688,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065798,
+      "axis0.vel_estimate": -0.007431,
+      "axis0.motor.foc.Iq_setpoint": 0.323191,
+      "axis0.motor.foc.Iq_measured": 0.367957,
+      "axis0.motor.electrical_power": 0.150906,
+      "axis0.motor.mechanical_power": -0.000706,
+      "vbus_voltage": 48.211784,
+      "axis0.controller.vel_setpoint": 0.048455,
+      "axis0.controller.effective_torque_setpoint": 0.010828,
+      "rs485_encoder_group0.raw32": 4294409916.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.738470138
+    },
+    {
+      "monotonic": 6023.743661134,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065859,
+      "axis0.vel_estimate": 0.000285,
+      "axis0.motor.foc.Iq_setpoint": 0.341021,
+      "axis0.motor.foc.Iq_measured": 0.245968,
+      "axis0.motor.electrical_power": 0.107192,
+      "axis0.motor.mechanical_power": -3.1e-05,
+      "vbus_voltage": 48.216354,
+      "axis0.controller.vel_setpoint": 0.050497,
+      "axis0.controller.effective_torque_setpoint": 0.012597,
+      "rs485_encoder_group0.raw32": 4294409912.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.751259808
+    },
+    {
+      "monotonic": 6023.756496018,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065907,
+      "axis0.vel_estimate": -0.004126,
+      "axis0.motor.foc.Iq_setpoint": 0.416735,
+      "axis0.motor.foc.Iq_measured": 0.232212,
+      "axis0.motor.electrical_power": 0.100881,
+      "axis0.motor.mechanical_power": 8.8e-05,
+      "vbus_voltage": 48.202648,
+      "axis0.controller.vel_setpoint": 0.052434,
+      "axis0.controller.effective_torque_setpoint": 0.011923,
+      "rs485_encoder_group0.raw32": 4294409908.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.762755496
+    },
+    {
+      "monotonic": 6023.767969466,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.065926,
+      "axis0.vel_estimate": 0.000925,
+      "axis0.motor.foc.Iq_setpoint": 0.38832,
+      "axis0.motor.foc.Iq_measured": 0.357076,
+      "axis0.motor.electrical_power": 0.129148,
+      "axis0.motor.mechanical_power": -0.000438,
+      "vbus_voltage": 48.211784,
+      "axis0.controller.vel_setpoint": 0.054392,
+      "axis0.controller.effective_torque_setpoint": 0.01393,
+      "rs485_encoder_group0.raw32": 4294409908.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.774284111
+    },
+    {
+      "monotonic": 6023.779473634,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066043,
+      "axis0.vel_estimate": -0.011104,
+      "axis0.motor.foc.Iq_setpoint": 0.464643,
+      "axis0.motor.foc.Iq_measured": 0.228913,
+      "axis0.motor.electrical_power": 0.201977,
+      "axis0.motor.mechanical_power": -0.001401,
+      "vbus_voltage": 48.202648,
+      "axis0.controller.vel_setpoint": 0.056413,
+      "axis0.controller.effective_torque_setpoint": 0.015027,
+      "rs485_encoder_group0.raw32": 4294409896.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.786748573
+    },
+    {
+      "monotonic": 6023.79195928,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066203,
+      "axis0.vel_estimate": -0.019381,
+      "axis0.motor.foc.Iq_setpoint": 0.482934,
+      "axis0.motor.foc.Iq_measured": 0.567295,
+      "axis0.motor.electrical_power": 0.118829,
+      "axis0.motor.mechanical_power": -0.0005,
+      "vbus_voltage": 48.209499,
+      "axis0.controller.vel_setpoint": 0.058392,
+      "axis0.controller.effective_torque_setpoint": 0.016619,
+      "rs485_encoder_group0.raw32": 4294409884.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.798589628
+    },
+    {
+      "monotonic": 6023.803803278,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066292,
+      "axis0.vel_estimate": -0.001746,
+      "axis0.motor.foc.Iq_setpoint": 0.461134,
+      "axis0.motor.foc.Iq_measured": 0.373337,
+      "axis0.motor.electrical_power": 0.038492,
+      "axis0.motor.mechanical_power": -0.000551,
+      "vbus_voltage": 48.216354,
+      "axis0.controller.vel_setpoint": 0.060308,
+      "axis0.controller.effective_torque_setpoint": 0.013954,
+      "rs485_encoder_group0.raw32": 4294409884.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.809532563
+    },
+    {
+      "monotonic": 6023.814771525,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066339,
+      "axis0.vel_estimate": -0.000595,
+      "axis0.motor.foc.Iq_setpoint": 0.465239,
+      "axis0.motor.foc.Iq_measured": 0.446942,
+      "axis0.motor.electrical_power": 0.143211,
+      "axis0.motor.mechanical_power": 9.4e-05,
+      "vbus_voltage": 48.225491,
+      "axis0.controller.vel_setpoint": 0.062287,
+      "axis0.controller.effective_torque_setpoint": 0.015145,
+      "rs485_encoder_group0.raw32": 4294409880.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.821532558
+    },
+    {
+      "monotonic": 6023.826744896,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066321,
+      "axis0.vel_estimate": -0.005244,
+      "axis0.motor.foc.Iq_setpoint": 0.487721,
+      "axis0.motor.foc.Iq_measured": 0.390977,
+      "axis0.motor.electrical_power": 0.183682,
+      "axis0.motor.mechanical_power": -0.000238,
+      "vbus_voltage": 48.209499,
+      "axis0.controller.vel_setpoint": 0.064266,
+      "axis0.controller.effective_torque_setpoint": 0.014523,
+      "rs485_encoder_group0.raw32": 4294409880.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.833902462
+    },
+    {
+      "monotonic": 6023.83913768,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066334,
+      "axis0.vel_estimate": -0.003459,
+      "axis0.motor.foc.Iq_setpoint": 0.534666,
+      "axis0.motor.foc.Iq_measured": 0.535495,
+      "axis0.motor.electrical_power": 0.19576,
+      "axis0.motor.mechanical_power": -0.000345,
+      "vbus_voltage": 48.175236,
+      "axis0.controller.vel_setpoint": 0.066225,
+      "axis0.controller.effective_torque_setpoint": 0.016029,
+      "rs485_encoder_group0.raw32": 4294409880.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.845381095
+    },
+    {
+      "monotonic": 6023.850622137,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066369,
+      "axis0.vel_estimate": -0.004305,
+      "axis0.motor.foc.Iq_setpoint": 0.526209,
+      "axis0.motor.foc.Iq_measured": 0.313167,
+      "axis0.motor.electrical_power": 0.20576,
+      "axis0.motor.mechanical_power": 4.1e-05,
+      "vbus_voltage": 48.220921,
+      "axis0.controller.vel_setpoint": 0.068141,
+      "axis0.controller.effective_torque_setpoint": 0.016792,
+      "rs485_encoder_group0.raw32": 4294409876.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.856898894
+    },
+    {
+      "monotonic": 6023.862189919,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066422,
+      "axis0.vel_estimate": -0.001217,
+      "axis0.motor.foc.Iq_setpoint": 0.557792,
+      "axis0.motor.foc.Iq_measured": 0.516624,
+      "axis0.motor.electrical_power": 0.161865,
+      "axis0.motor.mechanical_power": -0.000609,
+      "vbus_voltage": 48.218636,
+      "axis0.controller.vel_setpoint": 0.07012,
+      "axis0.controller.effective_torque_setpoint": 0.017454,
+      "rs485_encoder_group0.raw32": 4294409872.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.868881449
+    },
+    {
+      "monotonic": 6023.874120251,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066476,
+      "axis0.vel_estimate": 0.000523,
+      "axis0.motor.foc.Iq_setpoint": 0.604931,
+      "axis0.motor.foc.Iq_measured": 0.500554,
+      "axis0.motor.electrical_power": 0.176281,
+      "axis0.motor.mechanical_power": -0.00103,
+      "vbus_voltage": 48.202648,
+      "axis0.controller.vel_setpoint": 0.071995,
+      "axis0.controller.effective_torque_setpoint": 0.018727,
+      "rs485_encoder_group0.raw32": 4294409872.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.879993532
+    },
+    {
+      "monotonic": 6023.88522587,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066577,
+      "axis0.vel_estimate": -0.013622,
+      "axis0.motor.foc.Iq_setpoint": 0.622848,
+      "axis0.motor.foc.Iq_measured": 0.404836,
+      "axis0.motor.electrical_power": 0.261507,
+      "axis0.motor.mechanical_power": -0.001048,
+      "vbus_voltage": 48.204929,
+      "axis0.controller.vel_setpoint": 0.073912,
+      "axis0.controller.effective_torque_setpoint": 0.018935,
+      "rs485_encoder_group0.raw32": 4294409864.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.891274954
+    },
+    {
+      "monotonic": 6023.896533979,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066688,
+      "axis0.vel_estimate": -0.013171,
+      "axis0.motor.foc.Iq_setpoint": 0.693707,
+      "axis0.motor.foc.Iq_measured": 0.586226,
+      "axis0.motor.electrical_power": 0.190769,
+      "axis0.motor.mechanical_power": -0.001078,
+      "vbus_voltage": 48.218636,
+      "axis0.controller.vel_setpoint": 0.075849,
+      "axis0.controller.effective_torque_setpoint": 0.022106,
+      "rs485_encoder_group0.raw32": 4294409852.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.90322391
+    },
+    {
+      "monotonic": 6023.908394874,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.066888,
+      "axis0.vel_estimate": -0.01883,
+      "axis0.motor.foc.Iq_setpoint": 0.729542,
+      "axis0.motor.foc.Iq_measured": 0.85387,
+      "axis0.motor.electrical_power": 0.324353,
+      "axis0.motor.mechanical_power": -0.002305,
+      "vbus_voltage": 48.193508,
+      "axis0.controller.vel_setpoint": 0.077765,
+      "axis0.controller.effective_torque_setpoint": 0.023232,
+      "rs485_encoder_group0.raw32": 4294409840.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.914741998
+    },
+    {
+      "monotonic": 6023.919965472,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.067092,
+      "axis0.vel_estimate": -0.011607,
+      "axis0.motor.foc.Iq_setpoint": 0.749947,
+      "axis0.motor.foc.Iq_measured": 0.777094,
+      "axis0.motor.electrical_power": 0.450557,
+      "axis0.motor.mechanical_power": -0.00321,
+      "vbus_voltage": 48.230061,
+      "axis0.controller.vel_setpoint": 0.079619,
+      "axis0.controller.effective_torque_setpoint": 0.022952,
+      "rs485_encoder_group0.raw32": 4294409828.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.926119321
+    },
+    {
+      "monotonic": 6023.931360395,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.067266,
+      "axis0.vel_estimate": -0.010679,
+      "axis0.motor.foc.Iq_setpoint": 0.784507,
+      "axis0.motor.foc.Iq_measured": 0.749437,
+      "axis0.motor.electrical_power": 0.536387,
+      "axis0.motor.mechanical_power": -0.00211,
+      "vbus_voltage": 48.198078,
+      "axis0.controller.vel_setpoint": 0.081724,
+      "axis0.controller.effective_torque_setpoint": 0.024045,
+      "rs485_encoder_group0.raw32": 4294409816.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.938082388
+    },
+    {
+      "monotonic": 6023.943338182,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.067478,
+      "axis0.vel_estimate": -0.019568,
+      "axis0.motor.foc.Iq_setpoint": 0.810473,
+      "axis0.motor.foc.Iq_measured": 0.732305,
+      "axis0.motor.electrical_power": 0.434901,
+      "axis0.motor.mechanical_power": -0.001943,
+      "vbus_voltage": 48.188942,
+      "axis0.controller.vel_setpoint": 0.083333,
+      "axis0.controller.effective_torque_setpoint": 0.025219,
+      "rs485_encoder_group0.raw32": 4294409800.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.950633056
+    },
+    {
+      "monotonic": 6023.95586997,
+      "complete": true,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.067709,
+      "axis0.vel_estimate": -0.029041,
+      "axis0.motor.foc.Iq_setpoint": 0.837242,
+      "axis0.motor.foc.Iq_measured": 0.759716,
+      "axis0.motor.electrical_power": 0.569296,
+      "axis0.motor.mechanical_power": -0.003113,
+      "vbus_voltage": 48.239197,
+      "axis0.controller.vel_setpoint": 0.083333,
+      "axis0.controller.effective_torque_setpoint": 0.026464,
+      "rs485_encoder_group0.raw32": 4294409784.0,
+      "rs485_encoder_group0.status": 0.0,
+      "state_after": 8.0,
+      "completed_monotonic": 6023.962263109
+    },
+    {
+      "monotonic": 6023.967533846,
+      "complete": false,
+      "axis0.current_state": 8.0,
+      "axis0.active_errors": 0.0,
+      "axis0.disarm_reason": 0.0,
+      "axis0.controller.input_vel": 0.083333,
+      "axis0.pos_estimate": -8.068084,
+      "axis0.vel_estimate": -0.039792
+    }
+  ],
+  "read_log": [
+    {
+      "property": "serial_number",
+      "start_monotonic": 6023.410896327,
+      "end_monotonic": 6023.411434201,
+      "reply": "261832873369"
+    },
+    {
+      "property": "serial_number",
+      "start_monotonic": 6023.411506423,
+      "end_monotonic": 6023.411861005,
+      "reply": "261832873369"
+    },
+    {
+      "property": "commit_hash",
+      "start_monotonic": 6023.411886572,
+      "end_monotonic": 6023.412306465,
+      "reply": "3016019781"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.412324384,
+      "end_monotonic": 6023.412596601,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.412610681,
+      "end_monotonic": 6023.412864722,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.412877201,
+      "end_monotonic": 6023.413089676,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.413101291,
+      "end_monotonic": 6023.413426339,
+      "reply": "-8.065247"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.413440994,
+      "end_monotonic": 6023.413837975,
+      "reply": "-0.000114"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.413850231,
+      "end_monotonic": 6023.414178766,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "start_monotonic": 6023.414191278,
+      "end_monotonic": 6023.414615522,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "start_monotonic": 6023.414627138,
+      "end_monotonic": 6023.415006296,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.controller.config.enable_overspeed_error",
+      "start_monotonic": 6023.415018903,
+      "end_monotonic": 6023.415352462,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.spinout_mechanical_power_threshold",
+      "start_monotonic": 6023.415365134,
+      "end_monotonic": 6023.415954686,
+      "reply": "-10.000000"
+    },
+    {
+      "property": "axis0.controller.config.spinout_electrical_power_threshold",
+      "start_monotonic": 6023.415975358,
+      "end_monotonic": 6023.416424529,
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 6023.416438705,
+      "end_monotonic": 6023.416900772,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "start_monotonic": 6023.416913156,
+      "end_monotonic": 6023.417237627,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "start_monotonic": 6023.417250011,
+      "end_monotonic": 6023.417600018,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "start_monotonic": 6023.417611601,
+      "end_monotonic": 6023.418019494,
+      "reply": "30.000000"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "start_monotonic": 6023.418031814,
+      "end_monotonic": 6023.418424987,
+      "reply": "12.500000"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "start_monotonic": 6023.418437147,
+      "end_monotonic": 6023.418843664,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "start_monotonic": 6023.418855407,
+      "end_monotonic": 6023.419129288,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.motor.input_iq",
+      "start_monotonic": 6023.419140904,
+      "end_monotonic": 6023.419420192,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.motor.input_id",
+      "start_monotonic": 6023.419431456,
+      "end_monotonic": 6023.419916595,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.scale",
+      "start_monotonic": 6023.419956242,
+      "end_monotonic": 6023.420395974,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.controller.config.use_commutation_vel",
+      "start_monotonic": 6023.420420677,
+      "end_monotonic": 6023.420801147,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.use_load_encoder_for_commutation_vel",
+      "start_monotonic": 6023.420822586,
+      "end_monotonic": 6023.421231439,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.commutation_vel_scale",
+      "start_monotonic": 6023.421250159,
+      "end_monotonic": 6023.421713282,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.config.load_encoder",
+      "start_monotonic": 6023.421730978,
+      "end_monotonic": 6023.422060281,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.config.commutation_encoder",
+      "start_monotonic": 6023.422076312,
+      "end_monotonic": 6023.422415599,
+      "reply": "10"
+    },
+    {
+      "property": "axis0.config.motor.direction",
+      "start_monotonic": 6023.42246427,
+      "end_monotonic": 6023.422918529,
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.config.motor.pole_pairs",
+      "start_monotonic": 6023.422933505,
+      "end_monotonic": 6023.423290807,
+      "reply": "7"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.scale",
+      "start_monotonic": 6023.423305911,
+      "end_monotonic": 6023.42379921,
+      "reply": "7.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset",
+      "start_monotonic": 6023.423814025,
+      "end_monotonic": 6023.424146304,
+      "reply": "1.430450"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "start_monotonic": 6023.42415584,
+      "end_monotonic": 6023.424543637,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 6023.425565338,
+      "end_monotonic": 6023.425976207,
+      "reply": "3.000000"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "start_monotonic": 6023.427113072,
+      "end_monotonic": 6023.427424167,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "start_monotonic": 6023.429357651,
+      "end_monotonic": 6023.429765768,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "start_monotonic": 6023.430723054,
+      "end_monotonic": 6023.431225248,
+      "reply": "0.166667"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "start_monotonic": 6023.432207974,
+      "end_monotonic": 6023.432703448,
+      "reply": "0.250000"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "start_monotonic": 6023.433761084,
+      "end_monotonic": 6023.434219919,
+      "reply": "0.500000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "start_monotonic": 6023.435389199,
+      "end_monotonic": 6023.435763941,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.436871719,
+      "end_monotonic": 6023.437166975,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.437203614,
+      "end_monotonic": 6023.437587156,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "start_monotonic": 6023.437613107,
+      "end_monotonic": 6023.438140549,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.43816826,
+      "end_monotonic": 6023.438598488,
+      "reply": "-8.065242"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.439571006,
+      "end_monotonic": 6023.439877846,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.439890549,
+      "end_monotonic": 6023.440101008,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.440110544,
+      "end_monotonic": 6023.440422087,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.440952345,
+      "end_monotonic": 6023.441247313,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.44127368,
+      "end_monotonic": 6023.441574152,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.441618471,
+      "end_monotonic": 6023.441885791,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.441907871,
+      "end_monotonic": 6023.442368434,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.442379378,
+      "end_monotonic": 6023.442761224,
+      "reply": "-8.065249"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.442777319,
+      "end_monotonic": 6023.443013633,
+      "reply": "-0.000669"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.443026624,
+      "end_monotonic": 6023.443391543,
+      "reply": "-0.001700"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.44340079,
+      "end_monotonic": 6023.443762605,
+      "reply": "-0.018477"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.443773452,
+      "end_monotonic": 6023.444121219,
+      "reply": "-0.000194"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.444131683,
+      "end_monotonic": 6023.444471737,
+      "reply": "0.000000"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.444480345,
+      "end_monotonic": 6023.444786865,
+      "reply": "48.198078"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.444795761,
+      "end_monotonic": 6023.44527674,
+      "reply": "-0.000211"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.445296099,
+      "end_monotonic": 6023.445840308,
+      "reply": "-0.000054"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.445859604,
+      "end_monotonic": 6023.446262473,
+      "reply": "4294409952"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.44628212,
+      "end_monotonic": 6023.446572736,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.446592,
+      "end_monotonic": 6023.44688476,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.452182792,
+      "end_monotonic": 6023.452583006,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.452611549,
+      "end_monotonic": 6023.452892085,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.452914165,
+      "end_monotonic": 6023.453262507,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.453283595,
+      "end_monotonic": 6023.45374499,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.453767773,
+      "end_monotonic": 6023.454133076,
+      "reply": "-8.065247"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.454160915,
+      "end_monotonic": 6023.454589031,
+      "reply": "-0.000576"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.454599271,
+      "end_monotonic": 6023.454906623,
+      "reply": "0.010427"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.454915198,
+      "end_monotonic": 6023.455295732,
+      "reply": "-0.006619"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.455305652,
+      "end_monotonic": 6023.455626347,
+      "reply": "0.002167"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.455642699,
+      "end_monotonic": 6023.456021152,
+      "reply": "0.000009"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.456029984,
+      "end_monotonic": 6023.456263674,
+      "reply": "48.207214"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.456272026,
+      "end_monotonic": 6023.456725581,
+      "reply": "0.001706"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.456744461,
+      "end_monotonic": 6023.457137858,
+      "reply": "0.000494"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.457160129,
+      "end_monotonic": 6023.457721362,
+      "reply": "4294409952"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.457740978,
+      "end_monotonic": 6023.458006155,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.458024746,
+      "end_monotonic": 6023.458368161,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.463594227,
+      "end_monotonic": 6023.463888203,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.463912011,
+      "end_monotonic": 6023.464251713,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.464272929,
+      "end_monotonic": 6023.464574201,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.464593496,
+      "end_monotonic": 6023.464995629,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.465017357,
+      "end_monotonic": 6023.465488416,
+      "reply": "-8.065249"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.465510239,
+      "end_monotonic": 6023.465893013,
+      "reply": "0.000705"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.465914292,
+      "end_monotonic": 6023.466313481,
+      "reply": "0.013580"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.466338633,
+      "end_monotonic": 6023.466778109,
+      "reply": "0.094802"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.466794428,
+      "end_monotonic": 6023.467180562,
+      "reply": "0.002176"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.467193618,
+      "end_monotonic": 6023.467608262,
+      "reply": "-0.000016"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.46761959,
+      "end_monotonic": 6023.46792051,
+      "reply": "48.209499"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.46793139,
+      "end_monotonic": 6023.46829954,
+      "reply": "0.003643"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.468311603,
+      "end_monotonic": 6023.46881223,
+      "reply": "0.000480"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.468830245,
+      "end_monotonic": 6023.469197531,
+      "reply": "4294409952"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.469211931,
+      "end_monotonic": 6023.469620528,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.469649615,
+      "end_monotonic": 6023.46998119,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.475247543,
+      "end_monotonic": 6023.475589102,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.475626221,
+      "end_monotonic": 6023.47596202,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.475972676,
+      "end_monotonic": 6023.476209437,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.476219229,
+      "end_monotonic": 6023.476582419,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.476595475,
+      "end_monotonic": 6023.476933418,
+      "reply": "-8.065247"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.476949065,
+      "end_monotonic": 6023.477285632,
+      "reply": "-0.005579"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.4772968,
+      "end_monotonic": 6023.477652502,
+      "reply": "0.033395"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.47767135,
+      "end_monotonic": 6023.478012204,
+      "reply": "0.040572"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.47802446,
+      "end_monotonic": 6023.478373699,
+      "reply": "-0.000325"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.478385026,
+      "end_monotonic": 6023.47884047,
+      "reply": "0.000104"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.478859989,
+      "end_monotonic": 6023.479240779,
+      "reply": "48.214069"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.479258315,
+      "end_monotonic": 6023.479711838,
+      "reply": "0.005539"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.479730014,
+      "end_monotonic": 6023.480199281,
+      "reply": "0.000142"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.480223792,
+      "end_monotonic": 6023.480693636,
+      "reply": "4294409952"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.480712099,
+      "end_monotonic": 6023.480999547,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.481020475,
+      "end_monotonic": 6023.481373905,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.486632547,
+      "end_monotonic": 6023.486886204,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.486927739,
+      "end_monotonic": 6023.487233139,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.48724805,
+      "end_monotonic": 6023.487550282,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.487560106,
+      "end_monotonic": 6023.487907456,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.487918016,
+      "end_monotonic": 6023.488265911,
+      "reply": "-8.065252"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.488277078,
+      "end_monotonic": 6023.488671276,
+      "reply": "-0.001541"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.488691915,
+      "end_monotonic": 6023.489131647,
+      "reply": "0.051253"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.489148447,
+      "end_monotonic": 6023.489654001,
+      "reply": "0.013571"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.489674128,
+      "end_monotonic": 6023.490092613,
+      "reply": "-0.002792"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.490110629,
+      "end_monotonic": 6023.490449051,
+      "reply": "0.000085"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.490457339,
+      "end_monotonic": 6023.490748755,
+      "reply": "48.227776"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.490756915,
+      "end_monotonic": 6023.491126089,
+      "reply": "0.007456"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.491134633,
+      "end_monotonic": 6023.491493183,
+      "reply": "0.000583"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.491501343,
+      "end_monotonic": 6023.491802103,
+      "reply": "4294409952"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.491810423,
+      "end_monotonic": 6023.492135086,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.492143405,
+      "end_monotonic": 6023.492339496,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.497631289,
+      "end_monotonic": 6023.497880594,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.497907313,
+      "end_monotonic": 6023.498235304,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.498251784,
+      "end_monotonic": 6023.498563936,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.498579903,
+      "end_monotonic": 6023.498980084,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.49899874,
+      "end_monotonic": 6023.499343498,
+      "reply": "-8.065269"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.499361738,
+      "end_monotonic": 6023.499832445,
+      "reply": "-0.001261"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.499851741,
+      "end_monotonic": 6023.500227442,
+      "reply": "0.012244"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.500245426,
+      "end_monotonic": 6023.500653511,
+      "reply": "0.004669"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.50067239,
+      "end_monotonic": 6023.501081563,
+      "reply": "0.000898"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.501098843,
+      "end_monotonic": 6023.501495792,
+      "reply": "-0.000240"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.501512368,
+      "end_monotonic": 6023.501864006,
+      "reply": "48.218636"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.501880134,
+      "end_monotonic": 6023.502230012,
+      "reply": "0.009289"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.502246364,
+      "end_monotonic": 6023.502657713,
+      "reply": "0.002316"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.502675312,
+      "end_monotonic": 6023.503023047,
+      "reply": "4294409948"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.503032102,
+      "end_monotonic": 6023.503228289,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.503236161,
+      "end_monotonic": 6023.503544921,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.508725772,
+      "end_monotonic": 6023.508991909,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.509018788,
+      "end_monotonic": 6023.509369979,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.509386746,
+      "end_monotonic": 6023.509762448,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.509776464,
+      "end_monotonic": 6023.510273122,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.510289858,
+      "end_monotonic": 6023.510704023,
+      "reply": "-8.065299"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.510724406,
+      "end_monotonic": 6023.511115563,
+      "reply": "0.007296"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.511132427,
+      "end_monotonic": 6023.511640253,
+      "reply": "0.067606"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.511654461,
+      "end_monotonic": 6023.512096753,
+      "reply": "-0.017546"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.512112816,
+      "end_monotonic": 6023.512466311,
+      "reply": "0.000449"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.51248327,
+      "end_monotonic": 6023.51285702,
+      "reply": "-0.000018"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.512871068,
+      "end_monotonic": 6023.513180371,
+      "reply": "48.218636"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.513194963,
+      "end_monotonic": 6023.513644455,
+      "reply": "0.011185"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.513659654,
+      "end_monotonic": 6023.514078939,
+      "reply": "0.002786"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.514094203,
+      "end_monotonic": 6023.514507183,
+      "reply": "4294409952"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.514522639,
+      "end_monotonic": 6023.514873574,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.514888197,
+      "end_monotonic": 6023.515226172,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.520482318,
+      "end_monotonic": 6023.520779301,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.520798981,
+      "end_monotonic": 6023.5211431,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.521157979,
+      "end_monotonic": 6023.52157176,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.521586512,
+      "end_monotonic": 6023.521964389,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.521980453,
+      "end_monotonic": 6023.522347675,
+      "reply": "-8.065311"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.522364731,
+      "end_monotonic": 6023.522695538,
+      "reply": "0.007109"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.522712241,
+      "end_monotonic": 6023.523033384,
+      "reply": "0.054070"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.52304148,
+      "end_monotonic": 6023.523394847,
+      "reply": "0.041568"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.523403486,
+      "end_monotonic": 6023.523758677,
+      "reply": "0.007343"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.523766933,
+      "end_monotonic": 6023.524122091,
+      "reply": "-0.000008"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.524130027,
+      "end_monotonic": 6023.524412355,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.524420739,
+      "end_monotonic": 6023.524801433,
+      "reply": "0.013060"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.524809432,
+      "end_monotonic": 6023.525170638,
+      "reply": "0.002659"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.525179566,
+      "end_monotonic": 6023.525668961,
+      "reply": "4294409948"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.525684545,
+      "end_monotonic": 6023.525999128,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.526013624,
+      "end_monotonic": 6023.526470699,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.531695742,
+      "end_monotonic": 6023.53203602,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.532055956,
+      "end_monotonic": 6023.532375691,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.532391371,
+      "end_monotonic": 6023.532730338,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.532745281,
+      "end_monotonic": 6023.533111863,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.533128311,
+      "end_monotonic": 6023.533450926,
+      "reply": "-8.065313"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.533467662,
+      "end_monotonic": 6023.533855331,
+      "reply": "0.003377"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.533872259,
+      "end_monotonic": 6023.534321975,
+      "reply": "0.067508"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.534338262,
+      "end_monotonic": 6023.534835913,
+      "reply": "0.062325"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.534852936,
+      "end_monotonic": 6023.53523587,
+      "reply": "0.003096"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.535252413,
+      "end_monotonic": 6023.535652754,
+      "reply": "0.000007"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.53566917,
+      "end_monotonic": 6023.53598129,
+      "reply": "48.209499"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.535996585,
+      "end_monotonic": 6023.536453085,
+      "reply": "0.014998"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.536469436,
+      "end_monotonic": 6023.536882097,
+      "reply": "0.002338"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.536897905,
+      "end_monotonic": 6023.537282694,
+      "reply": "4294409948"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.53729015,
+      "end_monotonic": 6023.537593182,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.537600574,
+      "end_monotonic": 6023.537875894,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.543119944,
+      "end_monotonic": 6023.543350018,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.543367297,
+      "end_monotonic": 6023.543724632,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.543741495,
+      "end_monotonic": 6023.544025616,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.544046543,
+      "end_monotonic": 6023.544541538,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.544564481,
+      "end_monotonic": 6023.545001461,
+      "reply": "-8.065365"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.545024308,
+      "end_monotonic": 6023.545501256,
+      "reply": "-0.009990"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.545524103,
+      "end_monotonic": 6023.545987706,
+      "reply": "0.148352"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.546007962,
+      "end_monotonic": 6023.546398223,
+      "reply": "0.260419"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.546419343,
+      "end_monotonic": 6023.546896098,
+      "reply": "0.014987"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.546920161,
+      "end_monotonic": 6023.547349493,
+      "reply": "0.000006"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.547368181,
+      "end_monotonic": 6023.547898567,
+      "reply": "48.204929"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.547917574,
+      "end_monotonic": 6023.548393849,
+      "reply": "0.016977"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.548415417,
+      "end_monotonic": 6023.548864588,
+      "reply": "0.004326"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.54888446,
+      "end_monotonic": 6023.549362815,
+      "reply": "4294409944"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.549382174,
+      "end_monotonic": 6023.549749044,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.54976882,
+      "end_monotonic": 6023.550000878,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.555243872,
+      "end_monotonic": 6023.555569879,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.555592758,
+      "end_monotonic": 6023.555887022,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.555906478,
+      "end_monotonic": 6023.556269796,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.556292323,
+      "end_monotonic": 6023.556793622,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.556815861,
+      "end_monotonic": 6023.557253865,
+      "reply": "-8.065384"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.55727748,
+      "end_monotonic": 6023.557766779,
+      "reply": "-0.007613"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.557790523,
+      "end_monotonic": 6023.558267566,
+      "reply": "0.173587"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.558288173,
+      "end_monotonic": 6023.558855998,
+      "reply": "-0.062795"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.558869917,
+      "end_monotonic": 6023.559241395,
+      "reply": "-0.005891"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.559249683,
+      "end_monotonic": 6023.559594346,
+      "reply": "-0.000056"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.559602441,
+      "end_monotonic": 6023.559906913,
+      "reply": "48.195793"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.559914497,
+      "end_monotonic": 6023.560263832,
+      "reply": "0.018977"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.560273175,
+      "end_monotonic": 6023.560634093,
+      "reply": "0.004541"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.560641677,
+      "end_monotonic": 6023.561021347,
+      "reply": "4294409940"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.561029283,
+      "end_monotonic": 6023.561263996,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.56128582,
+      "end_monotonic": 6023.561630386,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.566880548,
+      "end_monotonic": 6023.567136125,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.567159069,
+      "end_monotonic": 6023.567498483,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.567519539,
+      "end_monotonic": 6023.567886857,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.56790756,
+      "end_monotonic": 6023.568357372,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.568381628,
+      "end_monotonic": 6023.568878478,
+      "reply": "-8.065425"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.568902381,
+      "end_monotonic": 6023.569372033,
+      "reply": "-0.005266"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.569396608,
+      "end_monotonic": 6023.569863571,
+      "reply": "0.170035"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.569884467,
+      "end_monotonic": 6023.570258281,
+      "reply": "0.181732"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.570267304,
+      "end_monotonic": 6023.570635806,
+      "reply": "0.004075"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.570647326,
+      "end_monotonic": 6023.571015444,
+      "reply": "-0.000264"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.571024212,
+      "end_monotonic": 6023.571263245,
+      "reply": "48.207214"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.571271629,
+      "end_monotonic": 6023.571632771,
+      "reply": "0.020873"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.571640643,
+      "end_monotonic": 6023.572008953,
+      "reply": "0.003045"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.572017273,
+      "end_monotonic": 6023.572401423,
+      "reply": "4294409940"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.57242171,
+      "end_monotonic": 6023.572746181,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.572766661,
+      "end_monotonic": 6023.573120059,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.578374797,
+      "end_monotonic": 6023.578746595,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.578767138,
+      "end_monotonic": 6023.578994716,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.579013307,
+      "end_monotonic": 6023.579262805,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.579281428,
+      "end_monotonic": 6023.579720488,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.579740552,
+      "end_monotonic": 6023.580139805,
+      "reply": "-8.065424"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.58016374,
+      "end_monotonic": 6023.580710381,
+      "reply": "-0.000334"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.580734637,
+      "end_monotonic": 6023.581216064,
+      "reply": "0.158003"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.581238719,
+      "end_monotonic": 6023.581741426,
+      "reply": "0.036691"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.581764273,
+      "end_monotonic": 6023.582216453,
+      "reply": "0.004959"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.582237604,
+      "end_monotonic": 6023.582739638,
+      "reply": "0.000048"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.582761046,
+      "end_monotonic": 6023.583115596,
+      "reply": "48.214069"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.58313646,
+      "end_monotonic": 6023.583690397,
+      "reply": "0.022852"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.5837111,
+      "end_monotonic": 6023.584147024,
+      "reply": "0.005029"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.5841684,
+      "end_monotonic": 6023.584727201,
+      "reply": "4294409940"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.584748352,
+      "end_monotonic": 6023.585015001,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.585035672,
+      "end_monotonic": 6023.585380175,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.590641856,
+      "end_monotonic": 6023.590893402,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.590917657,
+      "end_monotonic": 6023.591247408,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.591267823,
+      "end_monotonic": 6023.591577607,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.591598022,
+      "end_monotonic": 6023.592021403,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.592045274,
+      "end_monotonic": 6023.5924292,
+      "reply": "-8.065426"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.592437904,
+      "end_monotonic": 6023.59279959,
+      "reply": "-0.004260"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.592809158,
+      "end_monotonic": 6023.593171484,
+      "reply": "0.177380"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.593180156,
+      "end_monotonic": 6023.593580113,
+      "reply": "0.205644"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.593588752,
+      "end_monotonic": 6023.593909256,
+      "reply": "-0.005474"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.593917928,
+      "end_monotonic": 6023.594287006,
+      "reply": "0.000025"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.594294653,
+      "end_monotonic": 6023.594635828,
+      "reply": "48.218636"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.594643508,
+      "end_monotonic": 6023.595051401,
+      "reply": "0.024769"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.595071816,
+      "end_monotonic": 6023.595534972,
+      "reply": "0.005511"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.595558683,
+      "end_monotonic": 6023.596056878,
+      "reply": "4294409940"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.596078125,
+      "end_monotonic": 6023.596389989,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.596410884,
+      "end_monotonic": 6023.596791418,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.60202558,
+      "end_monotonic": 6023.602370658,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.602390914,
+      "end_monotonic": 6023.602746648,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.602765752,
+      "end_monotonic": 6023.602997042,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.603015633,
+      "end_monotonic": 6023.603472965,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.603492516,
+      "end_monotonic": 6023.603893913,
+      "reply": "-8.065428"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.603914649,
+      "end_monotonic": 6023.604260271,
+      "reply": "0.005403"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.604269999,
+      "end_monotonic": 6023.604630725,
+      "reply": "0.152044"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.604639013,
+      "end_monotonic": 6023.605008475,
+      "reply": "0.142126"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.605016955,
+      "end_monotonic": 6023.605366449,
+      "reply": "0.009121"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.605374705,
+      "end_monotonic": 6023.605762087,
+      "reply": "-0.000044"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.605769798,
+      "end_monotonic": 6023.60600896,
+      "reply": "48.216354"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.606016672,
+      "end_monotonic": 6023.606493555,
+      "reply": "0.026665"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.606513586,
+      "end_monotonic": 6023.60697367,
+      "reply": "0.005725"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.606993189,
+      "end_monotonic": 6023.607505303,
+      "reply": "4294409940"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.607525559,
+      "end_monotonic": 6023.607891757,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.60791166,
+      "end_monotonic": 6023.608243843,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.613473814,
+      "end_monotonic": 6023.613785965,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.613809037,
+      "end_monotonic": 6023.614147715,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.614168451,
+      "end_monotonic": 6023.614576728,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.614596855,
+      "end_monotonic": 6023.615007884,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.615029387,
+      "end_monotonic": 6023.615498783,
+      "reply": "-8.065482"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.615520766,
+      "end_monotonic": 6023.616035504,
+      "reply": "-0.009912"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.6160596,
+      "end_monotonic": 6023.616498564,
+      "reply": "0.211458"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.616518083,
+      "end_monotonic": 6023.61698879,
+      "reply": "0.301535"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.617007958,
+      "end_monotonic": 6023.61738798,
+      "reply": "0.012795"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.617406923,
+      "end_monotonic": 6023.617908189,
+      "reply": "-0.000215"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.617926557,
+      "end_monotonic": 6023.618352273,
+      "reply": "48.216354"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.618370161,
+      "end_monotonic": 6023.618853892,
+      "reply": "0.028727"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.618872003,
+      "end_monotonic": 6023.619281304,
+      "reply": "0.005546"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.619301208,
+      "end_monotonic": 6023.619823178,
+      "reply": "4294409936"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.619843625,
+      "end_monotonic": 6023.620130785,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.620152161,
+      "end_monotonic": 6023.620578261,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.625811495,
+      "end_monotonic": 6023.626116511,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.626130495,
+      "end_monotonic": 6023.626338297,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.626348409,
+      "end_monotonic": 6023.626582418,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.626590898,
+      "end_monotonic": 6023.626958568,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.626967848,
+      "end_monotonic": 6023.6272744,
+      "reply": "-8.065491"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.627285471,
+      "end_monotonic": 6023.627629942,
+      "reply": "-0.000807"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.627640118,
+      "end_monotonic": 6023.628020779,
+      "reply": "0.201346"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.628029931,
+      "end_monotonic": 6023.628476671,
+      "reply": "0.182953"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.628498718,
+      "end_monotonic": 6023.628918131,
+      "reply": "-0.008996"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.628940114,
+      "end_monotonic": 6023.629391334,
+      "reply": "-0.000036"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.629411654,
+      "end_monotonic": 6023.629866521,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.629887257,
+      "end_monotonic": 6023.63036062,
+      "reply": "0.030644"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.630380747,
+      "end_monotonic": 6023.630871326,
+      "reply": "0.006459"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.63089171,
+      "end_monotonic": 6023.631381744,
+      "reply": "4294409936"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.631403056,
+      "end_monotonic": 6023.631748358,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.631769158,
+      "end_monotonic": 6023.632021695,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.637209138,
+      "end_monotonic": 6023.637540457,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.637551081,
+      "end_monotonic": 6023.637856833,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.637865025,
+      "end_monotonic": 6023.63810489,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.638112698,
+      "end_monotonic": 6023.638422386,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.638431089,
+      "end_monotonic": 6023.638799431,
+      "reply": "-8.065487"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.638808295,
+      "end_monotonic": 6023.639271867,
+      "reply": "-0.000710"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.63929465,
+      "end_monotonic": 6023.639793644,
+      "reply": "0.217287"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.639814156,
+      "end_monotonic": 6023.640295583,
+      "reply": "0.231494"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.640317822,
+      "end_monotonic": 6023.640838384,
+      "reply": "0.000770"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.640859663,
+      "end_monotonic": 6023.641359458,
+      "reply": "-0.000015"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.641380001,
+      "end_monotonic": 6023.641867188,
+      "reply": "48.200363"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.64188786,
+      "end_monotonic": 6023.642356551,
+      "reply": "0.032644"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.64237687,
+      "end_monotonic": 6023.642761692,
+      "reply": "0.006646"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.642769692,
+      "end_monotonic": 6023.643172337,
+      "reply": "4294409936"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.643181233,
+      "end_monotonic": 6023.643538471,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.643546183,
+      "end_monotonic": 6023.643855646,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.649103504,
+      "end_monotonic": 6023.649377609,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.64940292,
+      "end_monotonic": 6023.649745055,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.649765566,
+      "end_monotonic": 6023.64999804,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.650018199,
+      "end_monotonic": 6023.650481259,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.650503178,
+      "end_monotonic": 6023.650912319,
+      "reply": "-8.065519"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.650935966,
+      "end_monotonic": 6023.651369555,
+      "reply": "0.000169"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.65139285,
+      "end_monotonic": 6023.651861061,
+      "reply": "0.287811"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.651882693,
+      "end_monotonic": 6023.652372024,
+      "reply": "0.133394"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.652395031,
+      "end_monotonic": 6023.652897673,
+      "reply": "0.035930"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.652917673,
+      "end_monotonic": 6023.653363773,
+      "reply": "-0.000154"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.653383004,
+      "end_monotonic": 6023.653842192,
+      "reply": "48.209499"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.653860431,
+      "end_monotonic": 6023.654256356,
+      "reply": "0.034623"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.654274244,
+      "end_monotonic": 6023.654825013,
+      "reply": "0.008377"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.654844725,
+      "end_monotonic": 6023.655269225,
+      "reply": "4294409932"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.655289224,
+      "end_monotonic": 6023.655620096,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.655639935,
+      "end_monotonic": 6023.655993653,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.661277574,
+      "end_monotonic": 6023.661635868,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.661664508,
+      "end_monotonic": 6023.661994483,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.662015058,
+      "end_monotonic": 6023.662246508,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.662266923,
+      "end_monotonic": 6023.662742111,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.662764766,
+      "end_monotonic": 6023.663123284,
+      "reply": "-8.065606"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.663146004,
+      "end_monotonic": 6023.663705892,
+      "reply": "-0.006618"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.663729284,
+      "end_monotonic": 6023.664218646,
+      "reply": "0.288625"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.664240278,
+      "end_monotonic": 6023.664743976,
+      "reply": "0.080526"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.664766856,
+      "end_monotonic": 6023.665212028,
+      "reply": "0.031297"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.665233051,
+      "end_monotonic": 6023.665754253,
+      "reply": "-0.000094"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.66577486,
+      "end_monotonic": 6023.666271455,
+      "reply": "48.214069"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.666292222,
+      "end_monotonic": 6023.666737842,
+      "reply": "0.036706"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.66675797,
+      "end_monotonic": 6023.667231269,
+      "reply": "0.007629"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.667252548,
+      "end_monotonic": 6023.66777055,
+      "reply": "4294409928"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.66779087,
+      "end_monotonic": 6023.668160044,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.668183179,
+      "end_monotonic": 6023.668576224,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.673813618,
+      "end_monotonic": 6023.674114826,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.674126602,
+      "end_monotonic": 6023.674336548,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.674345348,
+      "end_monotonic": 6023.67458227,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.674590589,
+      "end_monotonic": 6023.674895637,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.674904437,
+      "end_monotonic": 6023.675292874,
+      "reply": "-8.065613"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.675301834,
+      "end_monotonic": 6023.675632737,
+      "reply": "-0.007069"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.675653505,
+      "end_monotonic": 6023.676008535,
+      "reply": "0.272084"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.676017975,
+      "end_monotonic": 6023.676469067,
+      "reply": "0.265259"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.676492298,
+      "end_monotonic": 6023.676899487,
+      "reply": "0.020382"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.67692147,
+      "end_monotonic": 6023.677398993,
+      "reply": "-0.000284"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.677418513,
+      "end_monotonic": 6023.677858693,
+      "reply": "48.204929"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.677879268,
+      "end_monotonic": 6023.678271258,
+      "reply": "0.038622"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.678291257,
+      "end_monotonic": 6023.678841034,
+      "reply": "0.009248"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.678861514,
+      "end_monotonic": 6023.679375804,
+      "reply": "4294409924"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.679397115,
+      "end_monotonic": 6023.679750258,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.679770641,
+      "end_monotonic": 6023.680021706,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.685270812,
+      "end_monotonic": 6023.685630098,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.685653138,
+      "end_monotonic": 6023.6859922,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.686012392,
+      "end_monotonic": 6023.68624365,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.686264065,
+      "end_monotonic": 6023.686627447,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.686635991,
+      "end_monotonic": 6023.687002477,
+      "reply": "-8.065675"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.687011501,
+      "end_monotonic": 6023.68725527,
+      "reply": "-0.007475"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.687264614,
+      "end_monotonic": 6023.687625084,
+      "reply": "0.281585"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.687633116,
+      "end_monotonic": 6023.687903925,
+      "reply": "0.445171"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.687912212,
+      "end_monotonic": 6023.688292522,
+      "reply": "0.058195"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.688301226,
+      "end_monotonic": 6023.688803452,
+      "reply": "-0.000213"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.688824156,
+      "end_monotonic": 6023.689246864,
+      "reply": "48.211784"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.689267248,
+      "end_monotonic": 6023.689685636,
+      "reply": "0.040518"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.68970538,
+      "end_monotonic": 6023.690223958,
+      "reply": "0.008914"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.690243445,
+      "end_monotonic": 6023.690640235,
+      "reply": "4294409924"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.690647946,
+      "end_monotonic": 6023.690959074,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.690966914,
+      "end_monotonic": 6023.691207291,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.696430606,
+      "end_monotonic": 6023.696795972,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.696826659,
+      "end_monotonic": 6023.69713977,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.697160794,
+      "end_monotonic": 6023.697579246,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.697600014,
+      "end_monotonic": 6023.698005283,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.698027362,
+      "end_monotonic": 6023.698497206,
+      "reply": "-8.065674"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.698520533,
+      "end_monotonic": 6023.69901588,
+      "reply": "-0.006630"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.699040647,
+      "end_monotonic": 6023.699505658,
+      "reply": "0.323328"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.69952713,
+      "end_monotonic": 6023.700015724,
+      "reply": "0.265604"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.700041068,
+      "end_monotonic": 6023.700508575,
+      "reply": "0.026660"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.700530974,
+      "end_monotonic": 6023.70100453,
+      "reply": "0.000148"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.701025777,
+      "end_monotonic": 6023.7015129,
+      "reply": "48.195793"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.701533187,
+      "end_monotonic": 6023.702003511,
+      "reply": "0.042581"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.702023222,
+      "end_monotonic": 6023.702519689,
+      "reply": "0.009999"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.702539976,
+      "end_monotonic": 6023.703031963,
+      "reply": "4294409924"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.703052858,
+      "end_monotonic": 6023.703388977,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.703409904,
+      "end_monotonic": 6023.703704872,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.708927803,
+      "end_monotonic": 6023.709241426,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.709254162,
+      "end_monotonic": 6023.709453741,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.70946238,
+      "end_monotonic": 6023.709720805,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.709728485,
+      "end_monotonic": 6023.710014046,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.710022525,
+      "end_monotonic": 6023.710397971,
+      "reply": "-8.065697"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.710406547,
+      "end_monotonic": 6023.710746922,
+      "reply": "0.006118"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.710755721,
+      "end_monotonic": 6023.711102304,
+      "reply": "0.310796"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.711110016,
+      "end_monotonic": 6023.711516149,
+      "reply": "0.352865"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.711537812,
+      "end_monotonic": 6023.712031975,
+      "reply": "0.060470"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.712053702,
+      "end_monotonic": 6023.712525881,
+      "reply": "-0.000310"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.712546649,
+      "end_monotonic": 6023.713002957,
+      "reply": "48.223206"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.713024172,
+      "end_monotonic": 6023.713519711,
+      "reply": "0.044497"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.713539742,
+      "end_monotonic": 6023.714009617,
+      "reply": "0.008670"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.714030065,
+      "end_monotonic": 6023.714545155,
+      "reply": "4294409920"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.714565378,
+      "end_monotonic": 6023.714894041,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.714914617,
+      "end_monotonic": 6023.715247696,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.720570975,
+      "end_monotonic": 6023.720866359,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.720887287,
+      "end_monotonic": 6023.721134896,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.721154832,
+      "end_monotonic": 6023.721561285,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.721569124,
+      "end_monotonic": 6023.721903259,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.721911707,
+      "end_monotonic": 6023.722258322,
+      "reply": "-8.065729"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.722266769,
+      "end_monotonic": 6023.722576329,
+      "reply": "0.002926"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.722585001,
+      "end_monotonic": 6023.722900192,
+      "reply": "0.331215"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.722908,
+      "end_monotonic": 6023.723282966,
+      "reply": "0.167440"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.723291606,
+      "end_monotonic": 6023.72373105,
+      "reply": "0.051547"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.723751465,
+      "end_monotonic": 6023.724250876,
+      "reply": "0.000285"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.724272731,
+      "end_monotonic": 6023.724702959,
+      "reply": "48.216354"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.724722831,
+      "end_monotonic": 6023.725112388,
+      "reply": "0.046434"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.725132548,
+      "end_monotonic": 6023.725611831,
+      "reply": "0.010760"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.725619959,
+      "end_monotonic": 6023.725911919,
+      "reply": "4294409920"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.72591995,
+      "end_monotonic": 6023.726241574,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.72624935,
+      "end_monotonic": 6023.726534686,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.7317844,
+      "end_monotonic": 6023.732130758,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.732153958,
+      "end_monotonic": 6023.732578266,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.732598905,
+      "end_monotonic": 6023.732885714,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.732905713,
+      "end_monotonic": 6023.73337834,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.73339914,
+      "end_monotonic": 6023.733915702,
+      "reply": "-8.065798"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.733937749,
+      "end_monotonic": 6023.734414856,
+      "reply": "-0.007431"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.734437448,
+      "end_monotonic": 6023.734906011,
+      "reply": "0.323191"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.73492633,
+      "end_monotonic": 6023.735411309,
+      "reply": "0.367957"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.735433101,
+      "end_monotonic": 6023.735904992,
+      "reply": "0.150906"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.735929599,
+      "end_monotonic": 6023.736432114,
+      "reply": "-0.000706"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.736453873,
+      "end_monotonic": 6023.736791528,
+      "reply": "48.211784"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.736799304,
+      "end_monotonic": 6023.737144638,
+      "reply": "0.048455"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.737152542,
+      "end_monotonic": 6023.737577843,
+      "reply": "0.010828"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.737585554,
+      "end_monotonic": 6023.737910474,
+      "reply": "4294409916"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.737918185,
+      "end_monotonic": 6023.738245568,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.738253184,
+      "end_monotonic": 6023.738452027,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.743664814,
+      "end_monotonic": 6023.744093026,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.74414576,
+      "end_monotonic": 6023.744592308,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.744622804,
+      "end_monotonic": 6023.74499297,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.745044072,
+      "end_monotonic": 6023.745511451,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.745539291,
+      "end_monotonic": 6023.74600939,
+      "reply": "-8.065859"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.746037741,
+      "end_monotonic": 6023.746493217,
+      "reply": "0.000285"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.746520416,
+      "end_monotonic": 6023.747004883,
+      "reply": "0.341021"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.747027698,
+      "end_monotonic": 6023.747505765,
+      "reply": "0.245968"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.747528069,
+      "end_monotonic": 6023.747997016,
+      "reply": "0.107192"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.748045271,
+      "end_monotonic": 6023.748517834,
+      "reply": "-0.000031"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.748539753,
+      "end_monotonic": 6023.749002557,
+      "reply": "48.216354"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.749023804,
+      "end_monotonic": 6023.74949096,
+      "reply": "0.050497"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.749512431,
+      "end_monotonic": 6023.75000637,
+      "reply": "0.012597"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.750027105,
+      "end_monotonic": 6023.750538611,
+      "reply": "4294409912"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.750559763,
+      "end_monotonic": 6023.75089073,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.750912457,
+      "end_monotonic": 6023.751238976,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.756500657,
+      "end_monotonic": 6023.756868839,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.756907814,
+      "end_monotonic": 6023.757258749,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.757283132,
+      "end_monotonic": 6023.757617235,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.75763973,
+      "end_monotonic": 6023.758109862,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.758133701,
+      "end_monotonic": 6023.75870063,
+      "reply": "-8.065907"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.758725461,
+      "end_monotonic": 6023.75911985,
+      "reply": "-0.004126"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.759144778,
+      "end_monotonic": 6023.759467329,
+      "reply": "0.416735"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.759475649,
+      "end_monotonic": 6023.759775705,
+      "reply": "0.232212"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.759784216,
+      "end_monotonic": 6023.760115183,
+      "reply": "0.100881"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.760125391,
+      "end_monotonic": 6023.760481541,
+      "reply": "0.000088"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.760490373,
+      "end_monotonic": 6023.760727743,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.760735679,
+      "end_monotonic": 6023.761102517,
+      "reply": "0.052434"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.761110868,
+      "end_monotonic": 6023.761514249,
+      "reply": "0.011923"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.761534313,
+      "end_monotonic": 6023.762024732,
+      "reply": "4294409908"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.762045467,
+      "end_monotonic": 6023.762385874,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.762431249,
+      "end_monotonic": 6023.762734216,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.767973594,
+      "end_monotonic": 6023.768271506,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.768296305,
+      "end_monotonic": 6023.768613641,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.768634888,
+      "end_monotonic": 6023.768986495,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.76900771,
+      "end_monotonic": 6023.76940018,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.769421747,
+      "end_monotonic": 6023.76989559,
+      "reply": "-8.065926"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.76991607,
+      "end_monotonic": 6023.770381177,
+      "reply": "0.000925"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.770403928,
+      "end_monotonic": 6023.770837677,
+      "reply": "0.388320"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.77085614,
+      "end_monotonic": 6023.771269185,
+      "reply": "0.357076"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.771288608,
+      "end_monotonic": 6023.771716373,
+      "reply": "0.129148"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.771725172,
+      "end_monotonic": 6023.772033612,
+      "reply": "-0.000438"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.772041548,
+      "end_monotonic": 6023.772396962,
+      "reply": "48.211784"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.772404866,
+      "end_monotonic": 6023.772787896,
+      "reply": "0.054392"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.772796055,
+      "end_monotonic": 6023.773154222,
+      "reply": "0.013930"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.773162253,
+      "end_monotonic": 6023.773578306,
+      "reply": "4294409908"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.77358653,
+      "end_monotonic": 6023.773891546,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.773912121,
+      "end_monotonic": 6023.77426456,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.77947741,
+      "end_monotonic": 6023.77977977,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.779805529,
+      "end_monotonic": 6023.780146736,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.780168751,
+      "end_monotonic": 6023.780567557,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.780588196,
+      "end_monotonic": 6023.781000377,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.781022616,
+      "end_monotonic": 6023.781489804,
+      "reply": "-8.066043"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.781512171,
+      "end_monotonic": 6023.782003262,
+      "reply": "-0.011104"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.782026397,
+      "end_monotonic": 6023.782493008,
+      "reply": "0.464643"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.78251416,
+      "end_monotonic": 6023.783012418,
+      "reply": "0.228913"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.783036802,
+      "end_monotonic": 6023.783502549,
+      "reply": "0.201977"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.783527636,
+      "end_monotonic": 6023.784024135,
+      "reply": "-0.001401"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.784045798,
+      "end_monotonic": 6023.784508634,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.784530073,
+      "end_monotonic": 6023.7850107,
+      "reply": "0.056413"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.785031276,
+      "end_monotonic": 6023.785521726,
+      "reply": "0.015027"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.785541182,
+      "end_monotonic": 6023.786029904,
+      "reply": "4294409896"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.786050832,
+      "end_monotonic": 6023.786389831,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.786421862,
+      "end_monotonic": 6023.786740925,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.79196376,
+      "end_monotonic": 6023.792232808,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.792252808,
+      "end_monotonic": 6023.792443523,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.792452418,
+      "end_monotonic": 6023.792709787,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.792718459,
+      "end_monotonic": 6023.7931204,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.793144592,
+      "end_monotonic": 6023.793610659,
+      "reply": "-8.066203"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.793634978,
+      "end_monotonic": 6023.794104022,
+      "reply": "-0.019381"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.794128469,
+      "end_monotonic": 6023.794589896,
+      "reply": "0.482934"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.79461156,
+      "end_monotonic": 6023.794994909,
+      "reply": "0.567295"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.795017565,
+      "end_monotonic": 6023.795479088,
+      "reply": "0.118829"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.79550072,
+      "end_monotonic": 6023.795905509,
+      "reply": "-0.000500"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.795925988,
+      "end_monotonic": 6023.796385112,
+      "reply": "48.209499"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.796409527,
+      "end_monotonic": 6023.796902794,
+      "reply": "0.058392"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.796923945,
+      "end_monotonic": 6023.797361181,
+      "reply": "0.016619"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.797381981,
+      "end_monotonic": 6023.797884847,
+      "reply": "4294409884"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.797905742,
+      "end_monotonic": 6023.798245925,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.798267141,
+      "end_monotonic": 6023.79856966,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.803804942,
+      "end_monotonic": 6023.804108294,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.80411863,
+      "end_monotonic": 6023.804328896,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.804337184,
+      "end_monotonic": 6023.804570746,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.804578489,
+      "end_monotonic": 6023.804884177,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.804892913,
+      "end_monotonic": 6023.805269735,
+      "reply": "-8.066292"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.80527975,
+      "end_monotonic": 6023.805622589,
+      "reply": "-0.001746"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.805631677,
+      "end_monotonic": 6023.80601685,
+      "reply": "0.461134"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.806037842,
+      "end_monotonic": 6023.806494149,
+      "reply": "0.373337"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.806515589,
+      "end_monotonic": 6023.807013879,
+      "reply": "0.038492"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.807035159,
+      "end_monotonic": 6023.807516682,
+      "reply": "-0.000551"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.807537289,
+      "end_monotonic": 6023.807961918,
+      "reply": "48.216354"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.807976669,
+      "end_monotonic": 6023.808272629,
+      "reply": "0.060308"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.808281173,
+      "end_monotonic": 6023.808618028,
+      "reply": "0.013954"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.808625964,
+      "end_monotonic": 6023.808900964,
+      "reply": "4294409884"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.8089089,
+      "end_monotonic": 6023.809230075,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.809243643,
+      "end_monotonic": 6023.809525011,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.814776645,
+      "end_monotonic": 6023.815121083,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.815143931,
+      "end_monotonic": 6023.815568847,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.815589167,
+      "end_monotonic": 6023.815880007,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.815900326,
+      "end_monotonic": 6023.816375321,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.816397625,
+      "end_monotonic": 6023.816912395,
+      "reply": "-8.066339"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.816935306,
+      "end_monotonic": 6023.817411197,
+      "reply": "-0.000595"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.817434589,
+      "end_monotonic": 6023.817901136,
+      "reply": "0.465239"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.817921904,
+      "end_monotonic": 6023.818409538,
+      "reply": "0.446942"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.818432578,
+      "end_monotonic": 6023.818901429,
+      "reply": "0.143211"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.81892226,
+      "end_monotonic": 6023.819406567,
+      "reply": "0.000094"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.819426823,
+      "end_monotonic": 6023.819809404,
+      "reply": "48.225491"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.819817212,
+      "end_monotonic": 6023.820162355,
+      "reply": "0.062287"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.820170387,
+      "end_monotonic": 6023.820569992,
+      "reply": "0.015145"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.820577639,
+      "end_monotonic": 6023.820907807,
+      "reply": "4294409880"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.820915774,
+      "end_monotonic": 6023.821211318,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.821219254,
+      "end_monotonic": 6023.82152539,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.826748832,
+      "end_monotonic": 6023.826972858,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.826995609,
+      "end_monotonic": 6023.827239571,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.827260082,
+      "end_monotonic": 6023.827615465,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.827635304,
+      "end_monotonic": 6023.828127067,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.828150778,
+      "end_monotonic": 6023.828701067,
+      "reply": "-8.066321"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.828724938,
+      "end_monotonic": 6023.829118592,
+      "reply": "-0.005244"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.829142111,
+      "end_monotonic": 6023.829681137,
+      "reply": "0.487721"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.829702736,
+      "end_monotonic": 6023.830157668,
+      "reply": "0.390977"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.830180131,
+      "end_monotonic": 6023.830679861,
+      "reply": "0.183682"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.830702485,
+      "end_monotonic": 6023.831175336,
+      "reply": "-0.000238"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.831196327,
+      "end_monotonic": 6023.831696506,
+      "reply": "48.209499"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.831717177,
+      "end_monotonic": 6023.83212619,
+      "reply": "0.064266"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.83214699,
+      "end_monotonic": 6023.832681983,
+      "reply": "0.014523"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.832702335,
+      "end_monotonic": 6023.833138419,
+      "reply": "4294409880"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.833160594,
+      "end_monotonic": 6023.833568423,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.833599014,
+      "end_monotonic": 6023.833882431,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.839143408,
+      "end_monotonic": 6023.839393417,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.839436104,
+      "end_monotonic": 6023.839749439,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.839771647,
+      "end_monotonic": 6023.840028376,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.840050551,
+      "end_monotonic": 6023.840486763,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.840510795,
+      "end_monotonic": 6023.841006749,
+      "reply": "-8.066334"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.841030653,
+      "end_monotonic": 6023.841508112,
+      "reply": "-0.003459"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.841532015,
+      "end_monotonic": 6023.841994243,
+      "reply": "0.534666"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.842015458,
+      "end_monotonic": 6023.842386424,
+      "reply": "0.535495"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.84239516,
+      "end_monotonic": 6023.842745486,
+      "reply": "0.195760"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.842754062,
+      "end_monotonic": 6023.843109412,
+      "reply": "-0.000345"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.843117156,
+      "end_monotonic": 6023.843450939,
+      "reply": "48.175236"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.843458811,
+      "end_monotonic": 6023.843786994,
+      "reply": "0.066225"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.84379493,
+      "end_monotonic": 6023.844153608,
+      "reply": "0.016029"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.844161704,
+      "end_monotonic": 6023.844738488,
+      "reply": "4294409880"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.844759608,
+      "end_monotonic": 6023.844995409,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.845015793,
+      "end_monotonic": 6023.845361447,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.850625912,
+      "end_monotonic": 6023.85087797,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.850902257,
+      "end_monotonic": 6023.85123684,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.851257063,
+      "end_monotonic": 6023.851566527,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.851586654,
+      "end_monotonic": 6023.851999987,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.852039442,
+      "end_monotonic": 6023.852541157,
+      "reply": "-8.066369"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.852564164,
+      "end_monotonic": 6023.852994712,
+      "reply": "-0.004305"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.853017784,
+      "end_monotonic": 6023.853403661,
+      "reply": "0.526209"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.853412237,
+      "end_monotonic": 6023.853785091,
+      "reply": "0.313167"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.853793923,
+      "end_monotonic": 6023.854144761,
+      "reply": "0.205760"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.854153049,
+      "end_monotonic": 6023.85456427,
+      "reply": "0.000041"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.854572301,
+      "end_monotonic": 6023.854889221,
+      "reply": "48.220921"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.854897125,
+      "end_monotonic": 6023.855240251,
+      "reply": "0.068141"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.855248571,
+      "end_monotonic": 6023.85572843,
+      "reply": "0.016792"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.855749582,
+      "end_monotonic": 6023.856161378,
+      "reply": "4294409876"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.856207073,
+      "end_monotonic": 6023.856572951,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.856594423,
+      "end_monotonic": 6023.856879215,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.862197919,
+      "end_monotonic": 6023.862679666,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.862732816,
+      "end_monotonic": 6023.862999849,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.86303188,
+      "end_monotonic": 6023.863384606,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.863405438,
+      "end_monotonic": 6023.863848978,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.863868497,
+      "end_monotonic": 6023.864316325,
+      "reply": "-8.066422"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.864356644,
+      "end_monotonic": 6023.864822999,
+      "reply": "-0.001217"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.864842167,
+      "end_monotonic": 6023.86522734,
+      "reply": "0.557792"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.86524606,
+      "end_monotonic": 6023.865638529,
+      "reply": "0.516624"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.865657505,
+      "end_monotonic": 6023.866066038,
+      "reply": "0.161865"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.866084085,
+      "end_monotonic": 6023.866476971,
+      "reply": "-0.000609"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.866493514,
+      "end_monotonic": 6023.866803682,
+      "reply": "48.218636"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.866819617,
+      "end_monotonic": 6023.867220566,
+      "reply": "0.070120"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.867237366,
+      "end_monotonic": 6023.867697417,
+      "reply": "0.017454"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.867713705,
+      "end_monotonic": 6023.868128926,
+      "reply": "4294409872"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.868146973,
+      "end_monotonic": 6023.868556914,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.868574258,
+      "end_monotonic": 6023.868865418,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.874126427,
+      "end_monotonic": 6023.874427379,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.874466546,
+      "end_monotonic": 6023.874727179,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.874749674,
+      "end_monotonic": 6023.874986084,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.875005155,
+      "end_monotonic": 6023.875444695,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.875464759,
+      "end_monotonic": 6023.875802862,
+      "reply": "-8.066476"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.875813485,
+      "end_monotonic": 6023.87614826,
+      "reply": "0.000523"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.87615946,
+      "end_monotonic": 6023.876585816,
+      "reply": "0.604931"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.876595736,
+      "end_monotonic": 6023.876927855,
+      "reply": "0.500554"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.876948367,
+      "end_monotonic": 6023.877270438,
+      "reply": "0.176281"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.877282853,
+      "end_monotonic": 6023.877721114,
+      "reply": "-0.001030"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.877730393,
+      "end_monotonic": 6023.878090832,
+      "reply": "48.202648"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.878108815,
+      "end_monotonic": 6023.878457798,
+      "reply": "0.071995"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.878474533,
+      "end_monotonic": 6023.878912473,
+      "reply": "0.018727"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.878928153,
+      "end_monotonic": 6023.87933579,
+      "reply": "4294409872"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.879370477,
+      "end_monotonic": 6023.879722915,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.879740771,
+      "end_monotonic": 6023.879976316,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.88523035,
+      "end_monotonic": 6023.885568005,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.885591684,
+      "end_monotonic": 6023.885872445,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.88589094,
+      "end_monotonic": 6023.886244082,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.88626133,
+      "end_monotonic": 6023.886696902,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.88671543,
+      "end_monotonic": 6023.887067996,
+      "reply": "-8.066577"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.887086044,
+      "end_monotonic": 6023.887495153,
+      "reply": "-0.013622"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.887514192,
+      "end_monotonic": 6023.88796426,
+      "reply": "0.622848"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.887981091,
+      "end_monotonic": 6023.888361209,
+      "reply": "0.404836"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.88838012,
+      "end_monotonic": 6023.88876555,
+      "reply": "0.261507"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.888797997,
+      "end_monotonic": 6023.889156835,
+      "reply": "-0.001048"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.889166659,
+      "end_monotonic": 6023.889573624,
+      "reply": "48.204929"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.889582264,
+      "end_monotonic": 6023.88988904,
+      "reply": "0.073912"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.889896975,
+      "end_monotonic": 6023.890232454,
+      "reply": "0.018935"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.890240134,
+      "end_monotonic": 6023.890581501,
+      "reply": "4294409864"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.890589309,
+      "end_monotonic": 6023.890884149,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.890913364,
+      "end_monotonic": 6023.891256874,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.896538075,
+      "end_monotonic": 6023.896859251,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.896884562,
+      "end_monotonic": 6023.897220873,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.89723892,
+      "end_monotonic": 6023.897552352,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.897569311,
+      "end_monotonic": 6023.897967316,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.89798578,
+      "end_monotonic": 6023.898349962,
+      "reply": "-8.066688"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.89836897,
+      "end_monotonic": 6023.898828701,
+      "reply": "-0.013171"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.898849245,
+      "end_monotonic": 6023.899215763,
+      "reply": "0.693707"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.899233266,
+      "end_monotonic": 6023.899648775,
+      "reply": "0.586226"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.899667334,
+      "end_monotonic": 6023.900132858,
+      "reply": "0.190769"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.900156633,
+      "end_monotonic": 6023.900698506,
+      "reply": "-0.001078"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.900719658,
+      "end_monotonic": 6023.901112223,
+      "reply": "48.218636"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.901132639,
+      "end_monotonic": 6023.901677872,
+      "reply": "0.075849"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.901698415,
+      "end_monotonic": 6023.902213569,
+      "reply": "0.022106"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.902233921,
+      "end_monotonic": 6023.902665781,
+      "reply": "4294409852"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.902682389,
+      "end_monotonic": 6023.902945581,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.902953549,
+      "end_monotonic": 6023.903216262,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.908398554,
+      "end_monotonic": 6023.908571093,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.908583893,
+      "end_monotonic": 6023.908850893,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.908859245,
+      "end_monotonic": 6023.90913287,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.909151493,
+      "end_monotonic": 6023.909663511,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.909684343,
+      "end_monotonic": 6023.91009326,
+      "reply": "-8.066888"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.910115083,
+      "end_monotonic": 6023.910469921,
+      "reply": "-0.018830"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.910492225,
+      "end_monotonic": 6023.910869335,
+      "reply": "0.729542"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.910888214,
+      "end_monotonic": 6023.911340394,
+      "reply": "0.853870"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.911359017,
+      "end_monotonic": 6023.911823741,
+      "reply": "0.324353"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.911841212,
+      "end_monotonic": 6023.912244113,
+      "reply": "-0.002305"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.912264657,
+      "end_monotonic": 6023.912709989,
+      "reply": "48.193508"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.912727588,
+      "end_monotonic": 6023.91317436,
+      "reply": "0.077765"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.913190872,
+      "end_monotonic": 6023.913661451,
+      "reply": "0.023232"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.913680618,
+      "end_monotonic": 6023.914109855,
+      "reply": "4294409840"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.914128094,
+      "end_monotonic": 6023.914362584,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.914381239,
+      "end_monotonic": 6023.914724654,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.919969568,
+      "end_monotonic": 6023.920271064,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.920295063,
+      "end_monotonic": 6023.920609006,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.920630126,
+      "end_monotonic": 6023.92098202,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.921002436,
+      "end_monotonic": 6023.921355418,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.921376858,
+      "end_monotonic": 6023.921861132,
+      "reply": "-8.067092"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.92188334,
+      "end_monotonic": 6023.922242338,
+      "reply": "-0.011607"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.922251362,
+      "end_monotonic": 6023.922618008,
+      "reply": "0.749947"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.922626008,
+      "end_monotonic": 6023.922891024,
+      "reply": "0.777094"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.922899536,
+      "end_monotonic": 6023.923221768,
+      "reply": "0.450557"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.923230151,
+      "end_monotonic": 6023.923595773,
+      "reply": "-0.003210"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.923603261,
+      "end_monotonic": 6023.923882518,
+      "reply": "48.230061"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.923889749,
+      "end_monotonic": 6023.924333481,
+      "reply": "0.079619"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.924354313,
+      "end_monotonic": 6023.924859483,
+      "reply": "0.022952"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.924879067,
+      "end_monotonic": 6023.925368941,
+      "reply": "4294409828"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.925403564,
+      "end_monotonic": 6023.925729667,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.925749315,
+      "end_monotonic": 6023.926099961,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.931363883,
+      "end_monotonic": 6023.931738945,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.931761824,
+      "end_monotonic": 6023.931984634,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.932017625,
+      "end_monotonic": 6023.93235336,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.932374735,
+      "end_monotonic": 6023.93284877,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.932870178,
+      "end_monotonic": 6023.933364564,
+      "reply": "-8.067266"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.933387092,
+      "end_monotonic": 6023.933859303,
+      "reply": "-0.010679"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.933882054,
+      "end_monotonic": 6023.934349274,
+      "reply": "0.784507"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.934370009,
+      "end_monotonic": 6023.93484846,
+      "reply": "0.749437"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.93486958,
+      "end_monotonic": 6023.935354878,
+      "reply": "0.536387"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.93537555,
+      "end_monotonic": 6023.935910511,
+      "reply": "-0.002110"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.935930287,
+      "end_monotonic": 6023.936356483,
+      "reply": "48.198078"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.936377699,
+      "end_monotonic": 6023.936783928,
+      "reply": "0.081724"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.936791607,
+      "end_monotonic": 6023.937150574,
+      "reply": "0.024045"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.93715787,
+      "end_monotonic": 6023.937574722,
+      "reply": "4294409816"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.937582626,
+      "end_monotonic": 6023.937847163,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.937854811,
+      "end_monotonic": 6023.938075253,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.943344006,
+      "end_monotonic": 6023.943748859,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.94378393,
+      "end_monotonic": 6023.944145232,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.944170767,
+      "end_monotonic": 6023.944482183,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.94450455,
+      "end_monotonic": 6023.944893628,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.944916635,
+      "end_monotonic": 6023.945381742,
+      "reply": "-8.067478"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.945406158,
+      "end_monotonic": 6023.945907008,
+      "reply": "-0.019568"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.9459304,
+      "end_monotonic": 6023.946393811,
+      "reply": "0.810473"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.946414578,
+      "end_monotonic": 6023.946894725,
+      "reply": "0.732305"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.946917349,
+      "end_monotonic": 6023.947400536,
+      "reply": "0.434901"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.947421911,
+      "end_monotonic": 6023.94791297,
+      "reply": "-0.001943"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.947933129,
+      "end_monotonic": 6023.948356478,
+      "reply": "48.188942"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.948379229,
+      "end_monotonic": 6023.948902159,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.948924206,
+      "end_monotonic": 6023.949360195,
+      "reply": "0.025219"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.949403361,
+      "end_monotonic": 6023.949932435,
+      "reply": "4294409800"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.949954066,
+      "end_monotonic": 6023.950233835,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.950254474,
+      "end_monotonic": 6023.950613409,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.95587381,
+      "end_monotonic": 6023.956116043,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.956142635,
+      "end_monotonic": 6023.956566367,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.956588863,
+      "end_monotonic": 6023.956876407,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.956897238,
+      "end_monotonic": 6023.957373161,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.957396201,
+      "end_monotonic": 6023.957907547,
+      "reply": "-8.067709"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.957930906,
+      "end_monotonic": 6023.958408589,
+      "reply": "-0.029041"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "start_monotonic": 6023.958432333,
+      "end_monotonic": 6023.958894912,
+      "reply": "0.837242"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "start_monotonic": 6023.958915615,
+      "end_monotonic": 6023.959286741,
+      "reply": "0.759716"
+    },
+    {
+      "property": "axis0.motor.electrical_power",
+      "start_monotonic": 6023.959295189,
+      "end_monotonic": 6023.959713738,
+      "reply": "0.569296"
+    },
+    {
+      "property": "axis0.motor.mechanical_power",
+      "start_monotonic": 6023.959725513,
+      "end_monotonic": 6023.960034113,
+      "reply": "-0.003113"
+    },
+    {
+      "property": "vbus_voltage",
+      "start_monotonic": 6023.960042593,
+      "end_monotonic": 6023.960394263,
+      "reply": "48.239197"
+    },
+    {
+      "property": "axis0.controller.vel_setpoint",
+      "start_monotonic": 6023.960402167,
+      "end_monotonic": 6023.960783533,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.controller.effective_torque_setpoint",
+      "start_monotonic": 6023.960791501,
+      "end_monotonic": 6023.961148739,
+      "reply": "0.026464"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "start_monotonic": 6023.961156483,
+      "end_monotonic": 6023.961639318,
+      "reply": "4294409784"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "start_monotonic": 6023.961660021,
+      "end_monotonic": 6023.961990092,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.962009675,
+      "end_monotonic": 6023.962243717,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.967537494,
+      "end_monotonic": 6023.967864685,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6023.967887052,
+      "end_monotonic": 6023.968234563,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6023.96825693,
+      "end_monotonic": 6023.968564378,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6023.968585337,
+      "end_monotonic": 6023.968994862,
+      "reply": "0.083333"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "start_monotonic": 6023.969017261,
+      "end_monotonic": 6023.969704443,
+      "reply": "-8.068084"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.96972857,
+      "end_monotonic": 6023.970301419,
+      "reply": "-0.039792"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.970796189,
+      "end_monotonic": 6023.971110453,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.971127476,
+      "end_monotonic": 6023.971342894,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.971360526,
+      "end_monotonic": 6023.971930718,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.971940702,
+      "end_monotonic": 6023.972481743,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.972505647,
+      "end_monotonic": 6023.972876645,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.972917508,
+      "end_monotonic": 6023.973276794,
+      "reply": "8"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.973296249,
+      "end_monotonic": 6023.973613521,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6023.97363368,
+      "end_monotonic": 6023.973921064,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6023.973973287,
+      "end_monotonic": 6023.974376252,
+      "reply": "-0.024828"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6024.004490123,
+      "end_monotonic": 6024.004912896,
+      "reply": "-0.044289"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6024.035034223,
+      "end_monotonic": 6024.035506242,
+      "reply": "0.003019"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6024.065652976,
+      "end_monotonic": 6024.066161923,
+      "reply": "0.000054"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "start_monotonic": 6024.096328176,
+      "end_monotonic": 6024.096898657,
+      "reply": "-0.007587"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 6024.127648511,
+      "end_monotonic": 6024.128195984,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "start_monotonic": 6024.128441481,
+      "end_monotonic": 6024.128774112,
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "start_monotonic": 6024.129009114,
+      "end_monotonic": 6024.129361393,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "start_monotonic": 6024.12959745,
+      "end_monotonic": 6024.130086365,
+      "reply": "30.000000"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "start_monotonic": 6024.130298199,
+      "end_monotonic": 6024.130844872,
+      "reply": "12.500000"
+    },
+    {
+      "property": "axis0.config.enable_watchdog",
+      "start_monotonic": 6024.131080578,
+      "end_monotonic": 6024.131381754,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.watchdog_timeout",
+      "start_monotonic": 6024.131590964,
+      "end_monotonic": 6024.132031976,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.current_state",
+      "start_monotonic": 6024.132061703,
+      "end_monotonic": 6024.132362111,
+      "reply": "1"
+    },
+    {
+      "property": "axis0.active_errors",
+      "start_monotonic": 6024.132384927,
+      "end_monotonic": 6024.132730869,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "start_monotonic": 6024.132751061,
+      "end_monotonic": 6024.132983694,
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "start_monotonic": 6024.133003022,
+      "end_monotonic": 6024.133491041,
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "start_monotonic": 6024.133511072,
+      "end_monotonic": 6024.134104304,
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "start_monotonic": 6024.134124079,
+      "end_monotonic": 6024.134677088,
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "start_monotonic": 6024.13469904,
+      "end_monotonic": 6024.135094965,
+      "reply": "0.000000"
+    }
+  ],
+  "settings_mutated": true,
+  "motion_attempted": true,
+  "nvm_save": false,
+  "clear_count": 0,
+  "arm_request_monotonic": 6023.43914257,
+  "target_set_monotonic": 6023.440799197,
+  "result": "Unexpected encoder direction/speed",
+  "cleanup_confirmed": true,
+  "stop_commands_sent_monotonic": 6023.970789405,
+  "idle_confirmed_monotonic": 6023.973965511,
+  "stationary_feedback_confirmed": true,
+  "after": {
+    "axis0.current_state": 1.0,
+    "axis0.active_errors": 0.0,
+    "axis0.disarm_reason": 0.0,
+    "axis0.config.motor.current_soft_max": 35.0,
+    "axis0.config.motor.current_hard_max": 38.0,
+    "axis0.controller.input_vel": 0.0,
+    "axis0.controller.input_torque": 0.0
+  }
+}

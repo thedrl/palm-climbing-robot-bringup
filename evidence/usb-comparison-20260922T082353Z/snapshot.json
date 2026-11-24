@@ -1,0 +1,783 @@
+{
+  "port": "/dev/serial/by-id/usb-ODrive_Robotics_ODrive_S1_006274725912-if00",
+  "expected_serial": "006274725912",
+  "read_only": true,
+  "records": [
+    {
+      "property": "serial_number",
+      "utc": "2026-09-22T08:23:54.008954+00:00",
+      "wire_command": "r serial_number",
+      "reply": "422860445970"
+    },
+    {
+      "property": "axis0.current_state",
+      "utc": "2026-09-22T08:23:54.036248+00:00",
+      "wire_command": "r axis0.current_state",
+      "reply": "1"
+    },
+    {
+      "property": "commit_hash",
+      "utc": "2026-09-22T08:23:54.064156+00:00",
+      "wire_command": "r commit_hash",
+      "reply": "3016019781"
+    },
+    {
+      "property": "fw_version_major",
+      "utc": "2026-09-22T08:23:54.091936+00:00",
+      "wire_command": "r fw_version_major",
+      "reply": "0"
+    },
+    {
+      "property": "fw_version_minor",
+      "utc": "2026-09-22T08:23:54.118781+00:00",
+      "wire_command": "r fw_version_minor",
+      "reply": "6"
+    },
+    {
+      "property": "fw_version_revision",
+      "utc": "2026-09-22T08:23:54.146203+00:00",
+      "wire_command": "r fw_version_revision",
+      "reply": "11"
+    },
+    {
+      "property": "fw_version_unreleased",
+      "utc": "2026-09-22T08:23:54.174895+00:00",
+      "wire_command": "r fw_version_unreleased",
+      "reply": "0"
+    },
+    {
+      "property": "hw_version_major",
+      "utc": "2026-09-22T08:23:54.202355+00:00",
+      "wire_command": "r hw_version_major",
+      "reply": "5"
+    },
+    {
+      "property": "hw_version_minor",
+      "utc": "2026-09-22T08:23:54.229328+00:00",
+      "wire_command": "r hw_version_minor",
+      "reply": "2"
+    },
+    {
+      "property": "hw_version_variant",
+      "utc": "2026-09-22T08:23:54.256602+00:00",
+      "wire_command": "r hw_version_variant",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.active_errors",
+      "utc": "2026-09-22T08:23:54.283968+00:00",
+      "wire_command": "r axis0.active_errors",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.disarm_reason",
+      "utc": "2026-09-22T08:23:54.310535+00:00",
+      "wire_command": "r axis0.disarm_reason",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.procedure_result",
+      "utc": "2026-09-22T08:23:54.338860+00:00",
+      "wire_command": "r axis0.procedure_result",
+      "reply": "2"
+    },
+    {
+      "property": "vbus_voltage",
+      "utc": "2026-09-22T08:23:54.366598+00:00",
+      "wire_command": "r vbus_voltage",
+      "reply": "47.997051"
+    },
+    {
+      "property": "ibus",
+      "utc": "2026-09-22T08:23:54.394079+00:00",
+      "wire_command": "r ibus",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_estimate",
+      "utc": "2026-09-22T08:23:54.421365+00:00",
+      "wire_command": "r axis0.pos_estimate",
+      "reply": "43.382572"
+    },
+    {
+      "property": "axis0.vel_estimate",
+      "utc": "2026-09-22T08:23:54.448845+00:00",
+      "wire_command": "r axis0.vel_estimate",
+      "reply": "-0.000825"
+    },
+    {
+      "property": "axis0.config.load_encoder",
+      "utc": "2026-09-22T08:23:54.476268+00:00",
+      "wire_command": "r axis0.config.load_encoder",
+      "reply": "10"
+    },
+    {
+      "property": "axis0.config.commutation_encoder",
+      "utc": "2026-09-22T08:23:54.503547+00:00",
+      "wire_command": "r axis0.config.commutation_encoder",
+      "reply": "10"
+    },
+    {
+      "property": "axis0.config.commutation_encoder_bandwidth",
+      "utc": "2026-09-22T08:23:54.530587+00:00",
+      "wire_command": "r axis0.config.commutation_encoder_bandwidth",
+      "reply": "nan"
+    },
+    {
+      "property": "axis0.config.motor.motor_type",
+      "utc": "2026-09-22T08:23:54.558548+00:00",
+      "wire_command": "r axis0.config.motor.motor_type",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.pole_pairs",
+      "utc": "2026-09-22T08:23:54.585828+00:00",
+      "wire_command": "r axis0.config.motor.pole_pairs",
+      "reply": "7"
+    },
+    {
+      "property": "axis0.config.motor.phase_resistance",
+      "utc": "2026-09-22T08:23:54.613666+00:00",
+      "wire_command": "r axis0.config.motor.phase_resistance",
+      "reply": "0.030716"
+    },
+    {
+      "property": "axis0.config.motor.phase_inductance",
+      "utc": "2026-09-22T08:23:54.641704+00:00",
+      "wire_command": "r axis0.config.motor.phase_inductance",
+      "reply": "0.000016"
+    },
+    {
+      "property": "axis0.config.motor.phase_resistance_valid",
+      "utc": "2026-09-22T08:23:54.669752+00:00",
+      "wire_command": "r axis0.config.motor.phase_resistance_valid",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.motor.phase_inductance_valid",
+      "utc": "2026-09-22T08:23:54.698596+00:00",
+      "wire_command": "r axis0.config.motor.phase_inductance_valid",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.config.motor.torque_constant",
+      "utc": "2026-09-22T08:23:54.726654+00:00",
+      "wire_command": "r axis0.config.motor.torque_constant",
+      "reply": "0.030630"
+    },
+    {
+      "property": "axis0.config.motor.direction",
+      "utc": "2026-09-22T08:23:54.754914+00:00",
+      "wire_command": "r axis0.config.motor.direction",
+      "reply": "-1.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_control_bandwidth",
+      "utc": "2026-09-22T08:23:54.782637+00:00",
+      "wire_command": "r axis0.config.motor.current_control_bandwidth",
+      "reply": "1000.000000"
+    },
+    {
+      "property": "axis0.config.motor.wL_FF_enable",
+      "utc": "2026-09-22T08:23:54.811146+00:00",
+      "wire_command": "r axis0.config.motor.wL_FF_enable",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.bEMF_FF_enable",
+      "utc": "2026-09-22T08:23:54.838831+00:00",
+      "wire_command": "r axis0.config.motor.bEMF_FF_enable",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.dI_dt_FF_enable",
+      "utc": "2026-09-22T08:23:54.867062+00:00",
+      "wire_command": "r axis0.config.motor.dI_dt_FF_enable",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.ff_pm_flux_linkage",
+      "utc": "2026-09-22T08:23:54.895649+00:00",
+      "wire_command": "r axis0.config.motor.ff_pm_flux_linkage",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.ff_pm_flux_linkage_valid",
+      "utc": "2026-09-22T08:23:54.924101+00:00",
+      "wire_command": "r axis0.config.motor.ff_pm_flux_linkage_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.motor_model_l_d",
+      "utc": "2026-09-22T08:23:54.951535+00:00",
+      "wire_command": "r axis0.config.motor.motor_model_l_d",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.motor_model_l_q",
+      "utc": "2026-09-22T08:23:54.979631+00:00",
+      "wire_command": "r axis0.config.motor.motor_model_l_q",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.motor_model_l_dq_valid",
+      "utc": "2026-09-22T08:23:55.007817+00:00",
+      "wire_command": "r axis0.config.motor.motor_model_l_dq_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.calibration_current",
+      "utc": "2026-09-22T08:23:55.035793+00:00",
+      "wire_command": "r axis0.config.motor.calibration_current",
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.resistance_calib_max_voltage",
+      "utc": "2026-09-22T08:23:55.064149+00:00",
+      "wire_command": "r axis0.config.motor.resistance_calib_max_voltage",
+      "reply": "2.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_soft_max",
+      "utc": "2026-09-22T08:23:55.092509+00:00",
+      "wire_command": "r axis0.config.motor.current_soft_max",
+      "reply": "35.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_hard_max",
+      "utc": "2026-09-22T08:23:55.120564+00:00",
+      "wire_command": "r axis0.config.motor.current_hard_max",
+      "reply": "38.000000"
+    },
+    {
+      "property": "axis0.config.motor.current_slew_rate_limit",
+      "utc": "2026-09-22T08:23:55.148625+00:00",
+      "wire_command": "r axis0.config.motor.current_slew_rate_limit",
+      "reply": "10000.000000"
+    },
+    {
+      "property": "axis0.config.motor.fw_enable",
+      "utc": "2026-09-22T08:23:55.176709+00:00",
+      "wire_command": "r axis0.config.motor.fw_enable",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.fw_mod_setpoint",
+      "utc": "2026-09-22T08:23:55.204652+00:00",
+      "wire_command": "r axis0.config.motor.fw_mod_setpoint",
+      "reply": "0.610333"
+    },
+    {
+      "property": "axis0.config.motor.fw_fb_bandwidth",
+      "utc": "2026-09-22T08:23:55.231824+00:00",
+      "wire_command": "r axis0.config.motor.fw_fb_bandwidth",
+      "reply": "500.000000"
+    },
+    {
+      "property": "axis0.config.motor.acim_gain_min_flux",
+      "utc": "2026-09-22T08:23:55.259637+00:00",
+      "wire_command": "r axis0.config.motor.acim_gain_min_flux",
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.acim_autoflux_enable",
+      "utc": "2026-09-22T08:23:55.286789+00:00",
+      "wire_command": "r axis0.config.motor.acim_autoflux_enable",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.acim_autoflux_min_Id",
+      "utc": "2026-09-22T08:23:55.314712+00:00",
+      "wire_command": "r axis0.config.motor.acim_autoflux_min_Id",
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.acim_autoflux_attack_gain",
+      "utc": "2026-09-22T08:23:55.342767+00:00",
+      "wire_command": "r axis0.config.motor.acim_autoflux_attack_gain",
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.config.motor.acim_autoflux_decay_gain",
+      "utc": "2026-09-22T08:23:55.371159+00:00",
+      "wire_command": "r axis0.config.motor.acim_autoflux_decay_gain",
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.config.motor.acim_nominal_slip_vel",
+      "utc": "2026-09-22T08:23:55.398913+00:00",
+      "wire_command": "r axis0.config.motor.acim_nominal_slip_vel",
+      "reply": "2.340000"
+    },
+    {
+      "property": "axis0.config.motor.sensorless_observer_gain",
+      "utc": "2026-09-22T08:23:55.426939+00:00",
+      "wire_command": "r axis0.config.motor.sensorless_observer_gain",
+      "reply": "1000.000000"
+    },
+    {
+      "property": "axis0.config.motor.sensorless_pll_bandwidth",
+      "utc": "2026-09-22T08:23:55.455094+00:00",
+      "wire_command": "r axis0.config.motor.sensorless_pll_bandwidth",
+      "reply": "1000.000000"
+    },
+    {
+      "property": "axis0.config.motor.sensorless_pm_flux_linkage",
+      "utc": "2026-09-22T08:23:55.483600+00:00",
+      "wire_command": "r axis0.config.motor.sensorless_pm_flux_linkage",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.config.motor.sensorless_pm_flux_linkage_valid",
+      "utc": "2026-09-22T08:23:55.511284+00:00",
+      "wire_command": "r axis0.config.motor.sensorless_pm_flux_linkage_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.config.motor.power_torque_report_filter_bandwidth",
+      "utc": "2026-09-22T08:23:55.538390+00:00",
+      "wire_command": "r axis0.config.motor.power_torque_report_filter_bandwidth",
+      "reply": "8000.000000"
+    },
+    {
+      "property": "axis0.controller.config.enable_vel_limit",
+      "utc": "2026-09-22T08:23:55.565203+00:00",
+      "wire_command": "r axis0.controller.config.enable_vel_limit",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.enable_torque_mode_vel_limit",
+      "utc": "2026-09-22T08:23:55.592076+00:00",
+      "wire_command": "r axis0.controller.config.enable_torque_mode_vel_limit",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.enable_gain_scheduling",
+      "utc": "2026-09-22T08:23:55.618775+00:00",
+      "wire_command": "r axis0.controller.config.enable_gain_scheduling",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.gain_scheduling_width",
+      "utc": "2026-09-22T08:23:55.645694+00:00",
+      "wire_command": "r axis0.controller.config.gain_scheduling_width",
+      "reply": "0.001000"
+    },
+    {
+      "property": "axis0.controller.config.enable_overspeed_error",
+      "utc": "2026-09-22T08:23:55.673552+00:00",
+      "wire_command": "r axis0.controller.config.enable_overspeed_error",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.control_mode",
+      "utc": "2026-09-22T08:23:55.701541+00:00",
+      "wire_command": "r axis0.controller.config.control_mode",
+      "reply": "2"
+    },
+    {
+      "property": "axis0.controller.config.input_mode",
+      "utc": "2026-09-22T08:23:55.728713+00:00",
+      "wire_command": "r axis0.controller.config.input_mode",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.controller.config.pos_gain",
+      "utc": "2026-09-22T08:23:55.754943+00:00",
+      "wire_command": "r axis0.controller.config.pos_gain",
+      "reply": "20.000000"
+    },
+    {
+      "property": "axis0.controller.config.vel_gain",
+      "utc": "2026-09-22T08:23:55.781160+00:00",
+      "wire_command": "r axis0.controller.config.vel_gain",
+      "reply": "0.166667"
+    },
+    {
+      "property": "axis0.controller.config.vel_integrator_gain",
+      "utc": "2026-09-22T08:23:55.808522+00:00",
+      "wire_command": "r axis0.controller.config.vel_integrator_gain",
+      "reply": "0.333333"
+    },
+    {
+      "property": "axis0.controller.config.vel_integrator_limit",
+      "utc": "2026-09-22T08:23:55.835902+00:00",
+      "wire_command": "r axis0.controller.config.vel_integrator_limit",
+      "reply": "inf"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit",
+      "utc": "2026-09-22T08:23:55.862961+00:00",
+      "wire_command": "r axis0.controller.config.vel_limit",
+      "reply": "12.500000"
+    },
+    {
+      "property": "axis0.controller.config.vel_limit_tolerance",
+      "utc": "2026-09-22T08:23:55.890393+00:00",
+      "wire_command": "r axis0.controller.config.vel_limit_tolerance",
+      "reply": "1.400000"
+    },
+    {
+      "property": "axis0.controller.config.vel_ramp_rate",
+      "utc": "2026-09-22T08:23:55.917835+00:00",
+      "wire_command": "r axis0.controller.config.vel_ramp_rate",
+      "reply": "50.000000"
+    },
+    {
+      "property": "axis0.controller.config.torque_ramp_rate",
+      "utc": "2026-09-22T08:23:55.944821+00:00",
+      "wire_command": "r axis0.controller.config.torque_ramp_rate",
+      "reply": "0.010000"
+    },
+    {
+      "property": "axis0.controller.config.circular_setpoints",
+      "utc": "2026-09-22T08:23:55.972148+00:00",
+      "wire_command": "r axis0.controller.config.circular_setpoints",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.circular_setpoint_range",
+      "utc": "2026-09-22T08:23:55.999333+00:00",
+      "wire_command": "r axis0.controller.config.circular_setpoint_range",
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.controller.config.absolute_setpoints",
+      "utc": "2026-09-22T08:23:56.025475+00:00",
+      "wire_command": "r axis0.controller.config.absolute_setpoints",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.use_commutation_vel",
+      "utc": "2026-09-22T08:23:56.051584+00:00",
+      "wire_command": "r axis0.controller.config.use_commutation_vel",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.use_load_encoder_for_commutation_vel",
+      "utc": "2026-09-22T08:23:56.078823+00:00",
+      "wire_command": "r axis0.controller.config.use_load_encoder_for_commutation_vel",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.controller.config.commutation_vel_scale",
+      "utc": "2026-09-22T08:23:56.106164+00:00",
+      "wire_command": "r axis0.controller.config.commutation_vel_scale",
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.controller.config.steps_per_circular_range",
+      "utc": "2026-09-22T08:23:56.133601+00:00",
+      "wire_command": "r axis0.controller.config.steps_per_circular_range",
+      "reply": "1024"
+    },
+    {
+      "property": "axis0.controller.config.homing_speed",
+      "utc": "2026-09-22T08:23:56.159743+00:00",
+      "wire_command": "r axis0.controller.config.homing_speed",
+      "reply": "0.250000"
+    },
+    {
+      "property": "axis0.controller.config.inertia",
+      "utc": "2026-09-22T08:23:56.186012+00:00",
+      "wire_command": "r axis0.controller.config.inertia",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.config.input_filter_bandwidth",
+      "utc": "2026-09-22T08:23:56.213415+00:00",
+      "wire_command": "r axis0.controller.config.input_filter_bandwidth",
+      "reply": "20.000000"
+    },
+    {
+      "property": "axis0.controller.config.spinout_mechanical_power_bandwidth",
+      "utc": "2026-09-22T08:23:56.240407+00:00",
+      "wire_command": "r axis0.controller.config.spinout_mechanical_power_bandwidth",
+      "reply": "20.000000"
+    },
+    {
+      "property": "axis0.controller.config.spinout_electrical_power_bandwidth",
+      "utc": "2026-09-22T08:23:56.266548+00:00",
+      "wire_command": "r axis0.controller.config.spinout_electrical_power_bandwidth",
+      "reply": "20.000000"
+    },
+    {
+      "property": "axis0.controller.config.spinout_mechanical_power_threshold",
+      "utc": "2026-09-22T08:23:56.293414+00:00",
+      "wire_command": "r axis0.controller.config.spinout_mechanical_power_threshold",
+      "reply": "-10.000000"
+    },
+    {
+      "property": "axis0.controller.config.spinout_electrical_power_threshold",
+      "utc": "2026-09-22T08:23:56.321370+00:00",
+      "wire_command": "r axis0.controller.config.spinout_electrical_power_threshold",
+      "reply": "10.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.circular",
+      "utc": "2026-09-22T08:23:56.350277+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.circular",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.circular_output_range",
+      "utc": "2026-09-22T08:23:56.377981+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.circular_output_range",
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.scale",
+      "utc": "2026-09-22T08:23:56.405552+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.scale",
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.offset_valid",
+      "utc": "2026-09-22T08:23:56.434185+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.offset_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.offset",
+      "utc": "2026-09-22T08:23:56.463928+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.offset",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.approx_init_pos_valid",
+      "utc": "2026-09-22T08:23:56.492259+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.approx_init_pos_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.approx_init_pos",
+      "utc": "2026-09-22T08:23:56.520167+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.approx_init_pos",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_offset_valid",
+      "utc": "2026-09-22T08:23:56.548403+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.index_offset_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_offset",
+      "utc": "2026-09-22T08:23:56.577140+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.index_offset",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.use_index_gpio",
+      "utc": "2026-09-22T08:23:56.605325+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.use_index_gpio",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.passive_index_search",
+      "utc": "2026-09-22T08:23:56.632391+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.passive_index_search",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.index_gpio",
+      "utc": "2026-09-22T08:23:56.660678+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.index_gpio",
+      "reply": "10"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.config.use_endstop",
+      "utc": "2026-09-22T08:23:56.689259+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.config.use_endstop",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.circular",
+      "utc": "2026-09-22T08:23:56.717131+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.circular",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.circular_output_range",
+      "utc": "2026-09-22T08:23:56.744817+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.circular_output_range",
+      "reply": "1.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.scale",
+      "utc": "2026-09-22T08:23:56.772513+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.scale",
+      "reply": "-7.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset_valid",
+      "utc": "2026-09-22T08:23:56.798818+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.offset_valid",
+      "reply": "1"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.offset",
+      "utc": "2026-09-22T08:23:56.825061+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.offset",
+      "reply": "2.995659"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.approx_init_pos_valid",
+      "utc": "2026-09-22T08:23:56.853056+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.approx_init_pos_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.approx_init_pos",
+      "utc": "2026-09-22T08:23:56.880656+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.approx_init_pos",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_offset_valid",
+      "utc": "2026-09-22T08:23:56.908600+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.index_offset_valid",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_offset",
+      "utc": "2026-09-22T08:23:56.935316+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.index_offset",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.use_index_gpio",
+      "utc": "2026-09-22T08:23:56.963878+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.use_index_gpio",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.passive_index_search",
+      "utc": "2026-09-22T08:23:56.991024+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.passive_index_search",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.index_gpio",
+      "utc": "2026-09-22T08:23:57.017402+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.index_gpio",
+      "reply": "10"
+    },
+    {
+      "property": "axis0.commutation_mapper.config.use_endstop",
+      "utc": "2026-09-22T08:23:57.044725+00:00",
+      "wire_command": "r axis0.commutation_mapper.config.use_endstop",
+      "reply": "0"
+    },
+    {
+      "property": "rs485_encoder_group0.status",
+      "utc": "2026-09-22T08:23:57.072730+00:00",
+      "wire_command": "r rs485_encoder_group0.status",
+      "reply": "0"
+    },
+    {
+      "property": "rs485_encoder_group0.raw",
+      "utc": "2026-09-22T08:23:57.100354+00:00",
+      "wire_command": "r rs485_encoder_group0.raw",
+      "reply": "0.043335"
+    },
+    {
+      "property": "rs485_encoder_group0.raw32",
+      "utc": "2026-09-22T08:23:57.127481+00:00",
+      "wire_command": "r rs485_encoder_group0.raw32",
+      "reply": "2820888"
+    },
+    {
+      "property": "rs485_encoder_group0.config.mode",
+      "utc": "2026-09-22T08:23:57.153642+00:00",
+      "wire_command": "r rs485_encoder_group0.config.mode",
+      "reply": "2"
+    },
+    {
+      "property": "axis0.motor.foc.p_gain",
+      "utc": "2026-09-22T08:23:57.181764+00:00",
+      "wire_command": "r axis0.motor.foc.p_gain",
+      "reply": "0.016068"
+    },
+    {
+      "property": "axis0.motor.foc.i_gain",
+      "utc": "2026-09-22T08:23:57.208822+00:00",
+      "wire_command": "r axis0.motor.foc.i_gain",
+      "reply": "30.716316"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_measured",
+      "utc": "2026-09-22T08:23:57.235494+00:00",
+      "wire_command": "r axis0.motor.foc.Iq_measured",
+      "reply": "-0.137872"
+    },
+    {
+      "property": "axis0.motor.foc.Iq_setpoint",
+      "utc": "2026-09-22T08:23:57.261846+00:00",
+      "wire_command": "r axis0.motor.foc.Iq_setpoint",
+      "reply": "0.671259"
+    },
+    {
+      "property": "axis0.motor.fet_thermistor.temperature",
+      "utc": "2026-09-22T08:23:57.288344+00:00",
+      "wire_command": "r axis0.motor.fet_thermistor.temperature",
+      "reply": "27.356781"
+    },
+    {
+      "property": "axis0.motor.motor_thermistor.temperature",
+      "utc": "2026-09-22T08:23:57.316119+00:00",
+      "wire_command": "r axis0.motor.motor_thermistor.temperature",
+      "reply": "22.831604"
+    },
+    {
+      "property": "axis0.controller.input_vel",
+      "utc": "2026-09-22T08:23:57.344348+00:00",
+      "wire_command": "r axis0.controller.input_vel",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.controller.input_torque",
+      "utc": "2026-09-22T08:23:57.372778+00:00",
+      "wire_command": "r axis0.controller.input_torque",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.status",
+      "utc": "2026-09-22T08:23:57.402099+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.status",
+      "reply": "9"
+    },
+    {
+      "property": "axis0.commutation_mapper.status",
+      "utc": "2026-09-22T08:23:57.430170+00:00",
+      "wire_command": "r axis0.commutation_mapper.status",
+      "reply": "0"
+    },
+    {
+      "property": "axis0.pos_vel_mapper.working_offset",
+      "utc": "2026-09-22T08:23:57.457880+00:00",
+      "wire_command": "r axis0.pos_vel_mapper.working_offset",
+      "reply": "0.000000"
+    },
+    {
+      "property": "axis0.commutation_mapper.working_offset",
+      "utc": "2026-09-22T08:23:57.486583+00:00",
+      "wire_command": "r axis0.commutation_mapper.working_offset",
+      "reply": "-1.629707"
+    },
+    {
+      "property": "config.inverter0.current_soft_max",
+      "utc": "2026-09-22T08:23:57.513700+00:00",
+      "wire_command": "r config.inverter0.current_soft_max",
+      "reply": "80.000000"
+    },
+    {
+      "property": "config.inverter0.current_hard_max",
+      "utc": "2026-09-22T08:23:57.541739+00:00",
+      "wire_command": "r config.inverter0.current_hard_max",
+      "reply": "96.000000"
+    }
+  ],
+  "initial_state": "1",
+  "status": "COMPLETE READ-ONLY SNAPSHOT"
+}

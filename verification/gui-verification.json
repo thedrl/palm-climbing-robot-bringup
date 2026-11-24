@@ -1,0 +1,45 @@
+{
+  "automated_tests_passed": 158,
+  "hardware_access_in_tests": false,
+  "motion_tested": false,
+  "firmware_changed": false,
+  "learn_mapping_preserved": true,
+  "changed_gui_files": [
+    {
+      "file": "Gui/All Working.py",
+      "sha256": "a85952ab2f32fbf2226d46e7246a1d819e0a216375d26b0269892839bea35371"
+    },
+    {
+      "file": "Gui/actuator_live.py",
+      "sha256": "c7dec87ee5392b5db8bca92d524cc619b8a8c74c9591873f9b9846bcc6f49d5e"
+    },
+    {
+      "file": "Gui/actuator_recovery.py",
+      "sha256": "740ca2b7940f11376c3f701d991adfff3752eb188815d89aa1dced21d1225897"
+    },
+    {
+      "file": "Gui/climber_gui5.py",
+      "sha256": "b01b576d949bdd02543627645a7f157252b7232c23307df654e9b3f679a9b110"
+    },
+    {
+      "file": "Gui/session_log.py",
+      "sha256": "a01a16de5253d3818dc4a7e8b656f0d08a27cadb433a97dd5fa1f896237399b3"
+    },
+    {
+      "file": "Gui/test_actuator_live.py",
+      "sha256": "384d7f114fa8672a692f4554f23751a72cec3fdd5b3295b6885d2f3b288167d8"
+    },
+    {
+      "file": "Gui/test_actuator_recovery.py",
+      "sha256": "19ddb45cd6d2d6a5d4e92db1525324b7256af8ad9b627be40dbd3b58481a61a3"
+    },
+    {
+      "file": "Gui/test_all_working.py",
+      "sha256": "41c5937fbeb6d129416b773f3662f4d1b634a376423740b6489e6bc53fe2be7b"
+    },
+    {
+      "file": "Gui/test_session_log.py",
+      "sha256": "d9e766f29df9a00ed842738e433b6f8c08f0893bb975f7c1970eae4f0c2e08ae"
+    }
+  ]
+}
