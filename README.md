@@ -1,4 +1,4 @@
-# palm-tree-climber-bringup
+# palm-climbing-robot-bringup
 
 Standalone ESP32 USB bring-up firmware, ODrive/RoboClaw tuning and persistence tools, and non-ROS USB supervisor GUI for the `palm-tree-climber` robot.
 
